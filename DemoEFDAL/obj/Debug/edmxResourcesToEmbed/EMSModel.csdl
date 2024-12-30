@@ -1,0 +1,2378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EMSEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetSetting" ReturnType="Collection(Model.GetSetting_Result)">
+      <Parameter Name="SettingName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetUserlist" ReturnType="Collection(Model.GetUserlist_Result)">
+      <Parameter Name="LoginName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertUserlist">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NAME" Mode="In" Type="String" />
+      <Parameter Name="PASSWORD" Mode="In" Type="String" />
+      <Parameter Name="ISACTIVE" Mode="In" Type="String" />
+      <Parameter Name="ROLE" Mode="In" Type="String" />
+      <Parameter Name="FULLNAME" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ActualVsEstimatedHoursComparisonReport">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="Int32" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddEditProjectUpdate">
+      <Parameter Name="isUpdate" Mode="In" Type="Boolean" />
+      <Parameter Name="schUpdateID" Mode="In" Type="Int32" />
+      <Parameter Name="UpdateNum" Mode="In" Type="String" />
+      <Parameter Name="ResourceID" Mode="In" Type="Int32" />
+      <Parameter Name="projectID" Mode="In" Type="Int32" />
+      <Parameter Name="comments" Mode="In" Type="String" />
+      <Parameter Name="phase" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddMainTask">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+      <Parameter Name="isUpdate" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddNotification">
+      <Parameter Name="iProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddProject">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+      <Parameter Name="projectEstimate" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddTaskOwners">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="TaskOwnerName" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+      <Parameter Name="isUpdate" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddTimeSheetEntry">
+      <Parameter Name="ResourceID" Mode="In" Type="Int32" />
+      <Parameter Name="ResourceName" Mode="In" Type="String" />
+      <Parameter Name="ResourceDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddTimeSheetEntryDetail">
+      <Parameter Name="TimesheetID" Mode="In" Type="Int32" />
+      <Parameter Name="ResourceCheckin" Mode="In" Type="String" />
+      <Parameter Name="ResourceCheckOut" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddUpdateResource">
+      <Parameter Name="isUpdate" Mode="In" Type="Boolean" />
+      <Parameter Name="SchResourcecid" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="ResourceID" Mode="In" Type="Int32" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Duration" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ApproveAssignments">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ComparisonReport" ReturnType="Collection(Model.sp_ComparisonReport_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteAssignments">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteProjectSchedule">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteResourceSchedule">
+      <Parameter Name="resourceID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteUpdateSchedule">
+      <Parameter Name="UpdateID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EmailNotificationCheck" ReturnType="Collection(Int32)">
+      <Parameter Name="iProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="DtSent" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetActualHoursData" ReturnType="Collection(Model.sp_GetActualHoursData_Result)">
+      <Parameter Name="dtTo" Mode="In" Type="DateTime" />
+      <Parameter Name="dtFrom" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getAssignmentData">
+      <Parameter Name="TimesheetID" Mode="In" Type="Int32" />
+      <Parameter Name="ResourceCheckin" Mode="In" Type="String" />
+      <Parameter Name="ResourceCheckOut" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAssignments" ReturnType="Collection(Model.sp_GetAssignments_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="Int32" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+      <Parameter Name="iLoginUserID" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAssignments_copycopy" ReturnType="Collection(Model.sp_GetAssignments_copycopy_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="Int32" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_Staff" ReturnType="Collection(Model.sp_GetDashboardStats_Staff1_Result)">
+      <Parameter Name="RequestDate" Mode="In" Type="DateTime" />
+      <Parameter Name="iStaffID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDeviceUserList" ReturnType="Collection(Model.sp_GetDeviceUserList_Result)" />
+    <FunctionImport Name="sp_GetFilterProject" ReturnType="Collection(Model.sp_GetFilterProject_Result)" />
+    <FunctionImport Name="sp_GetFilterProjectSchedule" ReturnType="Collection(Model.sp_GetFilterProjectSchedule_Result)" />
+    <FunctionImport Name="sp_GetLastTimeSheetEntry" ReturnType="Collection(DateTime)" />
+    <FunctionImport Name="sp_GetMainTaskList" ReturnType="Collection(Model.sp_GetMainTaskList_Result)">
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="filter" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetRecurringTasks" ReturnType="Collection(Model.sp_GetRecurringTasks_Result)" />
+    <FunctionImport Name="sp_GetTasksForProjects" ReturnType="Collection(Model.sp_GetTasksForProjects_Result)">
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+      <Parameter Name="isAdminUser" Mode="In" Type="Boolean" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetTasksNotFound" ReturnType="Collection(Model.sp_GetTasksNotFound_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="Int32" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getTimeSheetData" ReturnType="Collection(Model.sp_getTimeSheetData_Result)">
+      <Parameter Name="dtTimesheet" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getUpdateTableCount" ReturnType="Collection(Model.sp_getUpdateTableCount_Result)" />
+    <FunctionImport Name="sp_InsertAssignment">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="SubTaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerName" Mode="In" Type="String" />
+      <Parameter Name="AssignmentDateTime" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualDuration" Mode="In" Type="Decimal" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+      <Parameter Name="Phase" Mode="In" Type="Int32" />
+      <Parameter Name="TaskType" Mode="In" Type="String" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="BillableHours" Mode="In" Type="Decimal" />
+      <Parameter Name="IsBillableApproved" Mode="In" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="IsActualApproved" Mode="In" Type="Int32" />
+      <Parameter Name="UserIDActual" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertProjects">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+      <Parameter Name="EstimatedHours" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHours" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJan" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourFeb" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourMar" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourApr" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourMay" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJune" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJul" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourAug" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourSep" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourOct" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourNov" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourDec" Mode="In" Type="Decimal" />
+      <Parameter Name="ProjectDescription" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertRecurringTasksAtWeekStart" />
+    <FunctionImport Name="sp_InsertSetting">
+      <Parameter Name="MODE" Mode="In" Type="Boolean" />
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NAME" Mode="In" Type="String" />
+      <Parameter Name="VALUE" Mode="In" Type="String" />
+      <Parameter Name="USERNAME" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertTaskNotFound">
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="SubTaskName" Mode="In" Type="String" />
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerName" Mode="In" Type="String" />
+      <Parameter Name="ActualDuration" Mode="In" Type="String" />
+      <Parameter Name="AssignmentDateTime" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertTaskWithEstimate">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Phase" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="EstimatedDuration" Mode="In" Type="Decimal" />
+      <Parameter Name="TaskTypeId" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUpdateScheduleReport_ResourceDetails">
+      <Parameter Name="SchReport_ResourceDetailID" Mode="In" Type="Int32" />
+      <Parameter Name="ResourceID" Mode="In" Type="Int32" />
+      <Parameter Name="Phase" Mode="In" Type="String" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Duration" Mode="In" Type="String" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUpdateScheduleReport_Updates">
+      <Parameter Name="SchReport_UpdateID" Mode="In" Type="Int32" />
+      <Parameter Name="UpdateNo" Mode="In" Type="String" />
+      <Parameter Name="ResourceID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="Comments" Mode="In" Type="String" />
+      <Parameter Name="ProjectPhase" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUpdateScheduleReportProject">
+      <Parameter Name="SchReport_ID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="SchReport_ProjectName" Mode="In" Type="String" />
+      <Parameter Name="ProjectEstimate" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_MapNewTasks">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_RetrieveScheduleReport_ResourceDetails" ReturnType="Collection(Model.sp_RetrieveScheduleReport_ResourceDetails_Result)">
+      <Parameter Name="projectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_RetrieveScheduleReport_Updates" ReturnType="Collection(Model.sp_RetrieveScheduleReport_Updates_Result)">
+      <Parameter Name="projectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_RetrieveScheduleReportProject" ReturnType="Collection(Model.sp_RetrieveScheduleReportProject_Result)">
+      <Parameter Name="SchReport_ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_TotalHoursOfProjects" ReturnType="Collection(Model.sp_TotalHoursOfProjects_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="Int32" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+      <Parameter Name="TaskType" Mode="In" Type="Int32" />
+      <Parameter Name="IsApproved" Mode="In" Type="String" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UtilityProcedureExecution" />
+    <FunctionImport Name="sp_WeeklyEmailUpdateValue">
+      <Parameter Name="value" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SettingList" ReturnType="Collection(Model.sp_SettingList_Result)" />
+    <FunctionImport Name="sp_SettingListWithParam" ReturnType="Collection(Model.sp_SettingListWithParam_Result)">
+      <Parameter Name="SettingParam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SettingListWithParam1" ReturnType="Collection(Model.sp_SettingListWithParam_Result)">
+      <Parameter Name="SettingParam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getProjectByID" ReturnType="Collection(Model.sp_getProjectByID_Result)">
+      <Parameter Name="iProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getTaskType" ReturnType="Collection(Model.sp_getTaskType_Result)" />
+    <FunctionImport Name="sp_getLoginUserInfo" ReturnType="Collection(Model.sp_getLoginUserInfo_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EmailNotificationCheck1" ReturnType="Collection(Model.sp_EmailNotificationCheck1_Result)">
+      <Parameter Name="iProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="DtSent" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EmailNotificationCheck2" ReturnType="Collection(Model.sp_EmailNotificationCheck1_Result)">
+      <Parameter Name="iProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="DtSent" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotification" ReturnType="Collection(Model.sp_userNotification_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotification1" ReturnType="Collection(Model.sp_userNotification_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotification2" ReturnType="Collection(Model.sp_userNotification2_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_AccountActivatedUrlShortner">
+      <Parameter Name="UserEmail" Mode="In" Type="String" />
+      <Parameter Name="ActivationKey" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DeleteURLShortnerMapping">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_GenerateUserKeyURLShortner" ReturnType="Collection(String)" />
+    <FunctionImport Name="SP_GetBaseURLSetting" ReturnType="Collection(String)" />
+    <FunctionImport Name="sp_GetDetailShortURL">
+      <Parameter Name="ShortUrlID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_GetRandomURL" ReturnType="Collection(String)">
+      <Parameter Name="BaseURL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetShortURLDashboard" ReturnType="Collection(Model.sp_GetShortURLDashboard_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertScrappedData" ReturnType="Collection(String)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="PhoneNo" Mode="In" Type="String" />
+      <Parameter Name="DataChunk" Mode="In" Type="String" />
+      <Parameter Name="Country" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="Company" Mode="In" Type="String" />
+      <Parameter Name="MessageType" Mode="In" Type="String" />
+      <Parameter Name="Source" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_InsertURLShortnerMapping">
+      <Parameter Name="ActualURL" Mode="In" Type="String" />
+      <Parameter Name="ShotURL" Mode="In" Type="String" />
+      <Parameter Name="Company" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="pagetitle" Mode="In" Type="String" />
+      <Parameter Name="sessionID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUtilityRunningRange">
+      <Parameter Name="startDate" Mode="In" Type="String" />
+      <Parameter Name="endDate" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_RetrieveActualURL" ReturnType="Collection(String)">
+      <Parameter Name="ShortURL" Mode="In" Type="String" />
+      <Parameter Name="BrowserName" Mode="In" Type="String" />
+      <Parameter Name="OSName" Mode="In" Type="String" />
+      <Parameter Name="DeviceName" Mode="In" Type="String" />
+      <Parameter Name="Language" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveUpdateMapping">
+      <Parameter Name="projectid" Mode="In" Type="Int32" />
+      <Parameter Name="projectName" Mode="In" Type="String" />
+      <Parameter Name="UserIDs" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveUpdateTaskMapping">
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectIDs" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_UpdateURLShortnerMapping">
+      <Parameter Name="ActualURL" Mode="In" Type="String" />
+      <Parameter Name="ShortURL" Mode="In" Type="String" />
+      <Parameter Name="userID" Mode="In" Type="Int32" />
+      <Parameter Name="PageTitle" Mode="In" Type="String" />
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UrlShortnerFetchUsers" ReturnType="Collection(Model.sp_UrlShortnerFetchUsers_Result)" />
+    <FunctionImport Name="sp_UrlShortnerSearchShortURL" ReturnType="Collection(Model.sp_UrlShortnerSearchShortURL_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="ShortURL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UrlShortnerSearchUserName" ReturnType="Collection(Model.sp_UrlShortnerSearchUserName_Result)">
+      <Parameter Name="keyWord" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UrlShortnerSetActiveUser">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UrlShortnerSignIn" ReturnType="Collection(Model.sp_UrlShortnerSignIn_Result)">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UrlShortnerSignUp">
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="key" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteUserDomain">
+      <Parameter Name="UniqueID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetGuestUsersInfo" ReturnType="Collection(Model.sp_GetGuestUsersInfo_Result)">
+      <Parameter Name="DomainName" Mode="In" Type="String" />
+      <Parameter Name="SessionID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetUserDomainList" ReturnType="Collection(Model.sp_GetUserDomainList_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StatusID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveUserDomain">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="DomainName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdateUserDomain">
+      <Parameter Name="UniqueID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UserNotificationManagement" ReturnType="Collection(Model.sp_UserNotificationManagement_Result)">
+      <Parameter Name="type" Mode="In" Type="Int32" />
+      <Parameter Name="notificationmessage" Mode="In" Type="String" />
+      <Parameter Name="userid" Mode="In" Type="Int32" />
+      <Parameter Name="notificationid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UserProfileManagement" ReturnType="Collection(Model.sp_UserProfileManagement_Result)">
+      <Parameter Name="Userid" Mode="In" Type="Int32" />
+      <Parameter Name="Operationtype" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ChangePassword" ReturnType="Collection(Model.sp_ChangePassword_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="NewPassword" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getLoginUserInfo1" ReturnType="Collection(Model.sp_getLoginUserInfo1_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getLoginUserInfo2" ReturnType="Collection(Model.sp_getLoginUserInfo_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UserLogin" ReturnType="Collection(Model.sp_UserLogin_Result)">
+      <Parameter Name="USERNAME" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ChangePwd">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="CurrPassword" Mode="In" Type="String" />
+      <Parameter Name="NewPassword" Mode="In" Type="String" />
+      <Parameter Name="status" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFullName">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+      <Parameter Name="Count" Mode="InOut" Type="Int32" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFullName1" ReturnType="Collection(Model.sp_GetFullName1_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+      <Parameter Name="Count" Mode="InOut" Type="Int32" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMultipleSelect" ReturnType="Collection(Model.sp_GetMultipleSelect_Result)" />
+    <FunctionImport Name="sp_userNotificationCount" ReturnType="Collection(Model.sp_userNotificationCount_Result)">
+      <Parameter Name="userid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSubTask" ReturnType="Collection(Model.sp_GetSubTask_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetTaskOwners" ReturnType="Collection(Model.sp_GetTaskOwners_Result)">
+      <Parameter Name="TaskOwnerName" Mode="In" Type="String" />
+      <Parameter Name="filter" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMainTaskList1" ReturnType="Collection(Model.sp_GetMainTaskList1_Result)">
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="filter" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMaintasks" ReturnType="Collection(Model.sp_GetMaintasks_Result)" />
+    <FunctionImport Name="sp_GetTasksDescription" ReturnType="Collection(Model.sp_GetTasksDescription_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetUserProfile" ReturnType="Collection(Model.sp_GetUserProfile_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ResetPassword" ReturnType="Collection(Model.sp_ResetPassword_Result)">
+      <Parameter Name="Loginid" Mode="In" Type="Int32" />
+      <Parameter Name="ChangePassword" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ResetPasswordValidation" ReturnType="Collection(Model.sp_ResetPasswordValidation_Result)">
+      <Parameter Name="GlobalID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotificationDelete" ReturnType="Collection(Model.sp_userNotificationDelete_Result)">
+      <Parameter Name="NotificationID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ChangePassword_React" ReturnType="Collection(Model.sp_ChangePassword_React_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="CurrPassword" Mode="In" Type="String" />
+      <Parameter Name="NewPassword" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ChangePassword_Update" ReturnType="Collection(Model.sp_ChangePassword_Update_Result)">
+      <Parameter Name="UserId" Mode="In" Type="Int32" />
+      <Parameter Name="CurrPassword" Mode="In" Type="String" />
+      <Parameter Name="NewPassword" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats1" ReturnType="Collection(Model.sp_GetDashboardStats1_Result)">
+      <Parameter Name="RequestDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsManagementTime" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSpentTaskTime" ReturnType="Collection(Model.sp_GetSpentTaskTime_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertUser">
+      <Parameter Name="LoginID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="Joiningdate" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="EMSRole" Mode="In" Type="String" />
+      <Parameter Name="Designation" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EditUserProfile">
+      <Parameter Name="LoginID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="Joiningdate" Mode="In" Type="String" />
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+      <Parameter Name="EMSRole" Mode="In" Type="String" />
+      <Parameter Name="Designation" Mode="In" Type="String" />
+      <Parameter Name="PicturePath" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMainTaskList_Update" ReturnType="Collection(Model.sp_GetMainTaskList_Update_Result)">
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="filter" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_Staff_Update" ReturnType="Collection(Model.sp_GetDashboardStats_Staff_Update_Result)">
+      <Parameter Name="RequestDate" Mode="In" Type="DateTime" />
+      <Parameter Name="iStaffID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_unReaduserNotification" ReturnType="Collection(Model.sp_unReaduserNotification_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_Staff_Search" ReturnType="Collection(Model.sp_GetDashboardStats_Staff_Search_Result)">
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="iStaffID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotificationRead">
+      <Parameter Name="Userid" Mode="In" Type="Int32" />
+      <Parameter Name="Notificationid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotificationRead1">
+      <Parameter Name="Userid" Mode="In" Type="Int32" />
+      <Parameter Name="Notificationid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_unReaduserNotification1" ReturnType="Collection(Model.sp_unReaduserNotification1_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_userNotificationSeen">
+      <Parameter Name="Userid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_copyNew" ReturnType="Collection(Model.sp_GetDashboardStats_copyNew_Result)">
+      <Parameter Name="RequestStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="RequestEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="IsManagementTime" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSpentTaskTime_update" ReturnType="Collection(Model.sp_GetSpentTaskTime_update_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <EntitySet Name="AssignmentTables" EntityType="Model.AssignmentTable" />
+    <EntitySet Name="AssignmentTable_Copy" EntityType="Model.AssignmentTable_Copy" />
+    <EntitySet Name="FormattedScrappedDatas" EntityType="Model.FormattedScrappedData" />
+    <EntitySet Name="LoginTables" EntityType="Model.LoginTable" />
+    <EntitySet Name="NotificationTables" EntityType="Model.NotificationTable" />
+    <EntitySet Name="ProjectBudgetDetails" EntityType="Model.ProjectBudgetDetail" />
+    <EntitySet Name="ResetPasswordActivities" EntityType="Model.ResetPasswordActivity" />
+    <EntitySet Name="ResourceMappings" EntityType="Model.ResourceMapping" />
+    <EntitySet Name="ScheduleReport_Projects" EntityType="Model.ScheduleReport_Projects" />
+    <EntitySet Name="ScheduleReport_ResourceDetails" EntityType="Model.ScheduleReport_ResourceDetails" />
+    <EntitySet Name="ScheduleReport_Updates" EntityType="Model.ScheduleReport_Updates" />
+    <EntitySet Name="SubTaskTables" EntityType="Model.SubTaskTable" />
+    <EntitySet Name="Task_TaskWithEsimatesBridgeTable" EntityType="Model.Task_TaskWithEsimatesBridgeTable" />
+    <EntitySet Name="TaskNotFoundTables" EntityType="Model.TaskNotFoundTable" />
+    <EntitySet Name="TaskOwnerTables" EntityType="Model.TaskOwnerTable" />
+    <EntitySet Name="TaskTableWithEstimates" EntityType="Model.TaskTableWithEstimate" />
+    <EntitySet Name="TaskTypes" EntityType="Model.TaskType" />
+    <EntitySet Name="TimeSheets" EntityType="Model.TimeSheet" />
+    <EntitySet Name="TimeSheetDetails" EntityType="Model.TimeSheetDetail" />
+    <EntitySet Name="UrlShortnerLoginUsers" EntityType="Model.UrlShortnerLoginUser" />
+    <EntitySet Name="URLShortnerMappingAttributeDetails" EntityType="Model.URLShortnerMappingAttributeDetail" />
+    <EntitySet Name="URLShortnerMappingTables" EntityType="Model.URLShortnerMappingTable" />
+    <EntitySet Name="URLShortnerUserDomains" EntityType="Model.URLShortnerUserDomain" />
+    <EntitySet Name="UserNotifications" EntityType="Model.UserNotification" />
+    <EntitySet Name="UserProfiles" EntityType="Model.UserProfile" />
+    <EntitySet Name="UtilityProcedureExecutionTables" EntityType="Model.UtilityProcedureExecutionTable" />
+    <EntitySet Name="UtilityRunningTimes" EntityType="Model.UtilityRunningTime" />
+    <EntitySet Name="LinksTables" EntityType="Model.LinksTable" />
+    <EntitySet Name="MainTaskTables" EntityType="Model.MainTaskTable" />
+    <EntitySet Name="TaskTableCopies" EntityType="Model.TaskTableCopy" />
+    <AssociationSet Name="FK_AssignmentTable_SubTaskTable" Association="Model.FK_AssignmentTable_SubTaskTable">
+      <End Role="SubTaskTable" EntitySet="SubTaskTables" />
+      <End Role="AssignmentTable" EntitySet="AssignmentTables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskTableWithEstimates_TaskType" Association="Model.FK_TaskTableWithEstimates_TaskType">
+      <End Role="TaskType" EntitySet="TaskTypes" />
+      <End Role="TaskTableWithEstimate" EntitySet="TaskTableWithEstimates" />
+    </AssociationSet>
+    <FunctionImport Name="sp_GetProjectBudgetDetail" ReturnType="Collection(Model.sp_GetProjectBudgetDetail_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectBudgetYear" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SearchProject" ReturnType="Collection(Model.sp_SearchProject_Result)">
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetProjectsLazyLoading" ReturnType="Collection(Model.sp_GetProjectsLazyLoading_Result)">
+      <Parameter Name="recsPerPage" Mode="In" Type="Int32" />
+      <Parameter Name="page" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSubTaskTime" ReturnType="Collection(Model.sp_GetSubTaskTime_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSubTaskTimeOwner" ReturnType="Collection(Model.sp_GetSubTaskTimeOwner_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddRecord">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="TASKID" Mode="In" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="AssignmentDateTime" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualDuration" Mode="In" Type="String" />
+      <Parameter Name="CommentText" Mode="In" Type="String" />
+      <Parameter Name="BillableHours" Mode="In" Type="String" />
+      <Parameter Name="IsBillableApproved" Mode="In" Type="Int32" />
+      <Parameter Name="UserIDBillable" Mode="In" Type="Int32" />
+      <Parameter Name="IsActualApproved" Mode="In" Type="Int32" />
+      <Parameter Name="UserIDActual" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMainTasksLazyLoading" ReturnType="Collection(Model.sp_GetMainTasksLazyLoading_Result)">
+      <Parameter Name="recsPerPage" Mode="In" Type="Int32" />
+      <Parameter Name="page" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveProjectMapping">
+      <Parameter Name="projectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_FetchProjectMappingMainTask" ReturnType="Collection(Model.sp_FetchProjectMappingMainTask_Result)">
+      <Parameter Name="maintaskid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SaveMainTaskMapping">
+      <Parameter Name="maintaskid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SearchMainTask" ReturnType="Collection(Model.sp_SearchMainTask_Result)">
+      <Parameter Name="MainTaskName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_FilterUserProfileTable1" ReturnType="Collection(Model.sp_FilterUserProfileTable1_Result)">
+      <Parameter Name="FullName" Mode="In" Type="String" />
+      <Parameter Name="Designation" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CheckAssignedProject" ReturnType="Collection(Model.sp_CheckAssignedProject_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddDesignation">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="DesignationName" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+      <Parameter Name="isUpdate" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDesignation" ReturnType="Collection(Model.sp_GetDesignation_Result)" />
+    <FunctionImport Name="sp_DeleteDesignation">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Settings" EntityType="Model.Setting" />
+    <FunctionImport Name="GetSetting_Update" ReturnType="Collection(Model.GetSetting_Update_Result)">
+      <Parameter Name="SettingName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_AddUpdateClient">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="ClientName" Mode="In" Type="String" />
+      <Parameter Name="ContactNumber" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="Website_URL" Mode="In" Type="String" />
+      <Parameter Name="Facebooklink" Mode="In" Type="String" />
+      <Parameter Name="Twitter" Mode="In" Type="String" />
+      <Parameter Name="instagramlink" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeactiveUser">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UserProfileTableLogin" ReturnType="Collection(Model.sp_UserProfileTableLogin_Result)">
+      <Parameter Name="USERNAME" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetResourceMapping" ReturnType="Collection(Model.sp_GetResourceMapping_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="ProjectTables" EntityType="Model.ProjectTable" />
+    <AssociationSet Name="FK_TaskTableWithEstimates_ProjectTable" Association="Model.FK_TaskTableWithEstimates_ProjectTable">
+      <End Role="ProjectTable" EntitySet="ProjectTables" />
+      <End Role="TaskTableWithEstimate" EntitySet="TaskTableWithEstimates" />
+    </AssociationSet>
+    <FunctionImport Name="sp_GetProjects" ReturnType="Collection(Model.sp_GetProjects_Result)">
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdateClientIDinProject">
+      <Parameter Name="ClientID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdateClientIDNull">
+      <Parameter Name="ClientID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdateProjectClientID">
+      <Parameter Name="projectid" Mode="In" Type="Int32" />
+      <Parameter Name="ClientID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetClientLazyLoading" ReturnType="Collection(Model.sp_GetClientLazyLoading_Result)">
+      <Parameter Name="recsPerPage" Mode="In" Type="Int32" />
+      <Parameter Name="page" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetClients" ReturnType="Collection(Model.sp_GetClients_Result)">
+      <Parameter Name="ClientName" Mode="In" Type="String" />
+      <Parameter Name="filter" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="ClientTables" EntityType="Model.ClientTable" />
+    <FunctionImport Name="sp_GetDashboardStats">
+      <Parameter Name="RequestDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsManagementTime" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_Update" ReturnType="Collection(Model.sp_GetDashboardStats_Update_Result)">
+      <Parameter Name="RequestStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="RequestEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="IsManagementTime" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetProjects_Update" ReturnType="Collection(Model.sp_GetProjects_Update_Result)">
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertProjects_update">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+      <Parameter Name="EstimatedHours" Mode="In" Type="Decimal" />
+      <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProjectOwner" Mode="In" Type="String" />
+      <Parameter Name="ProjectDescription" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+      <Parameter Name="isUpdateProjectBudget" Mode="In" Type="Boolean" />
+      <Parameter Name="ProjectBudgetYear" Mode="In" Type="DateTime" />
+      <Parameter Name="ContractHoursPerMonth" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJan" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourFeb" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourMar" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourApr" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourMay" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJune" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourJul" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourAug" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourSep" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourOct" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourNov" Mode="In" Type="Decimal" />
+      <Parameter Name="ContractHourDec" Mode="In" Type="Decimal" />
+      <Parameter Name="ClientID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetProjectWithPercentage" ReturnType="Collection(Model.sp_GetProjectWithPercentage_Result)">
+      <Parameter Name="TaskownerID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertSetting_Update">
+      <Parameter Name="MODE" Mode="In" Type="Boolean" />
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NAME" Mode="In" Type="String" />
+      <Parameter Name="VALUE" Mode="In" Type="String" />
+      <Parameter Name="USERNAME" Mode="In" Type="String" />
+      <Parameter Name="SettingType" Mode="In" Type="String" />
+      <Parameter Name="SettingDescription" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Get_ProjectDescription" ReturnType="Collection(Model.Get_ProjectDescription_Result)" />
+    <FunctionImport Name="sp_FetchUserMappingProject" ReturnType="Collection(Model.sp_FetchUserMappingProject_Result)">
+      <Parameter Name="projectid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CheckUserHours" ReturnType="Collection(Decimal)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="AssignmentDateTime" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_CheckMainTaskSubTask" ReturnType="Collection(Model.sp_CheckMainTaskSubTask_Result)">
+      <Parameter Name="MaintaskID" Mode="In" Type="Int32" />
+      <Parameter Name="SubTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ForgetPassword" ReturnType="Collection(Model.sp_ForgetPassword_Result)">
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDashboardStats_Update_AllProject" ReturnType="Collection(Model.sp_GetDashboardStats_Update_AllProject_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="DepartmentTables" EntityType="Model.DepartmentTable" />
+    <FunctionImport Name="sp_GetDepartment" ReturnType="Collection(Model.sp_GetDepartment_Result)" />
+    <FunctionImport Name="sp_AddUpdateDepartment">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="DepartmentName" Mode="In" Type="String" />
+      <Parameter Name="isActive" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteDepartment">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetProjectDatabyID" ReturnType="Collection(Model.sp_GetProjectDatabyID_Result)">
+      <Parameter Name="RequestStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="RequestEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="IsManagementTime" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetDepartmentLazyLoading" ReturnType="Collection(Model.sp_GetDepartmentLazyLoading_Result)">
+      <Parameter Name="recsPerPage" Mode="In" Type="Int32" />
+      <Parameter Name="page" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteDepartmentMapping">
+      <Parameter Name="DepartmentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="UserProfileTables" EntityType="Model.UserProfileTable" />
+    <FunctionImport Name="sp_FilterUserProfileTable" ReturnType="Collection(Model.sp_FilterUserProfileTable_Result)">
+      <Parameter Name="FullName" Mode="In" Type="String" />
+      <Parameter Name="Designation" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InserUserProfileTable">
+      <Parameter Name="UserProfileTableID" Mode="In" Type="Int32" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="FullName" Mode="In" Type="String" />
+      <Parameter Name="Designation" Mode="In" Type="String" />
+      <Parameter Name="Department" Mode="In" Type="String" />
+      <Parameter Name="IsActive" Mode="In" Type="Boolean" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+      <Parameter Name="EmailAddress" Mode="In" Type="String" />
+      <Parameter Name="JoiningDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Get_DefaultMaintask" ReturnType="Collection(Model.Get_DefaultMaintask_Result)">
+      <Parameter Name="Status" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="DepartmentMappings" EntityType="Model.DepartmentMapping" />
+    <FunctionImport Name="Get_MapMainTaskinDepartmentMapping" ReturnType="Collection(Model.Get_MapMainTaskinDepartmentMapping_Result)">
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertDepartmentMapping">
+      <Parameter Name="DepartID" Mode="In" Type="Int32" />
+      <Parameter Name="MaintaskID" Mode="In" Type="Int32" />
+      <Parameter Name="AdditionalCheck" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetUserProfileTable" ReturnType="Collection(Model.sp_GetUserProfileTable_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="DepartmentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMappedMainTaskinReportGrid" ReturnType="Collection(Model.sp_GetMappedMainTaskinReportGrid_Result)">
+      <Parameter Name="departID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMappedMainTask" ReturnType="Collection(Model.sp_GetMappedMainTask_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetMappedMainTaskByProjectID_DepartmentID" ReturnType="Collection(Model.sp_GetMappedMainTaskByProjectID_DepartmentID_Result)">
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="departID" Mode="In" Type="Int32" />
+      <Parameter Name="AccountType" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TaskTables" EntityType="Model.TaskTable" />
+    <AssociationSet Name="FK_TaskTable_TaskType" Association="Model.FK_TaskTable_TaskType">
+      <End Role="ProjectTable" EntitySet="ProjectTables" />
+      <End Role="TaskTable" EntitySet="TaskTables" />
+    </AssociationSet>
+    <FunctionImport Name="sp_AddTasks">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Phase" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="ProjectName" Mode="In" Type="String" />
+      <Parameter Name="TaskTypeName" Mode="In" Type="String" />
+      <Parameter Name="EstimatedDuration" Mode="In" Type="Decimal" />
+      <Parameter Name="MainTaskId" Mode="In" Type="Int32" />
+      <Parameter Name="Comments" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetTasks" ReturnType="Collection(Model.sp_GetTasks_Result)">
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_TotalHoursOfProjects_New" ReturnType="Collection(Model.sp_TotalHoursOfProjects_New_Result)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+      <Parameter Name="TaskName" Mode="In" Type="String" />
+      <Parameter Name="TaskOwnerId" Mode="In" Type="String" />
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+      <Parameter Name="TaskType" Mode="In" Type="Int32" />
+      <Parameter Name="IsApproved" Mode="In" Type="String" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="SubTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="DepartmentID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFormattedTaskDataForReport">
+      <Parameter Name="projectid" Mode="In" Type="Int32" />
+      <Parameter Name="fromdate" Mode="In" Type="DateTime" />
+      <Parameter Name="todate" Mode="In" Type="DateTime" />
+      <Parameter Name="resourceid" Mode="In" Type="String" />
+      <Parameter Name="taskid" Mode="In" Type="Int32" />
+      <Parameter Name="billable" Mode="In" Type="Boolean" />
+      <Parameter Name="DateRangeFormat" Mode="In" Type="Boolean" />
+      <Parameter Name="Actual" Mode="In" Type="Boolean" />
+      <Parameter Name="Subtaskid" Mode="In" Type="Int32" />
+      <Parameter Name="Departmentid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetAssignments_New" ReturnType="Collection(Model.sp_GetAssignments_New_Result)">
+      <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="toDate" Mode="In" Type="DateTime" />
+      <Parameter Name="isApproved" Mode="In" Type="Boolean" />
+      <Parameter Name="UserID" Mode="In" Type="String" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="SubTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DifferenceHours" ReturnType="Collection(Model.sp_DifferenceHours_Result)">
+      <Parameter Name="fromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="toDate" Mode="In" Type="DateTime" />
+      <Parameter Name="isApproved" Mode="In" Type="Boolean" />
+      <Parameter Name="UserID" Mode="In" Type="String" />
+      <Parameter Name="MainTaskID" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Int32" />
+      <Parameter Name="SubTaskID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFormattedTaskDataForReportGriddifference">
+      <Parameter Name="projectid" Mode="In" Type="Int32" />
+      <Parameter Name="fromdate" Mode="In" Type="DateTime" />
+      <Parameter Name="todate" Mode="In" Type="DateTime" />
+      <Parameter Name="resourceid" Mode="In" Type="String" />
+      <Parameter Name="taskid" Mode="In" Type="Int32" />
+      <Parameter Name="billable" Mode="In" Type="Boolean" />
+      <Parameter Name="DateRangeFormat" Mode="In" Type="Boolean" />
+      <Parameter Name="Actual" Mode="In" Type="Boolean" />
+      <Parameter Name="Subtaskid" Mode="In" Type="Int32" />
+      <Parameter Name="Departmentid" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetSetting_Result">
+    <Property Type="Int32" Name="iSettingId" Nullable="false" />
+    <Property Type="String" Name="vSettingName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="vSettingValue" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="dtSettingCreation" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="dtSettingModification" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetUserlist_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_ComparisonReport_Result">
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Decimal" Name="TotalActualDuration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="RemainingHours" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="String" Name="OverBudget" Nullable="false" MaxLength="3" />
+  </ComplexType>
+  <ComplexType Name="sp_GetActualHoursData_Result">
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="AssignmentDateTime" Nullable="true" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Id" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_GetAssignments_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="AssignmentDateTime" Nullable="true" />
+    <Property Type="Int32" Name="TaskId" Nullable="false" />
+    <Property Type="Int32" Name="ProjectId" Nullable="false" />
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskOwnerId" Nullable="false" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="String" Name="TaskTypeName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TaskTypePrefix" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="SubTaskId" Nullable="true" />
+    <Property Type="String" Name="SubTaskName" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetAssignments_copycopy_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="AssignmentDateTime" Nullable="true" />
+    <Property Type="Int32" Name="TaskId" Nullable="false" />
+    <Property Type="Int32" Name="ProjectId" Nullable="false" />
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskOwnerId" Nullable="false" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="String" Name="TaskTypeName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TaskTypePrefix" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="SubTaskId" Nullable="true" />
+    <Property Type="String" Name="SubTaskName" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDeviceUserList_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFilterProject_Result">
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="SchReport_ProjectName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFilterProjectSchedule_Result">
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMainTaskList_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_GetRecurringTasks_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetTaskOwners_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetTasksForProjects_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetTasksNotFound_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="TaskDescription" Nullable="true" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="AssignmentDateTime" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="false" />
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskOwnerId" Nullable="false" />
+    <Property Type="String" Name="SubTaskDescription" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_getTimeSheetData_Result">
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="dtTimeSheet" Nullable="true" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CheckIn" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CheckOut" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_getUpdateTableCount_Result">
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="Int32" Name="UpdateCount" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_RetrieveScheduleReport_ResourceDetails_Result">
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="SchReport_ResourceDetailID" Nullable="false" />
+    <Property Type="Int32" Name="ResourceID" Nullable="true" />
+    <Property Type="String" Name="Phase" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Duration" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_RetrieveScheduleReport_Updates_Result">
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="SchReport_UpdateID" Nullable="false" />
+    <Property Type="String" Name="Update_" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="ResourceID" Nullable="true" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="Comments" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Phase" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_RetrieveScheduleReportProject_Result">
+    <Property Type="Int32" Name="SchReport_ProjectID" Nullable="false" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="SchReport_ProjectName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="ProjectEstimate" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_TotalHoursOfProjects_Result">
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TotalActualDuration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="RemainingHours" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_UserLogin_Result">
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Picture" Nullable="true" />
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="sp_SettingList_Result">
+    <Property Type="Int32" Name="iSettingId" Nullable="false" />
+    <Property Type="String" Name="vSettingName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="vSettingValue" Nullable="true" MaxLength="150" />
+    <Property Type="DateTime" Name="dtSettingCreation" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="dtSettingModification" Nullable="true" Precision="23" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_SettingListWithParam_Result">
+    <Property Type="Int32" Name="iSettingId" Nullable="false" />
+    <Property Type="String" Name="vSettingName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="vSettingValue" Nullable="true" MaxLength="150" />
+    <Property Type="DateTime" Name="dtSettingCreation" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="dtSettingModification" Nullable="true" Precision="23" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats_Staff1_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="TotalProjectHour" Nullable="false" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats1_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_getProjectByID_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsExternal" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJanuary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInFebruary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMarch" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInApril" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMay" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJune" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJuly" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInAugust" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInSeptember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInOctober" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInNovember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInDecember" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_getTaskType_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Prefix" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_getTaskOwners1_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_getLoginUserInfo_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_EmailNotificationCheck1_Result">
+    <Property Type="Int32" Name="Response" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_userNotification_Result">
+    <Property Type="Int32" Name="NotificationID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="NotificationMessage" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="isRead" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="isDelete" Nullable="true" />
+    <Property Type="String" Name="NotificationHeader" Nullable="true" />
+    <Property Type="Boolean" Name="isSeen" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_userNotification2_Result">
+    <Property Type="Int32" Name="NotificationID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="NotificationMessage" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GetShortURLDashboard_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="ActualURL" Nullable="true" />
+    <Property Type="String" Name="ShortURL" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="ModifyDate" Nullable="false" Precision="23" />
+    <Property Type="String" Name="PageTitle" Nullable="false" />
+    <Property Type="Int32" Name="LinkOpenCount" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_GetTaskOwners2_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskOwnerName" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_UrlShortnerFetchUsers_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UrlShortnerSearchShortURL_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="ActualURL" Nullable="true" />
+    <Property Type="String" Name="ShortURL" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="ModifyDate" Nullable="false" Precision="23" />
+    <Property Type="String" Name="PageTitle" Nullable="false" />
+    <Property Type="Int32" Name="LinkOpenCount" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UrlShortnerSearchUserName_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UrlShortnerSignIn_Result">
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+    <Property Type="Boolean" Name="isAdmin" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_GetGuestUsersInfo_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ActualURL" Nullable="false" />
+    <Property Type="String" Name="ShortURL" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_GetUserDomainList_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="DomainName" Nullable="false" MaxLength="200" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="23" />
+    <Property Type="Boolean" Name="isVerified" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UserNotificationManagement_Result">
+    <Property Type="Int32" Name="NotificationID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="NotificationMessage" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_UserProfileManagement_Result">
+    <Property Type="Int32" Name="Userid" Nullable="false" />
+    <Property Type="Int32" Name="Loginid" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="Joiningdate" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+    <Property Type="String" Name="EMSRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Picture" Nullable="true" />
+    <Property Type="DateTime" Name="Creationdatetime" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_ChangePassword_Result">
+    <Property Type="Int32" Name="responseCode" Nullable="false" />
+    <Property Type="String" Name="responsemsg" Nullable="false" MaxLength="29" />
+  </ComplexType>
+  <ComplexType Name="sp_getLoginUserInfo1_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_UserLogin1_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_UserLogin2_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFullName1_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMultipleSelect_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_userNotificationCount1_Result">
+    <Property Type="Int32" Name="Column1" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_userNotificationCount_Result">
+    <Property Type="Int32" Name="count" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSubTask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMainTaskList1_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMaintasks_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_GetTasksDescription_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetUserProfile_Result">
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Joiningdate" Nullable="true" MaxLength="30" />
+    <Property Type="Boolean" Name="Status" Nullable="true" />
+    <Property Type="String" Name="EMSRole" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Picture" Nullable="true" />
+    <Property Type="String" Name="Creationdatetime" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="Int32" Name="LoginID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ResetPassword_Result">
+    <Property Type="Int32" Name="responseCode" Nullable="false" />
+    <Property Type="String" Name="responsemsg" Nullable="false" MaxLength="60" />
+  </ComplexType>
+  <ComplexType Name="sp_ResetPasswordValidation1_Result">
+    <Property Type="Int32" Name="Response" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_ResetPasswordValidation_Result">
+    <Property Type="Int32" Name="Response" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_userNotificationDelete_Result">
+    <Property Type="Int32" Name="responseCode" Nullable="false" />
+    <Property Type="String" Name="responsemsg" Nullable="false" MaxLength="32" />
+  </ComplexType>
+  <ComplexType Name="sp_ChangePassword_React_Result">
+    <Property Type="Int32" Name="responseCode" Nullable="false" />
+    <Property Type="String" Name="responsemsg" Nullable="false" MaxLength="29" />
+  </ComplexType>
+  <ComplexType Name="sp_ChangePassword_Update_Result">
+    <Property Type="Int32" Name="responseCode" Nullable="false" />
+    <Property Type="String" Name="responsemsg" Nullable="false" MaxLength="29" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSpentTaskTime_Result">
+    <Property Type="Decimal" Name="Actualduration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMainTaskList_Update_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats_Staff_Update_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="TotalProjectHour" Nullable="false" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_unReaduserNotification_Result">
+    <Property Type="Int32" Name="NotificationID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="NotificationMessage" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="isRead" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="isDelete" Nullable="true" />
+    <Property Type="String" Name="NotificationHeader" Nullable="true" />
+    <Property Type="Boolean" Name="isSeen" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats_Staff_Search_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="TotalProjectHour" Nullable="false" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_unReaduserNotification1_Result">
+    <Property Type="Int32" Name="NotificationID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="NotificationMessage" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="isRead" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="isDelete" Nullable="true" />
+    <Property Type="String" Name="NotificationHeader" Nullable="true" />
+    <Property Type="Boolean" Name="isSeen" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSpentTaskTime_update_Result">
+    <Property Type="Decimal" Name="Actualduration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats_copyNew_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="28" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <EntityType Name="AssignmentTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="TaskID" Type="Int32" />
+    <Property Name="TaskOwnerID" Type="Int32" />
+    <Property Name="AssignmentDateTime" Type="DateTime" Precision="0" />
+    <Property Name="ActualDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IsApproved" Type="Boolean" />
+    <Property Name="BillableHours" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IsBillableApproved" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="BillableApprovedDateTime" Type="DateTime" Precision="3" />
+    <Property Name="IsActualApproved" Type="Int32" />
+    <Property Name="UserIDActual" Type="Int32" />
+    <Property Name="ActualApprovedDateTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="SubTaskTable" Relationship="Model.FK_AssignmentTable_SubTaskTable" FromRole="AssignmentTable" ToRole="SubTaskTable" />
+    <Property Name="MainTaskID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="AssignmentTable_Copy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="TaskID" Type="Int32" />
+    <Property Name="TaskOwnerID" Type="Int32" />
+    <Property Name="AssignmentDateTime" Type="DateTime" Precision="0" />
+    <Property Name="ActualDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IsApproved" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="FormattedScrappedData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DataChunk" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Company" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MessageType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="Source" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LoginTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="AccountType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AttendenceSheetName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="NotificationTable">
+    <Key>
+      <PropertyRef Name="iNotificationId" />
+    </Key>
+    <Property Name="iNotificationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="iProjectId" Type="Int32" />
+    <Property Name="dtCreation" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ProjectBudgetDetail">
+    <Key>
+      <PropertyRef Name="BudgetID" />
+    </Key>
+    <Property Name="BudgetID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectBudgetYear" Type="DateTime" Precision="3" />
+    <Property Name="ContractHoursInJanuary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInFebruary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMarch" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInApril" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMay" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJune" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJuly" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInAugust" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInSeptember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInOctober" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInNovember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInDecember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursPerMonth" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ResetPasswordActivity">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="GlobalID" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LoginID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ResourceMapping">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="ProjectName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="UserIDs" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_Projects">
+    <Key>
+      <PropertyRef Name="SchReport_ProjectID" />
+    </Key>
+    <Property Name="SchReport_ProjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="SchReport_ProjectName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ProjectEstimate" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="isActive" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_ResourceDetails">
+    <Key>
+      <PropertyRef Name="SchReport_ResourceDetailID" />
+    </Key>
+    <Property Name="SchReport_ResourceDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="Phase" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="Duration" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="ProjectID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_Updates">
+    <Key>
+      <PropertyRef Name="SchReport_UpdateID" />
+    </Key>
+    <Property Name="SchReport_UpdateID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Update_" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="ProjectID" Type="Int32" />
+    <Property Name="Comments" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Phase" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SubTaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubTaskName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="AssignmentTables" Relationship="Model.FK_AssignmentTable_SubTaskTable" FromRole="SubTaskTable" ToRole="AssignmentTable" />
+  </EntityType>
+  <EntityType Name="Task_TaskWithEsimatesBridgeTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskTableID" Type="Int32" />
+    <Property Name="TaskTableWithEstimateID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TaskNotFoundTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TaskDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TaskOwnerID" Type="Int32" />
+    <Property Name="AssignmentDateTime" Type="DateTime" Precision="0" />
+    <Property Name="ActualDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="SubTaskDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TaskOwnerTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskOwnerName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TaskTableWithEstimate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EstimatedDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Phase" Type="Int32" />
+    <NavigationProperty Name="TaskType" Relationship="Model.FK_TaskTableWithEstimates_TaskType" FromRole="TaskTableWithEstimate" ToRole="TaskType" />
+    <NavigationProperty Name="ProjectTable" Relationship="Model.FK_TaskTableWithEstimates_ProjectTable" FromRole="TaskTableWithEstimate" ToRole="ProjectTable" />
+  </EntityType>
+  <EntityType Name="TaskType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Prefix" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TaskTableWithEstimates" Relationship="Model.FK_TaskTableWithEstimates_TaskType" FromRole="TaskType" ToRole="TaskTableWithEstimate" />
+  </EntityType>
+  <EntityType Name="TimeSheet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="dtTimeSheet" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="TimeSheetDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TimeSheetID" Type="Int32" />
+    <Property Name="CheckIn" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CheckOut" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UrlShortnerLoginUser">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="isActive" Type="Boolean" />
+    <Property Name="KeyValue" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="isAdmin" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="URLShortnerMappingAttributeDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ShortUrlID" Type="Int32" />
+    <Property Name="BrowserName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="OSname" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Language" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DeviceName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="URLShortnerMappingTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Company" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ActualURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ShortURL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="modifyDate" Type="DateTime" Precision="3" />
+    <Property Name="PageTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LinkOpenCount" Type="Int32" />
+    <Property Name="SessionID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="URLShortnerUserDomain">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="DomainName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="isVerified" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="UserNotification">
+    <Key>
+      <PropertyRef Name="NotificationID" />
+    </Key>
+    <Property Name="NotificationID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="NotificationMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CreationDateTime" Type="DateTime" Precision="3" />
+    <Property Name="isRead" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="isDelete" Type="Boolean" />
+    <Property Name="NotificationHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="isSeen" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="Userid" />
+    </Key>
+    <Property Name="Userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Loginid" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Joiningdate" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="Boolean" />
+    <Property Name="EMSRole" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Creationdatetime" Type="DateTime" Precision="3" />
+    <Property Name="Designation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="UtilityProcedureExecutionTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcedureName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ExecutionDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="UtilityRunningTime">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startDate" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="endDate" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="LinksTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MainTaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MainTaskName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="ProjectIDs" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ProjectType" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TaskTableCopy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskName" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="EstimatedDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TaskTypeId" Type="Int32" />
+    <Property Name="Phase" Type="Int32" />
+    <Property Name="ProjectId" Type="Int32" />
+    <Property Name="MainTaskId" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_AssignmentTable_SubTaskTable">
+    <End Type="Model.SubTaskTable" Role="SubTaskTable" Multiplicity="0..1" />
+    <End Type="Model.AssignmentTable" Role="AssignmentTable" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_TaskTableWithEstimates_TaskType">
+    <End Type="Model.TaskType" Role="TaskType" Multiplicity="0..1" />
+    <End Type="Model.TaskTableWithEstimate" Role="TaskTableWithEstimate" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="sp_GetProjectBudgetDetail_Result">
+    <Property Type="Int32" Name="BudgetID" Nullable="false" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="DateTime" Name="ProjectBudgetYear" Nullable="true" />
+    <Property Type="Decimal" Name="ContractHoursInJanuary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInFebruary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMarch" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInApril" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMay" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJune" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJuly" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInAugust" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInSeptember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInOctober" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInNovember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInDecember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_SearchProject_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsExternal" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetProjectsLazyLoading_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="IsExternal" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSubTaskTime_Result">
+    <Property Type="Decimal" Name="Actualduration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSubTaskTimeOwner_Result">
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMainTasksLazyLoading_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_FetchProjectMappingMainTask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="MainTaskID" Nullable="true" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="sp_SearchMainTask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <ComplexType Name="sp_FilterUserProfileTable1_Result">
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="false" />
+    <Property Type="Int32" Name="TaskOwnerID" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="JoiningDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Picture" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="sp_CheckAssignedProject_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="UserIDs" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDesignation_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="DesignationName" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="Setting">
+    <Key>
+      <PropertyRef Name="iSettingId" />
+    </Key>
+    <Property Name="iSettingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vSettingName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="vSettingValue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="dtSettingCreation" Type="DateTime" Precision="3" />
+    <Property Name="dtSettingModification" Type="DateTime" Precision="3" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastModifiedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="SettingType" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Setting_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="GetSetting_Update_Result">
+    <Property Type="Int32" Name="iSettingId" Nullable="false" />
+    <Property Type="String" Name="vSettingName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="vSettingValue" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="dtSettingCreation" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="dtSettingModification" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="lastModifiedBy" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="SettingType" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="Setting_Description" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_UserProfileTableLogin_Result">
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="Int32" Name="TaskOwnerID" Nullable="true" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="JoiningDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Picture" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="sp_GetResourceMapping_Result">
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="UserIDs" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="ProjectTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="IsExternal" Type="Boolean" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="Type" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="EstimatedHours" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursPerMonth" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJanuary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInFebruary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMarch" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInApril" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMay" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJune" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJuly" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInAugust" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInSeptember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInOctober" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInNovember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInDecember" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ProjectDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="StartDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="ProjectOwner" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <NavigationProperty Name="TaskTableWithEstimates" Relationship="Model.FK_TaskTableWithEstimates_ProjectTable" FromRole="ProjectTable" ToRole="TaskTableWithEstimate" />
+    <NavigationProperty Name="TaskTables" Relationship="Model.FK_TaskTable_TaskType" FromRole="ProjectTable" ToRole="TaskTable" />
+  </EntityType>
+  <Association Name="FK_TaskTableWithEstimates_ProjectTable">
+    <End Type="Model.ProjectTable" Role="ProjectTable" Multiplicity="0..1" />
+    <End Type="Model.TaskTableWithEstimate" Role="TaskTableWithEstimate" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="sp_GetProjects_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Boolean" Name="IsExternal" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJanuary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInFebruary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMarch" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInApril" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMay" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJune" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJuly" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInAugust" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInSeptember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInOctober" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInNovember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInDecember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="ProjectDescription" Nullable="false" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetClientLazyLoading_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ClientName" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="false" />
+    <Property Type="String" Name="Address" Nullable="true" />
+    <Property Type="String" Name="Website_URL" Nullable="true" />
+    <Property Type="String" Name="Facebooklink" Nullable="true" />
+    <Property Type="String" Name="Twitter" Nullable="true" />
+    <Property Type="String" Name="instagramlink" Nullable="true" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="sp_GetClients_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ClientName" Nullable="false" />
+    <Property Type="String" Name="ContactNumber" Nullable="false" />
+    <Property Type="String" Name="Address" Nullable="true" />
+    <Property Type="String" Name="Website_URL" Nullable="true" />
+    <Property Type="String" Name="Facebooklink" Nullable="true" />
+    <Property Type="String" Name="Twitter" Nullable="true" />
+    <Property Type="String" Name="instagramlink" Nullable="true" />
+    <Property Type="Boolean" Name="isActive" Nullable="false" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <EntityType Name="ClientTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ContactNumber" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Website_URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Facebooklink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Twitter" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="instagramlink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="sp_GetDashboardStats_Update_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="28" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetProjects_Update_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Boolean" Name="IsExternal" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+    <Property Type="DateTime" Name="ProjectBudgetYear" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJanuary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInFebruary" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMarch" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInApril" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInMay" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJune" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInJuly" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInAugust" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInSeptember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInOctober" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInNovember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ContractHoursInDecember" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="ProjectDescription" Nullable="false" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetProjectWithPercentage_Result">
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="Percentage" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Int32" Name="Status" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Get_ProjectDescription_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_FetchUserMappingProject_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="UserIDs" Nullable="true" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_CheckMainTaskSubTask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_ForgetPassword_Result">
+    <Property Type="Int32" Name="TaskOwnerID" Nullable="true" />
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="GlobalID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDashboardStats_Update_AllProject_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="Total_Hours_Spent" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="DepartmentTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="sp_GetDepartment_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="DepartmentName" Nullable="false" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetProjectDatabyID_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="StartDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="EndDate" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="String" Name="ProjectOwner" Nullable="true" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="ContractHoursPerMonth" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+    <Property Type="String" Name="ClientName" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetDepartmentLazyLoading_Result">
+    <Property Type="Int64" Name="RowNum" Nullable="true" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="DepartmentName" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="UserProfileTable">
+    <Key>
+      <PropertyRef Name="UserProfileTableID" />
+    </Key>
+    <Property Name="UserProfileTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="TaskOwnerID" Type="Int32" />
+    <Property Name="Username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="AccountType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="3" />
+    <Property Name="Picture" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AttendenceSheetName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CreationDateTime" Type="DateTime" Precision="3" />
+    <Property Name="Designation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Department_ID" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="sp_FilterUserProfileTable_Result">
+    <Property Type="String" Name="DepartmentName" Nullable="true" />
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="Int32" Name="TaskOwnerID" Nullable="true" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="JoiningDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Picture" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="Department_ID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Get_DefaultMaintask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+  </ComplexType>
+  <EntityType Name="DepartmentMapping">
+    <Key>
+      <PropertyRef Name="DepartMappingID" />
+    </Key>
+    <Property Name="DepartMappingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartID" Type="Int32" Nullable="false" />
+    <Property Name="MaintaskID" Type="Int32" Nullable="false" />
+    <Property Name="AdditionalCheck" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="Get_MapMainTaskinDepartmentMapping_Result">
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="DepartMappingID" Nullable="false" />
+    <Property Type="Int32" Name="DepartID" Nullable="false" />
+    <Property Type="Int32" Name="MaintaskID" Nullable="false" />
+    <Property Type="Boolean" Name="AdditionalCheck" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetUserProfileTable_Result">
+    <Property Type="String" Name="DepartmentName" Nullable="true" />
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="Int32" Name="UserID" Nullable="true" />
+    <Property Type="Int32" Name="TaskOwnerID" Nullable="true" />
+    <Property Type="String" Name="Username" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Password" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="String" Name="AccountType" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="EmailAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Department" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="JoiningDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Picture" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="AttendenceSheetName" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="CreationDateTime" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Designation" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="Department_ID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMappedMainTaskinReportGrid_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectIDs" Nullable="true" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="DepartMappingID" Nullable="false" />
+    <Property Type="Int32" Name="DepartID" Nullable="false" />
+    <Property Type="Int32" Name="MaintaskID" Nullable="false" />
+    <Property Type="Boolean" Name="AdditionalCheck" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMappedMainTask_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="MainTaskID" Nullable="true" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetMappedMainTaskByProjectID_DepartmentID_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="MainTaskID" Nullable="true" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="DateTime" Name="CreationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ProjectType" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="TaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskName" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="EstimatedDuration" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TaskTypeId" Type="Int32" />
+    <Property Name="Phase" Type="Int32" />
+    <Property Name="MainTaskId" Type="Int32" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProjectTable" Relationship="Model.FK_TaskTable_TaskType" FromRole="TaskTable" ToRole="ProjectTable" />
+  </EntityType>
+  <Association Name="FK_TaskTable_TaskType">
+    <End Type="Model.ProjectTable" Role="ProjectTable" Multiplicity="0..1" />
+    <End Type="Model.TaskTable" Role="TaskTable" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="sp_GetTasks_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Decimal" Name="EstimatedDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="String" Name="Comments" Nullable="true" />
+    <Property Type="Int32" Name="Phase" Nullable="true" />
+    <Property Type="Boolean" Name="IsActive" Nullable="true" />
+    <Property Type="Int32" Name="TaskTypeId" Nullable="true" />
+    <Property Type="String" Name="TaskTypeName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TaskTypePrefix" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="ProjectId" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="MainTask" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="MainTaskId" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_TotalHoursOfProjects_New_Result">
+    <Property Type="Int32" Name="ClientID" Nullable="false" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="ProjectName" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="EstimatedHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="TotalActualDuration" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="BillableHours" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="RemainingHours" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="ActualD" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_GetAssignments_New_Result">
+    <Property Type="DateTime" Name="AssignmentDateTime" Nullable="true" />
+    <Property Type="Decimal" Name="Days" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Decimal" Name="ActualDuration" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Boolean" Name="IsApproved" Nullable="true" />
+    <Property Type="Int32" Name="MainTaskID" Nullable="false" />
+    <Property Type="String" Name="MainTaskName" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="ProjectID" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ProjectDescription" Nullable="true" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="1000" />
+    <Property Type="Int32" Name="TaskID" Nullable="false" />
+    <Property Type="String" Name="FullName" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="UserProfileTableID" Nullable="false" />
+    <Property Type="String" Name="CommentTxt" Nullable="true" />
+    <Property Type="Decimal" Name="BillableHours" Nullable="true" Precision="18" Scale="2" />
+    <Property Type="Int32" Name="IsBillableApproved" Nullable="true" />
+    <Property Type="Int32" Name="UserProfileTableIDBillable" Nullable="true" />
+    <Property Type="String" Name="UserNameBillable" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="BillableApprovedDateTime" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="IsActualApproved" Nullable="true" />
+    <Property Type="Int32" Name="UserProfileTableIDActual" Nullable="true" />
+    <Property Type="String" Name="UserNameActual" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="ActualApprovedDateTime" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="ClientID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_DifferenceHours_Result">
+    <Property Type="Decimal" Name="Actualhours" Nullable="true" Precision="38" Scale="2" />
+    <Property Type="Decimal" Name="billablehrs" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,41 @@
+span.HoursDays:hover {
+  /* text-decoration: underline; */
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  border-color: #2273c9;
+  border-bottom-width: 1.6px;
+  width: fit-content;
+  
+}
+
+.ems_custom_padd_mr{
+  padding-top: 100px;
+}
+.ems_updated_pass{
+  justify-content: center;
+}
+.HoursDays {
+  padding-bottom: 5px;
+  cursor: pointer;
+
+}
+.table td {
+  min-width: 100px;
+}
+
+.ems_td_data_align{
+  position:relative;
+  right: -50px;
+}
+
+.ems_total_days{
+  position:relative;
+  right: -50px;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .ems_custom_padd_mr{
+    padding-top: 50px;
+  }
+}

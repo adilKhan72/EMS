@@ -1,0 +1,760 @@
+2022-11-29 12:55:39.8563 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2022-11-29 12:55:42.5705 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2022-11-29 12:55:43.1278 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 12:55:43.1278 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 12:55:43.1278 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 12:55:43.2125 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T07:55:42.958Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 12:55:43.2125 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-11-29 12:55:43.2285 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 12:55:43.4085 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 12:55:43.5212 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 12:55:44.1364 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 12:55:44.2446 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 12:55:44.3884 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 12:55:44.5888 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 12:55:44.9381 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-11-29 12:55:45.0530 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:01:33.1444 INFO Entering the Projects Controller.  AllProject Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-11-29 14:01:33.1604 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2022-11-29 14:01:33.1604 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:01:33.1764 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:01:35.1132 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2022-11-29 14:01:35.3240 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:01:35.6330 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:01:36.2880 INFO Exit the Projects Controller.  AllProject Method(Success)   
+2022-11-29 14:01:39.2866 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:01:39.2866 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:01:39.3481 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:01:39.138Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:01:39.4165 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:01:39.4165 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:01:39.115Z","ToDate":"2022-11-29T09:01:39.115Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:01:39.4245 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:01:39.5544 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:01:39.6288 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:01:39.6848 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:01:39.9788 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:01:40.1779 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:01:40.4507 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:01:40.5281 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:01:44.5680 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:19:01.9924 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:19:01.702Z","ToDate":"2022-11-29T09:19:01.702Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:19:01.9924 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:19:02.0053 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:19:01.743Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:19:02.0053 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:19:02.0053 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:19:02.0053 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:19:03.4662 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:19:03.5368 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:19:03.7263 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:19:03.7926 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:19:04.0782 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:19:04.1548 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:19:01.75Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:19:04.5971 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:19:04.6710 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:19:04.7504 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:19:04.7595 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:19:04.9059 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:19:04.9849 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:19:05.0182 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:19:05.0182 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:19:05.1069 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:19:05.1914 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:19:05.3418 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:19:05.4358 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:19:06.2165 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:19:07.9591 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:19:14.3285 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:19:14.088Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:19:14.3285 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:19:14.3305 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:19:14.034Z","ToDate":"2022-11-29T09:19:14.034Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:19:14.3305 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:19:14.3305 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:19:14.4512 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:19:14.6207 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:19:14.7324 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:19:14.7484 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:19:14.7823 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:19:14.095Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:19:14.8581 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:19:14.8661 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:19:14.9251 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:19:15.0730 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:19:15.0730 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:19:15.1528 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:19:15.1744 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:19:15.1744 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:19:15.2682 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:19:15.3715 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:19:15.4385 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:19:15.4854 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:19:15.5337 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:19:15.6280 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:19:15.6895 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:19:18.0137 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:20:03.4415 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:20:03.4415 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:20:03.4973 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:20:03.5469 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:20:03.5469 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:20:03.223Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:20:03.5560 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:20:03.7017 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:20:03.7650 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:20:03.7850 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:20:03.8336 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:20:03.8336 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:20:03.8495 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:20:03.9199 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:20:03.183Z","ToDate":"2022-11-29T09:20:03.183Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:20:03.9249 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:20:03.231Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:20:03.9703 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:20:04.0620 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:20:04.0801 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:20:04.0801 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:20:04.1470 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:20:04.1983 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:20:04.2312 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:20:04.3314 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:20:04.4141 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:20:04.4306 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:20:04.4800 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:20:07.4601 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:20:26.8683 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:20:26.9242 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:20:26.58Z","ToDate":"2022-11-29T09:20:26.58Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:20:26.9242 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:20:26.9242 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:20:26.9850 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:20:27.0845 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:20:26.647Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:20:27.1333 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:20:27.2016 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:20:27.2255 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:20:27.2485 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:20:27.2485 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:20:27.3113 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:20:27.3362 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:20:27.3362 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:20:27.3901 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:20:27.3901 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:20:27.4719 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:20:26.64Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:20:27.5218 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:20:27.5457 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:20:27.5891 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:20:27.5891 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:20:27.6516 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:20:27.7950 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:20:27.8506 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:20:28.5337 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:20:30.8950 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:09.7242 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:09.517Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:21:09.7740 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:21:09.7740 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:21:09.7740 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:21:09.7860 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:09.7860 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:21:10.0795 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:21:10.1064 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:09.523Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:21:10.1553 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:10.1832 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:21:09.478Z","ToDate":"2022-11-29T09:21:09.478Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:21:10.2361 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:21:10.2371 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:21:10.2371 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:21:10.2809 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:10.3659 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:21:10.3659 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:10.3659 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:10.4914 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:21:10.5382 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:21:10.5382 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:21:10.5538 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:10.6145 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:21:10.6771 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:21:10.7310 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:21:10.8095 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:13.2509 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:41.1094 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:21:40.794Z","ToDate":"2022-11-29T09:21:40.794Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:21:41.1136 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:21:41.1136 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:21:41.1136 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:40.837Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:21:41.1800 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:21:41.3198 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:41.4256 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:21:41.4623 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:21:41.4623 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:21:41.5077 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:21:41.5077 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:21:41.5077 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:21:41.5665 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:21:41.6203 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:41.6880 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:41.6880 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:41.7661 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:21:41.8341 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:21:41.8564 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:40.844Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:21:41.9033 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:21:41.9033 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:41.9567 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:42.0571 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:21:42.1352 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:42.1665 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:21:44.9596 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:55.7277 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:21:55.7277 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:55.513Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:21:55.7396 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:21:55.8811 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:55.8811 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:21:55.9320 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:21:55.9867 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:21:56.0665 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:21:56.1176 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:21:56.1575 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:56.1825 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:21:56.2074 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:56.2074 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:21:55.521Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:21:56.2642 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:21:56.3078 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:21:56.3234 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:21:56.3859 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:21:56.4785 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:21:56.4785 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:21:55.47Z","ToDate":"2022-11-29T09:21:55.47Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:21:56.5340 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:21:56.5964 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:21:56.5964 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:21:56.6374 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:21:56.7818 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:21:56.7818 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:21:59.2933 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:04.9558 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:22:05.0367 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:22:04.797Z","ToDate":"2022-11-29T09:22:04.797Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:22:05.0866 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:22:05.0866 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:05.1425 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:22:05.1425 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:04.832Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:22:05.2482 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:22:05.3193 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:22:05.3682 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:22:05.3932 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:22:05.3932 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:22:05.4526 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:05.4526 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:22:05.4857 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:22:05.5352 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:04.837Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:22:05.5848 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:22:05.6333 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:05.6815 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:22:05.7106 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:05.7516 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:22:05.7516 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:05.8141 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:05.9098 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:05.9503 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:22:05.9971 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:22:08.7439 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:14.3733 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:22:14.3733 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:22:14.032Z","ToDate":"2022-11-29T09:22:14.032Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:22:14.3773 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:14.075Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:22:14.3773 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:22:14.5748 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:22:14.5748 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:14.6779 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:22:14.7048 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:22:14.7533 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:22:14.8042 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:22:14.8261 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:22:14.8514 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:22:14.8514 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:22:14.8987 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:14.8987 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:14.9487 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:22:15.0269 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:15.0269 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:14.084Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:22:15.1674 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:22:15.1674 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:22:15.1934 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:15.2322 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:22:15.3259 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:15.3728 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:15.4333 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:22:18.0233 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:39.4551 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:22:39.5119 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:22:39.5119 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:22:39.159Z","ToDate":"2022-11-29T09:22:39.159Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:22:39.5616 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:39.192Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:22:39.5645 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:22:39.5645 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:39.7638 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:22:39.7918 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:22:39.8406 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:22:39.8406 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:22:39.8776 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:22:39.198Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:22:39.8776 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:39.9774 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:40.0032 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:22:40.0462 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:22:40.0462 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:22:40.1311 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:22:40.1311 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:22:40.2221 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:22:40.2221 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:22:40.2690 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:22:40.2846 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:22:40.4264 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:22:40.4736 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:22:40.5424 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:22:43.7025 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:23:17.1009 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:23:17.1009 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:23:17.1009 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:23:16.888Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:23:17.1009 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:23:17.2105 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:23:16.85Z","ToDate":"2022-11-29T09:23:16.85Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:23:17.2596 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:23:16.882Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:23:17.4056 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:23:17.4056 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:23:17.4559 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:23:17.4797 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:23:17.5180 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:23:17.5336 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:23:17.5336 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:23:17.6117 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:23:17.7019 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:23:17.7492 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:23:17.7492 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:23:17.7995 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:23:17.8151 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:23:17.8151 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:23:17.8825 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:23:17.9329 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:23:17.9956 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:23:18.0988 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:23:18.1258 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:23:20.8816 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:26:16.9626 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:26:16.9626 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:26:16.755Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:26:16.9626 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:26:16.9715 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:26:16.762Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:26:16.9715 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:26:16.707Z","ToDate":"2022-11-29T09:26:16.707Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:26:16.9715 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:26:17.3058 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:26:17.3247 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:26:17.3446 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:26:17.3964 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:26:17.3964 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:26:17.4593 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:26:17.4712 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:26:17.4932 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:26:17.5889 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:26:17.5889 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:26:17.6737 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:26:17.6855 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:26:17.7404 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:26:17.7404 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:26:17.7950 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:26:17.8836 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:26:17.9352 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:26:17.9951 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:26:18.0417 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:26:20.1683 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:56:09.0234 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:56:09.0234 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 14:56:09.0234 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 14:56:09.0234 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 14:56:09.0334 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:56:08.761Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 14:56:09.0334 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T09:56:08.704Z","ToDate":"2022-11-29T09:56:08.704Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 14:56:11.0413 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 14:56:11.0878 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 14:56:11.1503 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 14:56:11.1659 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 14:56:11.2988 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 14:56:11.3613 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 14:56:11.3613 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:56:11.4395 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T09:56:08.769Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 14:56:11.5491 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 14:56:11.6113 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 14:56:11.7802 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 14:56:11.9051 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 14:56:12.0144 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:56:12.0144 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 14:56:12.0616 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 14:56:12.1707 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 14:56:12.2974 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 14:56:12.3758 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 14:56:13.1413 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 14:56:14.7922 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:44:10.7823 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 15:44:10.8472 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:44:10.8472 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 15:44:10.8472 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:44:10.24Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 15:44:10.8472 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 15:44:10.8472 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T10:44:10.192Z","ToDate":"2022-11-29T10:44:10.192Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 15:44:12.1679 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 15:44:12.1679 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 15:44:12.1938 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:44:12.1938 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 15:44:12.3411 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 15:44:12.3411 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:44:12.3461 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:44:12.4229 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 15:44:12.4787 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 15:44:12.4787 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 15:44:12.5728 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 15:44:12.5907 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 15:44:12.5907 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 15:44:12.6236 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 15:44:12.6236 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:44:12.7459 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:44:12.7459 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:44:10.249Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 15:44:12.7554 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 15:44:12.8191 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:44:13.3310 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:45:32.3892 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-11-29 15:45:32.5623 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-11-29 15:45:34.8174 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 15:45:34.8683 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:45:34.8683 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 15:45:34.9351 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 15:45:34.9351 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:45:34.9959 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:45:34.616Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 15:45:34.9959 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:45:34.9959 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 15:45:35.1126 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-11-29 15:45:35.1126 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 15:45:35.1126 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:45:35.2191 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:45:35.2709 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-11-29 15:45:35.2709 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 15:45:37.4213 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 15:45:37.4280 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:45:37.4779 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:45:37.242Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 15:45:37.4779 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 15:45:37.5332 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T10:45:37.221Z","ToDate":"2022-11-29T10:45:37.221Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 15:45:37.5910 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:45:37.6030 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 15:45:37.6030 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 15:45:37.8074 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 15:45:37.8653 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 15:45:37.9111 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 15:45:37.9591 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 15:45:38.0020 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 15:45:38.3694 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:54:56.5811 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 15:54:56.6639 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:54:56.6639 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 15:54:56.6639 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 15:54:56.6749 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:54:55.361Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 15:54:56.6749 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T10:54:55.318Z","ToDate":"2022-11-29T10:54:55.318Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 15:54:58.3235 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 15:54:58.3235 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 15:54:58.3235 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:54:58.3235 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 15:54:58.5020 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 15:54:58.5020 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 15:54:58.5020 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 15:54:58.5986 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 15:54:58.5986 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:54:58.7918 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 15:54:58.7918 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 15:54:58.7918 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 15:54:58.7988 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 15:54:58.9364 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 15:54:59.0721 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 15:54:59.0721 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T10:54:55.368Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 15:54:59.1200 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 15:54:59.3194 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 15:54:59.3354 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 15:54:59.5079 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:05:26.7797 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:05:26.8485 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:05:26.8485 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:05:26.8485 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:05:26.8485 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:05:26.146Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:05:26.8665 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:05:26.106Z","ToDate":"2022-11-29T11:05:26.106Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:05:28.4001 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:05:28.4001 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:05:28.4001 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:05:28.4177 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:05:28.6481 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:05:28.6481 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:05:28.6481 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:05:28.7139 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:05:28.7139 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:05:28.8745 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:05:28.8745 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:05:28.9264 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:05:28.9772 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:05:29.0121 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:05:26.154Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:05:29.1179 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:05:29.1179 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:05:29.1322 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:05:29.3337 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:05:29.3337 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:05:29.6992 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:12:57.2589 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:12:57.3128 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:12:57.3128 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:12:57.3188 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:12:56.592Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:12:57.3188 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:12:57.3188 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:12:56.549Z","ToDate":"2022-11-29T11:12:56.549Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:12:58.8802 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:12:58.8802 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:12:58.8802 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:12:58.8802 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:12:59.0717 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:12:59.0717 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:12:59.0846 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:12:59.0846 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:12:59.2410 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:12:59.2616 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:12:59.2616 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:12:59.3308 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:12:59.3308 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:12:59.4661 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:12:56.6Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:12:59.4661 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:12:59.6661 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:12:59.6661 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:12:59.6740 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:12:59.7722 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:13:00.1243 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:38:36.6162 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:38:36.6491 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:38:36.6491 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:38:36.6631 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:38:35.835Z","ToDate":"2022-11-29T11:38:35.835Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:38:36.6491 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:38:36.6491 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:38:35.892Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:38:38.1526 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:38:38.1526 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:38:38.1526 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:38:38.1526 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:38:38.2992 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:38:38.2992 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:38:38.3547 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:38:38.3547 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:38:38.4209 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:38:38.4239 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:38:38.4239 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:38:38.5384 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:38:38.6184 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:38:38.6184 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:38:35.901Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:38:38.7706 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:38:38.7706 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:38:38.7706 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:38:39.0016 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:38:39.0173 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:38:39.2812 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:44:17.4131 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:44:17.4740 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:44:17.4740 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:44:17.4740 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:44:17.4740 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:44:16.807Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:44:17.4740 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:44:16.771Z","ToDate":"2022-11-29T11:44:16.771Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:44:18.9234 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:44:18.9254 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:44:18.9254 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:44:18.9254 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:44:19.0901 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:44:19.0901 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:44:19.1021 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:44:19.1960 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:44:16.814Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:44:19.2116 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:44:19.2585 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:44:19.2585 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:44:19.3314 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:44:19.4332 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:44:19.4332 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:44:19.4501 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:44:19.4501 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:44:19.6492 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:44:19.6492 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:44:19.6492 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:44:20.4777 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:45:33.7857 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:45:33.8475 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:45:33.8475 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:45:33.8475 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:45:33.8475 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:45:33.194Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:45:33.8475 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:45:33.155Z","ToDate":"2022-11-29T11:45:33.155Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:45:35.2238 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:45:35.2238 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:45:35.2238 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:45:35.2238 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:45:35.4053 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:45:35.4053 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:45:35.4653 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:45:33.203Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:45:35.4653 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:45:35.4653 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:45:35.6310 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:45:35.6310 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:45:35.6470 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:45:35.6470 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:45:35.7138 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:45:35.8370 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:45:35.8459 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:45:35.9362 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:45:35.9362 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:45:36.0330 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:45:36.3518 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:46:40.8714 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:46:42.2657 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:46:42.5815 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:46:42.5815 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:46:42.6524 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:46:42.6603 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:46:42.7376 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:46:42.8394 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:46:42.8543 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:46:42.325Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:46:42.8543 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:46:42.278Z","ToDate":"2022-11-29T11:46:42.278Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:46:42.8543 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:46:42.9512 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:46:43.0091 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:46:43.0809 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:46:43.0809 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:46:43.0809 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:46:43.2065 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:46:43.2784 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:46:43.2784 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:46:43.2913 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:46:43.3911 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:46:43.4080 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:46:43.4190 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:46:43.4190 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:46:43.4808 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:46:42.332Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:46:43.4808 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:46:43.6249 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:46:44.0475 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:49:44.0994 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:49:44.1533 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:49:44.1533 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:49:44.1533 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:49:44.1533 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:49:43.496Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:49:44.1663 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:49:43.458Z","ToDate":"2022-11-29T11:49:43.458Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:49:45.6026 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:49:45.6026 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:49:45.6026 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:49:45.6026 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:49:45.7651 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:49:45.7651 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:49:45.7691 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:49:45.7691 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:49:45.9806 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:49:45.9806 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:49:45.9945 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:49:45.9945 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:49:46.0065 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:49:46.0783 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:49:46.0843 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:49:46.2848 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:49:43.505Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:49:46.2848 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:49:46.3797 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:49:46.3797 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:49:48.3715 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:58:19.7479 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-11-29 16:58:20.9886 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-11-29 16:58:21.1302 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":0,"maintaskID":0}
+2022-11-29 16:58:21.2260 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 16:58:37.4218 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":0}
+2022-11-29 16:58:37.4976 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 16:58:42.1212 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":0}
+2022-11-29 16:58:42.1960 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 16:58:56.3219 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":0}
+2022-11-29 16:58:56.3937 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 16:58:56.3937 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":82,"ProjectId":2087,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-11-21T00:00:00","ToDate":"2022-11-21T00:00:00","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:58:56.6650 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:58:56.8365 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":2087,"TaskName":"","TaskOwnerId":82,"FromDate":"2022-11-21T00:00:00","ToDate":"2022-11-21T00:00:00","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:58:57.1367 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:59:06.1302 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:59:06.2060 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:59:05.952Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:59:06.2060 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:59:06.2060 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:59:06.2060 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:59:06.2060 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:59:06.2937 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:59:06.3047 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:59:06.4545 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:59:06.5763 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:59:06.5763 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:59:06.5842 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:59:06.5962 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:59:06.6551 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2022-11-29 16:59:06.6551 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:59:06.7309 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:59:06.7997 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2022-11-29 16:59:06.8147 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:59:06.8376 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2022-11-29 16:59:06.9322 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2022-11-29 16:59:36.2524 INFO Entering the User Controller.  InserUserProfile Method   Arguments:: {"UserProfileID":82,"UserName":"muhammad_aatir","FullName":"Muhammad Aatir Ultra legend Pro","Email":"aatirrezaid@gmail.com","Department":"4","JoiningDate":"2022-09-12T00:00:00","IsActive":true,"AccountType":"Staff","Picture":null,"Creationdatetime":null,"Designation":"Digital Marketing Intern"}
+2022-11-29 16:59:36.3402 INFO Exit the User Controller.  InserUserProfile Method(Success)  
+2022-11-29 16:59:36.4951 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2022-11-29 16:59:36.5469 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2022-11-29 16:59:45.8564 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 16:59:45.8564 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 16:59:45.8564 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:59:45.632Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 16:59:45.8624 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 16:59:45.8624 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T11:59:45.596Z","ToDate":"2022-11-29T11:59:45.596Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 16:59:45.9781 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 16:59:45.9781 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 16:59:46.0469 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 16:59:46.1557 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 16:59:46.2744 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T11:59:45.639Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 16:59:46.2744 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 16:59:46.2744 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:59:46.3761 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 16:59:46.3861 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 16:59:46.4420 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 16:59:46.4420 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:59:46.7033 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:59:46.7033 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 16:59:46.7082 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 16:59:46.8519 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 16:59:46.9315 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 16:59:46.9315 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 16:59:46.9315 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 16:59:46.9315 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 16:59:47.0348 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 16:59:47.1964 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:00:01.0333 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-11-29 17:00:01.0861 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-11-29 17:00:01.1551 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":0,"maintaskID":0}
+2022-11-29 17:00:01.2073 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 17:00:07.6531 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":0}
+2022-11-29 17:00:07.6590 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":82,"ProjectId":2087,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-11-21T00:00:00","ToDate":"2022-11-21T00:00:00","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 17:00:07.7545 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 17:00:07.8096 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:00:07.9352 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":2087,"TaskName":"","TaskOwnerId":82,"FromDate":"2022-11-21T00:00:00","ToDate":"2022-11-21T00:00:00","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 17:00:07.9950 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 17:27:50.3772 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-11-29 17:27:50.4560 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 17:27:50.4560 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-11-29 17:27:50.4560 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-11-29 17:27:50.4560 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T12:27:49.788Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 17:27:50.4739 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T12:27:49.751Z","ToDate":"2022-11-29T12:27:49.751Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 17:27:51.8882 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-11-29 17:27:51.8882 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-11-29 17:27:51.8882 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 17:27:51.8981 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-11-29 17:27:52.0537 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-11-29 17:27:52.0537 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-11-29 17:27:52.1285 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-11-29 17:27:52.1285 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-11-29 17:27:52.1953 INFO Entering the Department Controller.  GetDepartments Method
+2022-11-29 17:27:52.2452 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 17:27:52.2452 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-11-29 17:27:52.3090 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-11-29 17:27:52.3090 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-11-29 17:27:52.3430 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T12:27:49.794Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-11-29 17:27:52.5005 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-11-29 17:27:52.5005 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-11-29 17:27:52.5065 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:27:52.6990 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-11-29 17:27:52.7060 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-11-29 17:27:53.0650 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:29:22.7949 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-11-29 17:29:22.8604 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-11-29 17:29:22.9467 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":0,"maintaskID":0}
+2022-11-29 17:29:23.0100 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 17:29:23.6554 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":2154,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-11-19T12:27:49.751Z","ToDate":"2022-11-29T12:27:49.751Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 17:29:23.6554 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2154,"maintaskID":0}
+2022-11-29 17:29:23.8030 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 17:29:23.9137 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:29:24.0683 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":2154,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T12:27:49.751Z","ToDate":"2022-11-29T12:27:49.751Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 17:29:24.3136 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-11-29 17:29:55.3416 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2154,"maintaskID":0}
+2022-11-29 17:29:55.3954 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-11-29 17:29:55.9397 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-11-19T12:29:55.862Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 17:29:56.6366 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:29:56.8589 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-11-19T12:29:55.89Z","ToDate":"2022-11-29T12:29:55.89Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2022-11-29 17:29:57.4775 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-11-29 17:29:57.6179 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-11-19T12:29:55.89Z","ToDate":"2022-11-29T12:29:55.89Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2022-11-29 17:29:57.8459 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  

@@ -1,0 +1,38 @@
+/* .crop-container .reactEasyCrop_Container div.reactEasyCrop_CropAreaRound {
+  width: 150px !important;
+  height: 150px !important;
+} */
+.cropstyle span.MuiSlider-root span.MuiSlider-rail {
+  height: 6px;
+  border-radius: 8px;
+}
+
+.cropstyle span.MuiSlider-root span.MuiSlider-thumb {
+  color: black;
+  top: 15px;
+}
+
+.cropstyle span.MuiSlider-root span.MuiSlider-track {
+  height: 6px;
+  border-radius: 8px;
+}
+.file-drop > .file-drop-target.file-drop-dragging-over-target {
+  /* turn stuff orange when we are dragging over the target */
+  color: #878377;
+  box-shadow: 0 0 13px 3px #878377;
+}
+.file-drop {
+  height: inherit;
+}
+.file-drop > .file-drop-target {
+  height: inherit;
+}
+@media (max-width: 991px) {
+  .profile-placeholder,
+  .profile-placeholder .circle {
+    margin-bottom: 15px;
+  }
+  .user_left_padding {
+    padding-left: 10px;
+  }
+}

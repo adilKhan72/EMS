@@ -1,0 +1,1134 @@
+2023-02-13 08:53:04.9633 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 08:53:06.5659 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 08:53:07.0168 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 08:53:07.0657 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 08:53:07.0797 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 08:53:07.1565 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 08:53:07.1854 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 08:53:07.1964 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T03:53:06.84Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 08:53:07.1964 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 08:53:07.2432 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 08:53:07.2891 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 08:53:07.2891 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 08:53:07.4507 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 08:53:07.5015 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 08:53:07.5215 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 08:53:07.6920 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 08:53:08.7078 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 08:53:08.7966 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 08:53:08.8285 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 08:53:08.8494 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T03:53:08.605Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 08:53:08.8813 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 08:53:08.9083 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 08:53:08.9302 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 08:53:08.9751 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 08:53:09.0579 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 08:53:09.0688 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T03:53:08.574Z","ToDate":"2023-02-13T03:53:08.574Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 08:53:09.1008 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 08:53:09.1367 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 08:53:11.2440 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 08:53:11.5010 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:05:01.5587 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 10:08:58.1070 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 10:09:00.0314 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 10:09:00.7286 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:09:00.7436 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:09:00.7705 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:09:00.7705 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:09:00.7705 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:09:00.8403 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 10:09:00.8872 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:09:00.9041 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:09:00.9460 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:09:00.406Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:09:00.9460 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:09:01.1146 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:09:01.1524 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:09:01.1993 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 10:09:01.2113 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:09:03.7164 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:09:03.7483 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:09:03.7662 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:09:03.7981 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:09:03.295Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:09:03.8400 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:09:03.9497 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:09:03.26Z","ToDate":"2023-02-13T05:09:03.26Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:09:03.9677 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:09:03.9926 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:09:03.9926 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:09:04.0804 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:09:04.1033 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:09:04.1292 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:09:04.2479 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:09:04.9745 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:16:09.3251 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 10:16:09.3679 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":null,"ClientEmail":null,"ContactNumber":null,"Address":null,"Website_URL":null,"Facebooklink":null,"Twitter":null,"instagramlink":null,"Active":false}
+2023-02-13 10:16:09.4328 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:16:09.4328 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 10:16:09.4966 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:16:09.4966 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 10:16:20.9862 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: {"ProjectId":null,"UserID":35}
+2023-02-13 10:16:21.0029 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:16:23.1893 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 10:16:23.2821 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 10:16:23.2821 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:16:23.2920 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":null,"ClientEmail":null,"ContactNumber":null,"Address":null,"Website_URL":null,"Facebooklink":null,"Twitter":null,"instagramlink":null,"Active":false}
+2023-02-13 10:16:23.3339 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:16:23.3539 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 10:16:23.3688 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:16:23.3987 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:16:22.896Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:16:23.3987 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:16:23.4880 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:16:23.5568 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:16:23.6207 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:16:23.6346 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:16:23.9089 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:16:23.9567 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:16:23.9637 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:16:24.0106 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:16:24.0106 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:16:24.6303 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:16:24.6712 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:16:24.7240 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:16:24.7360 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:16:24.492Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:16:24.7859 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:16:24.8327 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:16:24.8567 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:16:24.8826 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:16:24.8826 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:16:24.8986 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:16:24.9843 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:16:25.0342 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:16:24.459Z","ToDate":"2023-02-13T05:16:24.459Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:16:25.1120 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:16:26.0381 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:17:08.7953 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:17:08.8016 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:17:08.631Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:17:08.8245 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:17:08.9082 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:12.1271 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 10:17:12.1723 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 10:17:23.8598 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:17:23.744Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:17:23.9077 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:17:23.9177 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:23.9286 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:17:25.9696 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 10:17:25.9823 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 10:17:30.3122 INFO Entering the TasksDescription Controller.  GetTaskDescription Method   Arguments:: {"projectID":3171,"maintaskID":113}
+2023-02-13 10:17:30.3651 INFO Exit the TasksDescription Controller.  GetTaskDescription Method(Success)  
+2023-02-13 10:17:32.6253 INFO Exit the Reports Controller.  CheckUserHours Method(Success)  
+2023-02-13 10:17:33.3312 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":3171,"TASKID":2526652,"UserID":14,"AssignmentDateTime":"02/13/2023","ActualDuration":"8","CommentText":"ww","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":113}
+2023-02-13 10:17:33.4530 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2023-02-13 10:17:36.2030 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:16:24.459Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:17:36.3147 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:16:24.459Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:17:36.6996 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:36.6996 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:37.0747 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T05:17:35.86Z","ToDate":"2023-02-13T05:17:35.86Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:17:37.1790 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:37.4871 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T05:17:35.86Z","ToDate":"2023-02-13T05:17:35.86Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:17:37.9898 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:17:35.86Z","ToDate":"2023-02-13T05:17:35.86Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:17:38.9332 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:17:38.9541 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:17:39.1478 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:17:35.86Z","ToDate":"2023-02-13T05:17:35.86Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:17:39.1808 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:19:09.0168 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 10:19:09.0383 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 10:19:09.0383 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":null,"ClientEmail":null,"ContactNumber":null,"Address":null,"Website_URL":null,"Facebooklink":null,"Twitter":null,"instagramlink":null,"Active":false}
+2023-02-13 10:19:09.0443 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 10:19:09.1016 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:19:09.1016 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:19:18.7524 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: {"ProjectId":[3185],"UserID":35}
+2023-02-13 10:19:18.7706 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:19:20.0899 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 10:19:20.2166 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 10:19:20.2933 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 10:19:20.2933 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":null,"ClientEmail":null,"ContactNumber":null,"Address":null,"Website_URL":null,"Facebooklink":null,"Twitter":null,"instagramlink":null,"Active":false}
+2023-02-13 10:19:20.2933 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:19:20.3193 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 10:19:20.3193 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:19:20.3602 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:19:20.3741 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:19:20.3741 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:19:19.933Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:19:20.4200 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:19:20.4549 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:19:20.4549 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:19:20.4988 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:19:20.5117 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:19:20.5377 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:19:20.5436 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:19:20.5746 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:19:22.4517 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:19:22.4752 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:19:22.4812 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:19:22.4812 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:19:22.5081 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:19:22.5161 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:19:22.316Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:19:22.5989 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:19:22.6408 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:19:22.28Z","ToDate":"2023-02-13T05:19:22.28Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:19:22.6408 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:19:22.6408 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:19:22.7056 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:19:22.7216 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:19:22.8712 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:19:23.5578 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:27:55.6450 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:27:55.6879 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:27:55.6879 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:27:55.6879 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:27:54.689Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:27:55.7029 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:27:54.627Z","ToDate":"2023-02-13T05:27:54.627Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:27:57.7200 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:27:57.9135 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:27:57.9235 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:27:57.9235 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:27:57.9394 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:27:58.2286 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:27:58.2436 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:27:58.2596 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:27:58.2636 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:27:54.697Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:27:58.2905 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:27:58.3264 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:27:58.3443 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:27:58.3862 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:27:58.4211 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:27:58.4211 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:27:58.4520 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:27:58.5099 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:27:58.5288 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:27:58.5568 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:27:58.5607 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:27:59.4369 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:33:24.7424 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:33:24.7424 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:33:24.7424 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:33:24.084Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:33:24.7424 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:33:25.7245 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:33:24.036Z","ToDate":"2023-02-13T05:33:24.036Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:33:26.3215 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:33:26.3424 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:33:26.3424 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:33:26.3763 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:33:26.4162 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:33:26.6246 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:33:26.6536 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:33:26.6655 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:33:26.6725 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:33:24.096Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:33:26.7712 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:33:26.7932 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:33:26.8560 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:33:26.7962 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:33:26.8839 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:33:26.9677 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:33:27.0046 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:33:27.0046 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:33:27.0365 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:33:27.1203 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:33:27.2480 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:33:27.7167 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:37:12.9731 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:37:13.1047 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:37:13.1047 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:37:13.1177 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:37:12.057Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:37:13.1177 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:37:14.7420 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:37:11.995Z","ToDate":"2023-02-13T05:37:11.995Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:37:15.0236 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:37:15.0236 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:37:15.0412 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:37:15.0511 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:37:15.3783 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:37:15.3783 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:37:15.4341 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:37:15.4341 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:37:15.4760 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:37:12.069Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:37:15.4979 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:37:15.5288 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:37:15.5498 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:37:15.6356 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:37:15.6605 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:37:15.6944 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:37:15.7433 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:37:15.8540 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:37:15.8659 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:37:15.9936 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:37:16.4144 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:39:35.5988 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:39:35.7988 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:39:35.8148 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:39:35.8308 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:39:33.107Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:39:38.4467 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:39:38.4547 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:39:38.4707 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:39:38.7176 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:39:38.8776 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:39:33.009Z","ToDate":"2023-02-13T05:39:33.009Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:39:38.9176 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:39:39.0456 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:39:39.0776 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:39:39.0936 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:39:39.1976 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:39:39.2136 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:39:39.2536 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:39:39.2856 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:39:39.3256 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:39:33.121Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:39:39.3256 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:39:39.3896 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:39:39.4056 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:39:39.4536 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:39:39.4936 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:39:39.5256 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:39:39.5576 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:39:40.4935 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:41:40.0483 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:41:40.0924 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:41:40.0924 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:41:40.1084 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:41:39.085Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:41:40.1084 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:41:39.035Z","ToDate":"2023-02-13T05:41:39.035Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:41:41.8046 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:41:42.0220 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:41:42.0382 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:41:42.0542 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:41:42.0382 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:41:42.4548 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:41:42.4628 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:41:42.5102 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:41:42.5102 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:41:42.5102 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:41:42.6027 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:41:42.6587 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:41:42.6667 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:41:42.6987 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:41:42.7307 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:41:42.8308 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:41:42.8308 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:41:42.9639 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:41:43.0358 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:41:39.099Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:41:43.0919 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:41:43.5923 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:46:53.0056 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:46:53.0056 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:46:51.291Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:46:53.0149 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:46:53.0149 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:46:51.247Z","ToDate":"2023-02-13T05:46:51.247Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:46:53.0056 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:46:56.0631 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:46:56.0631 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:46:56.4152 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:46:56.5103 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:46:56.6091 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:46:56.6371 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:46:56.6981 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:46:56.6981 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:46:56.7779 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:46:56.8063 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:46:56.8323 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:46:56.9441 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:46:56.9508 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:46:57.1571 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:46:57.2341 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:46:57.2482 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:46:57.2482 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:46:57.3053 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:46:57.3302 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:46:51.298Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:46:57.3853 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:46:57.5033 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:48:13.2855 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:48:13.4710 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:48:13.4969 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:48:12.917Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:48:13.5518 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:48:13.6834 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:48:12.856Z","ToDate":"2023-02-13T05:48:12.856Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:48:13.7033 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:48:13.7712 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:48:13.9629 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:48:13.9928 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:48:14.0294 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:48:14.0433 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:48:14.3510 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:48:14.8062 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:48:12.926Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:48:14.8092 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:48:14.8092 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:48:15.1423 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:48:15.4599 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:48:16.0443 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:48:16.1440 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:48:16.1730 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:48:16.3226 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:48:16.4253 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:48:16.6467 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:48:16.6776 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:48:16.7235 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:48:16.7534 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:50:30.2066 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:50:29.946Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:50:30.2395 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:50:30.2395 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:50:30.2924 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:50:30.3443 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:50:30.3443 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:50:30.5447 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:50:30.5637 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:50:30.6474 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:50:30.6474 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:50:30.6913 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:50:30.7033 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:50:30.7033 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:50:30.7282 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:50:29.958Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:50:30.7282 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:50:30.7452 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:50:29.891Z","ToDate":"2023-02-13T05:50:29.891Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:50:30.7581 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:50:30.7721 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:50:30.7721 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:50:30.7930 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:50:30.7930 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:50:30.8210 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:50:30.8469 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:50:30.8489 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:50:30.8649 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:50:31.9529 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:52:56.2778 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-28T00:00:00","ToDate":"2023-02-13T05:50:29.891Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:52:59.4508 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:52:59.9106 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2022-08-28T00:00:00","ToDate":"2023-02-13T05:50:29.891Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:53:01.1342 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:53:55.6226 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 10:53:55.6405 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T05:53:55.295Z","ToDate":"2023-02-13T05:53:55.295Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 10:53:55.6724 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 10:53:55.7373 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 10:53:55.7642 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 10:53:55.8450 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 10:53:55.8450 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 10:53:55.8599 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:53:55.359Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 10:53:55.9347 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 10:53:56.0005 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 10:53:56.0374 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 10:53:56.0863 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:53:56.9250 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 10:53:56.9709 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:53:57.0178 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 10:53:57.0178 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 10:53:57.0766 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T05:53:55.37Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 10:53:57.0766 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 10:53:57.1026 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 10:53:57.1085 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 10:53:57.1484 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 10:53:57.2382 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 10:53:57.2671 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 10:53:57.2950 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:53:57.2980 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 10:53:57.4008 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:16:38.0564 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 14:16:39.5960 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 14:16:40.0304 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:16:40.0623 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:16:40.0934 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:16:40.1283 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:16:40.1682 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:16:40.1682 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:16:40.2001 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:16:39.838Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:16:40.2111 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:16:40.3134 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:16:40.3493 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:16:40.3493 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:16:40.4226 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:16:40.4226 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:16:40.4426 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:16:41.1651 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:16:41.1930 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:16:41.2140 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:16:41.2230 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:16:41.05Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:16:41.2459 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:16:41.2968 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:16:41.2968 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:16:41.02Z","ToDate":"2023-02-13T09:16:41.02Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:16:41.3277 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:16:41.4105 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:16:41.4573 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:16:41.4972 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:16:41.5561 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:16:41.6807 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:16:42.3771 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:20:28.3469 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:20:28.051Z","ToDate":"2023-02-13T09:20:28.051Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:20:28.3638 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:20:28.3638 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:20:28.4157 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:20:28.4326 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:20:28.4526 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:20:28.4576 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:20:28.4765 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:20:28.5214 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:20:28.09Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:20:28.7332 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:20:28.7872 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:20:28.8122 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:20:28.8122 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:20:28.8272 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:20:28.8682 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:20:28.8952 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:20:28.9222 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:20:28.9512 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:20:29.0032 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:20:29.0072 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:20:28.101Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:20:29.0232 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:20:29.0653 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:20:29.0903 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:20:29.1093 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:20:29.3813 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:20:29.8377 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:22:43.5464 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:22:43.183Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:22:43.5464 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:22:43.7439 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:22:43.7728 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:22:43.072Z","ToDate":"2023-02-13T09:22:43.072Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:22:43.7932 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:22:43.7932 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:22:43.9787 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:22:44.3398 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:22:44.4624 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:22:44.4624 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:22:44.6120 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:22:44.7643 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:22:44.8327 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:22:44.8975 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:22:44.9274 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:22:44.9444 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:22:45.0531 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:22:45.0531 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:22:45.1289 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:22:45.2376 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:22:45.5144 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:22:45.5533 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:22:45.5533 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:22:43.205Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:22:45.6610 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:22:45.8605 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:22:46.8524 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:22:56.7063 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 14:22:56.7687 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 14:22:57.2456 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:22:56.982Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:22:57.3035 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:22:57.3245 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:22:57.3245 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:22:57.3355 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:22:57.3929 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:22:57.4034 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:22:57.5162 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:22:57.5162 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:22:57.7017 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:22:57.7087 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:22:57.7466 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:22:57.7466 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:22:57.7705 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:23:17.3981 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:23:17.4106 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:23:17.4712 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:23:17.4941 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:23:17.5322 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:23:17.6161 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:23:17.6471 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:23:17.6932 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:23:17.7522 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:23:17.132Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:23:17.8122 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:23:17.9022 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:23:18.0027 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:23:18.0167 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:23:18.0980 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:23:19.7996 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:23:19.8844 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:23:19.9282 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:23:19.9761 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:23:20.0000 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:23:20.0070 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:23:20.0070 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:23:19.583Z","ToDate":"2023-02-13T09:23:19.583Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:23:20.0070 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:23:20.1347 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:23:20.1995 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:23:19.624Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:23:20.2165 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:23:20.2653 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:23:20.7107 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:23:21.4326 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:26:12.3344 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 14:26:12.3798 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 14:26:12.6244 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:26:12.7042 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:26:12.7252 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:26:12.7252 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:26:12.7731 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:26:12.497Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:26:12.7731 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:26:12.7731 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:26:12.8070 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:26:12.8230 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:26:12.9332 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:26:12.9667 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:26:12.9966 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:26:13.0286 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:26:13.0375 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:26:14.3378 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:26:14.3587 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:26:14.3727 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:26:14.3837 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:26:14.206Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:26:14.4086 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:26:14.4759 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:26:14.5388 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:26:14.155Z","ToDate":"2023-02-13T09:26:14.155Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:26:14.5637 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:26:14.5926 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:26:14.5926 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:26:14.6944 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:26:14.7921 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:26:14.9626 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:26:15.5616 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:44:59.2244 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 14:45:02.7980 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 14:45:05.7613 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:45:05.7772 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:45:05.7992 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:45:05.8690 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:45:05.9438 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:45:05.261Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:45:06.0042 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:45:06.0640 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:45:07.4265 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:45:07.4923 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:45:08.9176 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:45:10.4213 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:45:10.7047 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:45:11.5050 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:45:10.496Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:45:12.3331 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:45:12.3929 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:45:12.5513 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:45:12.6051 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:45:12.9520 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:45:13.0493 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:45:10.458Z","ToDate":"2023-02-13T09:45:10.458Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:45:13.2049 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:45:13.3036 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:45:13.5289 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:45:13.5868 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:45:13.6067 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:45:13.7659 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:45:13.8826 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:45:14.0178 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:45:15.3009 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:49:59.4652 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 14:50:01.2243 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 14:50:01.6507 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:50:01.6896 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:50:01.7045 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:50:01.7394 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:50:01.7873 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 14:50:01.8297 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:50:01.476Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:50:01.8626 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:50:01.8995 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:50:01.8995 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:50:01.9514 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:50:02.0197 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:50:02.0536 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:50:02.0946 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 14:50:02.0946 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:50:06.3929 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:50:06.4096 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:50:06.4166 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:50:06.4166 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2023-02-13 14:50:06.4470 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:50:06.4470 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2023-02-13 14:50:06.6405 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:50:06.7114 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:51:17.5955 INFO Entering the User Controller.  InserUserProfile Method   Arguments:: {"UserProfileID":0,"UserName":"abdul_rahman","FullName":"Abdul Rahman","Email":"rezaid33@gmail.com","Department":"2","JoiningDate":null,"IsActive":true,"AccountType":"Staff","Picture":null,"Creationdatetime":null,"Designation":"Senior Ui / Ux Designer"}
+2023-02-13 14:51:17.6523 INFO Exit the User Controller.  InserUserProfile Method(Success)  
+2023-02-13 14:51:17.7802 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:51:17.8218 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:51:20.7550 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:51:20.8149 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:51:20.8188 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:51:20.561Z","ToDate":"2023-02-13T09:51:20.561Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:51:20.8188 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:51:20.8353 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:51:20.8812 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:51:20.616Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:51:21.0119 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:51:21.0897 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:51:21.1435 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:51:21.1695 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:51:21.1854 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:51:21.3640 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:51:21.6939 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:51:22.1279 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:54:48.1042 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:54:47.848Z","ToDate":"2023-02-13T09:54:47.848Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:54:48.1042 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:54:48.1641 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:54:48.1641 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:54:48.2199 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:54:48.2498 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:54:48.3057 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:54:48.3346 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:54:48.3217 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:54:47.894Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:54:48.3855 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:54:48.5167 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:54:48.5366 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:54:48.5616 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:54:48.5845 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:54:48.5845 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:54:48.6654 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:54:48.6654 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:54:47.905Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:54:48.7244 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:54:48.7244 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:54:48.7864 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:54:48.7864 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:54:48.8345 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:54:48.8774 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:54:48.9334 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:54:49.1875 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:54:49.6225 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:54:51.5604 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:54:51.5823 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:54:51.6003 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:54:51.6138 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:54:51.6343 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2023-02-13 14:54:51.6496 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2023-02-13 14:54:51.7563 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:54:51.7832 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:57:04.1953 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:57:03.972Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:57:04.2073 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:57:04.2511 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:57:04.2641 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2023-02-13 14:57:04.3110 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:57:04.4796 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:57:04.5066 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:57:04.5066 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2023-02-13 14:57:04.5365 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:57:04.5873 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:57:04.6402 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:57:04.6402 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:57:04.6801 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:57:04.6960 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:57:04.7220 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:57:04.7290 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:57:04.8339 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:57:04.9418 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:57:05.0424 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:57:06.4211 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:57:07.3605 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:57:07.3894 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:57:07.4143 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:57:07.4363 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:57:07.5335 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:57:07.5534 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:57:07.5928 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:57:07.6128 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:57:07.6188 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:57:07.6407 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:57:07.228Z","ToDate":"2023-02-13T09:57:07.228Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:57:07.7111 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:57:07.263Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:57:07.8091 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:57:08.4061 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:57:08.6955 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:58:20.1118 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:58:20.1118 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:58:20.1188 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:58:15.418Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:58:20.8515 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:58:20.8515 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:58:23.5494 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:58:15.367Z","ToDate":"2023-02-13T09:58:15.367Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:58:23.6162 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:58:23.6606 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:58:23.6835 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:58:23.6835 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:58:23.7274 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:58:23.7394 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:58:23.8192 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:58:24.0571 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:58:24.0571 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:58:23.8351 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:58:24.1259 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:58:24.2436 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:58:24.2555 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:58:24.2555 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:58:24.2555 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:58:15.431Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:58:24.3622 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:58:24.5846 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:58:24.8599 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:58:24.8639 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:58:25.2070 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 14:58:31.3152 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 14:58:31.3242 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:58:31.3531 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:58:31.3781 INFO Entering the DepartmentMapping Controller.  GetDepartmentLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 14:58:31.4209 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 14:58:31.4289 INFO Exit the DepartmentMapping Controller.  GetDepartmentLazyLoading Method(Success) 
+2023-02-13 14:58:31.4600 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2023-02-13 14:58:31.4849 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2023-02-13 14:58:34.5888 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2023-02-13 14:58:34.6028 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2023-02-13 14:58:34.6028 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2023-02-13 14:58:34.6483 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2023-02-13 14:58:40.1939 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2023-02-13 14:58:40.2077 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":null,"ClientEmail":null,"ContactNumber":null,"Address":null,"Website_URL":null,"Facebooklink":null,"Twitter":null,"instagramlink":null,"Active":false}
+2023-02-13 14:58:40.2077 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2023-02-13 14:58:40.2302 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:58:40.2422 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 14:58:40.2772 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 14:58:42.5859 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 14:58:42.5978 INFO Entering the Projects Controller.  SearchProject Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:58:42.6407 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:58:42.6507 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:58:42.6607 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2023-02-13 14:58:42.6607 INFO Exit the Projects Controller.  SearchProject Method(Success) 
+2023-02-13 14:58:43.7473 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:58:43.7473 INFO Entering the MainTask Controller.  SearchMainTasks Method   Arguments:: null
+2023-02-13 14:58:43.7607 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:58:43.7607 INFO Entering the MainTask Controller.  GetMainTaskLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-02-13 14:58:43.7916 INFO Exit the MainTask Controller.  SearchMainTasks Method(Success)  
+2023-02-13 14:58:43.7916 INFO Exit the MainTask Controller.  GetMainTaskLazyLoading Method(Success) 
+2023-02-13 14:58:44.6214 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:58:44.6401 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:58:44.6401 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:58:44.6548 INFO Entering the Tasks Controller.  GetTasks Method   Arguments:: {"TaskName":null,"ProjectID":-1,"MaintaskID":0}
+2023-02-13 14:58:44.6548 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:58:44.7984 INFO Exit the Tasks Controller.  GetTasks Method(Success)  
+2023-02-13 14:58:46.9955 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:58:47.0102 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:58:50.0676 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:58:50.0676 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2023-02-13 14:58:50.1015 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:58:50.1015 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2023-02-13 14:58:50.1264 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:58:50.1444 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:58:50.3219 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:58:50.3489 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:59:55.7302 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 14:59:55.7302 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:59:55.7492 INFO Entering the Designation Controller.  GetDesignation Method   Arguments:: null
+2023-02-13 14:59:55.7751 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:59:55.8130 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 14:59:55.8329 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:59:55.9656 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:59:55.9656 INFO Exit the Designation Controller.  GetDesignation Method(Success)  
+2023-02-13 14:59:55.9865 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 14:59:56.0055 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:59:55.529Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 14:59:56.0883 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:59:56.0883 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 14:59:56.1511 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 14:59:56.1651 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:59:56.1651 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 14:59:56.1890 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:59:56.1950 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:59:56.2229 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 14:59:56.3137 INFO Entering the User Controller.  GetFilterUserProfile Method   Arguments:: {"Name":"","Email":"","Department":"","Status":null,"EMSRole":"","Designation":""}
+2023-02-13 14:59:56.3685 INFO Exit the User Controller.  GetFilterUserProfile Method(Success)  
+2023-02-13 14:59:56.9440 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 14:59:56.9440 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T09:59:56.825Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 14:59:56.9440 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 14:59:56.9689 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 14:59:57.0088 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 14:59:57.0088 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 14:59:57.0407 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 14:59:57.0776 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 14:59:57.0776 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 14:59:57.1085 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T09:59:56.8Z","ToDate":"2023-02-13T09:59:56.8Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 14:59:57.1325 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 14:59:57.1484 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 14:59:57.4280 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 14:59:58.0306 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:02:41.7253 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:02:42.5930 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:02:36.867Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:02:42.6887 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:02:43.1041 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:02:43.7205 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:02:43.9419 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:02:44.3810 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:02:45.0341 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:02:45.3574 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:02:45.3574 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:02:36.808Z","ToDate":"2023-02-13T10:02:36.808Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:02:45.3983 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:02:45.4122 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:02:45.4122 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:02:45.4731 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:02:45.5609 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:02:45.6775 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:02:36.881Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:02:45.7065 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:02:45.7075 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:02:45.7653 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:02:46.3906 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:02:46.3996 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:02:46.4605 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:02:46.4864 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:02:46.5163 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:02:46.5722 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:02:46.9669 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:06:20.8660 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:06:20.8960 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:06:20.8960 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:06:20.9199 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:06:20.9199 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:06:20.9578 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:06:20.468Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:06:20.9728 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:06:20.9907 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:06:21.0057 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:06:21.0766 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:06:21.0995 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:06:20.354Z","ToDate":"2023-02-13T10:06:20.354Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:06:21.0995 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:06:21.1394 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:06:21.2980 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:06:21.3429 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:06:21.3508 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:06:20.48Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:06:21.3668 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:06:21.4611 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:06:21.7084 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:06:21.7084 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:06:21.7772 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:06:21.8221 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:06:21.8361 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:06:21.8660 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:06:21.8660 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:06:22.6752 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:11:39.8546 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:11:39.8546 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:11:39.576Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:11:39.8546 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:11:39.8851 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:11:39.8851 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:11:39.508Z","ToDate":"2023-02-13T10:11:39.508Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:11:39.9628 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:11:40.0067 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:11:40.1389 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:11:40.2068 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:11:40.2995 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:11:40.3514 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:11:40.3514 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:11:39.587Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:11:40.3813 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:11:40.4332 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:11:40.4441 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:11:40.5648 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:11:40.6187 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:11:40.6316 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:11:40.6575 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:11:40.6705 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:11:40.6785 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:11:40.6785 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:11:40.7234 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:11:40.7533 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:11:40.7693 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:11:41.3380 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:12:50.1753 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 15:12:51.8484 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 15:12:52.3006 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:12:52.3390 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:12:52.3599 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:12:52.4113 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:12:52.4113 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:12:52.4393 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 15:12:52.4772 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:12:52.5131 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:12:52.5310 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:12:52.5539 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:12:52.6497 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:12:52.094Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:12:52.6497 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:12:52.7295 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 15:12:52.7674 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:12:53.8375 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:12:53.8535 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:12:53.8694 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:12:53.8834 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:12:53.734Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:12:53.9403 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:12:53.9901 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:12:54.0071 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:12:54.0310 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:12:54.0480 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:12:54.1333 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:12:54.1891 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:12:53.705Z","ToDate":"2023-02-13T10:12:53.705Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:12:54.1921 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:12:54.6391 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:12:55.2864 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:14:29.9751 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:14:31.9955 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:14:32.0693 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:14:32.5729 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:14:28.007Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:14:32.6048 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:14:35.0632 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:14:35.2049 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:14:27.911Z","ToDate":"2023-02-13T10:14:27.911Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:14:35.2268 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:14:35.4023 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:14:28.019Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:14:35.4332 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:14:35.4482 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:14:35.4482 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:14:35.5001 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:14:35.5420 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:14:35.5559 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:14:35.5878 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:14:35.6721 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:14:35.6791 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:14:35.6941 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:14:35.7170 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:14:35.7280 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:14:35.8008 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:14:36.4087 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:14:36.4925 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:14:36.5045 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:14:37.1643 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:19:35.7524 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:19:35.7524 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:19:35.7604 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:19:35.8073 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:19:35.8761 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:19:35.8831 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:19:35.9000 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:19:35.9309 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:19:35.9495 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:19:35.488Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:19:36.1436 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:19:36.2019 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:19:36.2588 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:19:36.2737 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:19:36.2737 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:19:36.3186 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:19:36.3186 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:19:35.499Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:19:36.3555 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:19:35.444Z","ToDate":"2023-02-13T10:19:35.444Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:19:36.3735 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:19:36.5590 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:19:36.6168 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:19:36.6168 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:19:36.6168 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:19:36.6408 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:19:36.6687 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:19:36.8811 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:19:37.5354 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:19:59.4763 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T10:19:35.444Z","ToDate":"2023-02-13T10:19:35.444Z","IsApproved":null,"ClientID":4,"DepartmentID":-1}
+2023-02-13 15:19:59.7272 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:19:59.9448 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:19:35.444Z","ToDate":"2023-02-13T10:19:35.444Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":4,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:20:00.6826 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:21:03.0108 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 15:21:04.6692 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 15:21:05.1083 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:21:05.1242 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:21:05.1811 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:21:05.2230 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:21:05.2490 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:21:05.2900 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:21:05.2900 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 15:21:05.3100 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:21:05.3210 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:21:04.914Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:21:05.3591 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:21:05.4190 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:21:05.4901 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:21:05.5395 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:21:05.5983 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 15:21:06.6419 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:21:06.6618 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:21:06.7176 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:21:06.7256 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:21:06.7815 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:21:06.7815 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:21:06.541Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:21:06.7924 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:21:06.8313 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:21:06.8732 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:21:06.9450 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:21:07.0079 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:21:07.0308 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:21:06.498Z","ToDate":"2023-02-13T10:21:06.498Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:21:07.3480 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:21:08.1734 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:22:27.0681 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 15:22:28.8895 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 15:22:29.5149 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:22:29.5218 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:22:29.5707 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:22:29.6056 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:22:29.6335 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:22:29.6335 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:22:29.6744 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 15:22:29.6954 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:22:29.6954 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:22:29.8390 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:22:29.8390 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:22:29.206Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:22:29.8799 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:22:29.9766 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 15:22:29.9891 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:22:31.5615 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:22:31.5615 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:22:31.6004 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:22:31.6004 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:22:31.6603 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:22:31.6942 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:22:31.437Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:22:31.7241 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:22:31.7650 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:22:31.8328 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:22:31.406Z","ToDate":"2023-02-13T10:22:31.406Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:22:31.8328 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:22:31.9076 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:22:31.9455 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:22:32.2374 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:22:33.0617 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:22:33.5208 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 15:22:33.5208 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":0,"maintaskID":0}
+2023-02-13 15:22:33.5837 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 15:22:33.6355 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2023-02-13 15:22:34.3362 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":12}
+2023-02-13 15:22:34.3521 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 15:22:34.3960 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 15:22:34.3960 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2023-02-13 15:22:39.0759 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":54726,"ProjectID":2087,"TASKID":2519330,"UserID":8,"AssignmentDateTime":"02/03/2023","ActualDuration":"7.50","CommentText":"- Research and storyboarding of \"Paid social\" animated video for youtube (7)\n- Edits in \"Public relations\" animated youtube video (0.5).","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":12}
+2023-02-13 15:22:39.2254 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2023-02-13 15:22:39.9128 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T10:22:31.406Z","ToDate":"2023-02-13T10:22:31.406Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:22:40.1432 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:22:40.3836 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:22:31.406Z","ToDate":"2023-02-13T10:22:31.406Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:22:40.4215 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:22:46.0500 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"wasi_haider","password":"R@zaidEMS"}
+2023-02-13 15:22:46.0939 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 15:22:46.3012 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:22:46.3012 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:22:46.3012 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:22:46.189Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:22:46.3177 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:22:46.3177 INFO Entering the DashBoard Controller.  GetDashBoardStatsForStaff Method   Arguments:: {"Year":"2023","Month":"02","iStaffID":"68"}
+2023-02-13 15:22:46.3556 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:22:46.4354 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:22:46.4683 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":68,"DepartID":0}
+2023-02-13 15:22:46.4943 INFO Exit the DashBoard Controller.  GetDashBoardStatsForStaff Method(Success)  
+2023-02-13 15:22:46.4943 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"68"}
+2023-02-13 15:22:46.5062 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:22:46.5313 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:22:46.5632 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"68"}
+2023-02-13 15:22:46.6076 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:22:47.1874 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:22:47.1973 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:22:47.095Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:22:47.2106 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:22:47.2924 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:22:48.6619 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 15:22:48.6851 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2023-02-13 15:22:48.7420 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 15:22:50.8276 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 15:22:50.8356 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 15:22:52.5694 INFO Entering the TasksDescription Controller.  GetTaskDescription Method   Arguments:: {"projectID":2126,"maintaskID":106}
+2023-02-13 15:22:52.6031 INFO Exit the TasksDescription Controller.  GetTaskDescription Method(Success)  
+2023-02-13 15:22:54.5039 INFO Exit the Reports Controller.  CheckUserHours Method(Success)  
+2023-02-13 15:22:55.1742 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":2126,"TASKID":2524489,"UserID":68,"AssignmentDateTime":"02/13/2023","ActualDuration":"6","CommentText":"eee","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":106}
+2023-02-13 15:22:55.2119 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2023-02-13 15:23:00.1037 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-02-13 15:23:00.1390 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-02-13 15:23:00.3593 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:23:00.3723 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-02-13 15:23:00.3723 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:23:00.3813 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-02-13 15:23:00.4062 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:23:00.4341 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:23:00.23Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-02-13 15:23:00.4461 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-02-13 15:23:00.4461 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-02-13 15:23:00.4700 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-02-13 15:23:00.4850 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-02-13 15:23:00.5414 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:00.5623 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-02-13 15:23:00.5693 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-02-13 15:23:00.5693 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-02-13 15:23:01.7875 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-02-13 15:23:01.8134 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:23:01.626Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:01.8134 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-02-13 15:23:01.8593 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:23:01.626Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:01.8932 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-02-13 15:23:01.9261 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-02-13 15:23:01.9640 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-02-03T10:23:01.657Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:02.0383 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-02-13 15:23:02.0683 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-02-13 15:23:02.1371 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-02-13 15:23:02.1580 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-02-13 15:23:02.1869 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:02.2767 INFO Entering the Department Controller.  GetDepartments Method
+2023-02-13 15:23:02.2857 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:02.3096 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:23:01.626Z","ToDate":"2023-02-13T10:23:01.626Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:23:02.3186 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-02-13 15:23:02.3914 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:23:02.4173 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:02.6052 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T10:23:01.638Z","ToDate":"2023-02-13T10:23:01.638Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:02.8636 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:02.9254 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-03T10:23:01.638Z","ToDate":"2023-02-13T10:23:01.638Z","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:03.2465 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:03.3762 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:23:01.638Z","ToDate":"2023-02-13T10:23:01.638Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:23:03.4171 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:23:03.5396 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-03T10:23:01.638Z","ToDate":"2023-02-13T10:23:01.638Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:23:03.5984 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:23:10.3933 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-13T00:00:00","ToDate":"2023-02-13T00:00:00","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:10.4422 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:10.7664 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-13T00:00:00","ToDate":"2023-02-13T00:00:00","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:23:10.7867 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2023-02-13 15:23:12.0953 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-02-13 15:23:12.1262 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-02-13 15:23:12.1431 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2126,"maintaskID":106}
+2023-02-13 15:23:12.2224 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2023-02-13 15:23:14.2361 INFO Entering the Reports Controller.  DeleteAssignment Method   Arguments:: 54874
+2023-02-13 15:23:14.2501 INFO Exit the Reports Controller.  DeleteAssignment Method(Success)  
+2023-02-13 15:23:14.5566 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2023-02-13T00:00:00","ToDate":"2023-02-13T00:00:00","IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-02-13 15:23:14.5815 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-02-13 15:23:14.6834 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-02-13T00:00:00","ToDate":"2023-02-13T00:00:00","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-02-13 15:23:14.7068 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  

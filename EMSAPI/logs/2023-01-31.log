@@ -1,0 +1,47 @@
+2023-01-31 13:19:24.0502 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-01-31 13:19:25.1493 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-01-31 13:19:26.6119 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-01-31 13:19:26.6338 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-01-31 13:19:26.6608 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-01-31 13:19:26.7136 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-01-31 13:19:26.7136 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-01-31 13:19:26.7515 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-01-31 13:19:26.9111 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-01-31 13:19:27.2053 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-01-31 13:19:27.4167 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2023-01-31 13:19:27.4826 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-01-21T08:19:26.278Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-01-31 13:19:27.4886 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-01-31 13:19:27.5185 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-01-31 13:19:27.5185 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-01-31 13:19:27.5484 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-01-31 13:19:30.8266 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":null,"FromDate":"2023-01-21T08:19:30.594Z","ToDate":"2023-01-31T08:19:30.594Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0,"DepartmentID":-1}
+2023-01-31 13:19:30.8266 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2023-01-31 13:19:30.8506 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2023-01-31 13:19:30.8645 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2023-01-31 13:19:30.8436 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":[-1],"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-01-21T08:19:30.644Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":-1}
+2023-01-31 13:19:30.8506 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2023-01-31 13:19:31.0929 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-01-31 13:19:31.1089 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2023-01-31 13:19:31.1328 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2023-01-31 13:19:31.1328 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2023-01-31 13:19:31.1926 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-01-31 13:19:31.2535 INFO Entering the Department Controller.  GetDepartments Method
+2023-01-31 13:19:31.3203 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2023-01-31 13:19:32.6448 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  
+2023-01-31 13:19:37.5586 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":null,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2023-01-21T08:19:37.361Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2023-01-31 13:19:37.5726 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-01-31 13:19:37.6005 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-01-31 13:19:37.6005 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2023-01-31 13:19:40.5925 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2023-01-31 13:19:40.6464 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2023-01-31 13:19:57.6659 INFO Entering the TasksDescription Controller.  GetTaskDescription Method   Arguments:: {"projectID":3171,"maintaskID":113}
+2023-01-31 13:19:57.6868 INFO Exit the TasksDescription Controller.  GetTaskDescription Method(Success)  
+2023-01-31 13:20:05.1155 INFO Exit the Reports Controller.  CheckUserHours Method(Success)  
+2023-01-31 13:20:06.4385 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":3171,"TASKID":2526652,"UserID":14,"AssignmentDateTime":"01/31/2023","ActualDuration":"8","CommentText":"1233233","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":113}
+2023-01-31 13:20:06.5861 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Failed)  
+2023-01-31 13:20:12.6628 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":3171,"TASKID":2526652,"UserID":14,"AssignmentDateTime":"01/31/2023","ActualDuration":"8","CommentText":"1233233","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":113}
+2023-01-31 13:20:12.8334 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Failed)  
+2023-01-31 13:20:55.0534 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":3171,"TASKID":2526652,"UserID":14,"AssignmentDateTime":"01/31/2023","ActualDuration":"8","CommentText":"1233233","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":113}
+2023-01-31 13:20:55.1521 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Failed)  
+2023-01-31 13:20:57.0421 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":0,"ProjectID":3171,"TASKID":2526652,"UserID":14,"AssignmentDateTime":"01/31/2023","ActualDuration":"8","CommentText":"1233233","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":113}
+2023-01-31 13:20:57.1258 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Failed)  

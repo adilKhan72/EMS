@@ -1,0 +1,75 @@
+.makeStyles-paper-2 {
+  width: 270px !important;
+  height: 320px !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  border: 1px solid #e4e4e4 !important;
+}
+.transfer_list .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+  max-height: 400px;
+  overflow-y: auto;
+  min-height: 400px;
+  min-width: 240px;
+}
+.transfer_list .btn-black {
+  margin-top: 20px;
+}
+.transfer_list_search {
+  top: -12px;
+  text-align: left;
+}
+
+.transfer_list .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+  max-width: 280px;
+}
+.mapping_placeholder {
+  text-align: center;
+  font-size: 17px;
+  color: #7d7d7d;
+}
+.mapping_placeholder_title {
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  .makeStyles-button-3 {
+    margin: 4px 2px !important;
+  }
+  .MuiGrid-container {
+    display: block !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+  .makeStyles-paper-2 {
+    width: auto !important;
+    height: auto !important;
+  }
+  span.MuiButton-label {
+    transform: rotate(90deg);
+  }
+  .transfer_list_search {
+    top: 4px;
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 15px;
+  }
+  .transfer_list .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    max-width: 100%;
+  }
+  .transfer_list .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+    max-height: auto;
+    overflow-y: auto;
+    min-height: auto;
+    min-width: auto;
+  }
+  .mapping_placeholder {
+    margin-bottom: 22px;
+  }
+  .input_list.transfer_list_search .form-control {
+    height: 38px !important;
+  }
+}

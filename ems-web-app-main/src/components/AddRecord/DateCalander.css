@@ -1,0 +1,66 @@
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  .customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  input {
+  width: 100%;
+  height: 100%;
+}
+.react-datepicker__input-container {
+  width: inherit;
+  height: inherit;
+}
+.react-datepicker__input-container input {
+  width: inherit;
+  height: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .col-md-4.col-sm-9.p-0,
+  .styled-select,
+  input.form-control.input-md-4.col-md-4.col-sm-9,
+  textarea.col-md-10.col-sm-9.ui-widget.form-control.txtArea {
+    width: 100%;
+    max-width: 100%;
+  }
+  label.control-label.col-md-2.col-sm-3 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
+.billable_box {
+  position: relative;
+  padding: 0;
+  clear: both;
+}
+.billable_box input.form-control {
+  width: calc(100% - 0) !important;
+}
+.billable_box span.MuiButtonBase-root {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.billable_box .houres_box {
+  position: absolute;
+  right: 0;
+  width: 36px;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+  font-size: 11px;
+  top: -10px;
+}
+@media (max-width: 991px) {
+  .billable_box {
+    max-width: 100%;
+  }
+}

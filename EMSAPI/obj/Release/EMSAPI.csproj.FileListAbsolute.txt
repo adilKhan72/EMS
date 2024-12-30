@@ -1,0 +1,859 @@
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\NLog.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EPPlus.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\NLog.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Owin.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.IO.FileSystem.Primitives.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\WebGrease.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\itextsharp.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EPPlus.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\NLog.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\itextsharp.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.xml
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+D:\Desktop\EMS-React\EMS-React\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\NLog.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EPPlus.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\NLog.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Owin.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.IO.FileSystem.Primitives.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\WebGrease.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\itextsharp.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EPPlus.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\NLog.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\itextsharp.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.xml
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+D:\Desktop\React-EMS 06-07-2022\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\NLog.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EPPlus.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\NLog.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Owin.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.IO.FileSystem.Primitives.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\WebGrease.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\itextsharp.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EPPlus.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\NLog.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\itextsharp.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+E:\New folder (3)\react wasi\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb
+D:\React_EMS_API\EMSAPI\bin\NLog.config
+D:\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+D:\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+D:\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+D:\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+D:\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+D:\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+D:\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+D:\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+D:\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+D:\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+D:\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+D:\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+D:\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+D:\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+D:\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+D:\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+D:\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+D:\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+D:\React_EMS_API\EMSAPI\bin\EPPlus.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+D:\React_EMS_API\EMSAPI\bin\NLog.dll
+D:\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+D:\React_EMS_API\EMSAPI\bin\Owin.dll
+D:\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+D:\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+D:\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+D:\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+D:\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+D:\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+D:\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+D:\React_EMS_API\EMSAPI\bin\WebGrease.dll
+D:\React_EMS_API\EMSAPI\bin\itextsharp.dll
+D:\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+D:\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+D:\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+D:\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.dll
+D:\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+D:\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+D:\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+D:\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+D:\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+D:\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+D:\React_EMS_API\EMSAPI\bin\EPPlus.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\React_EMS_API\EMSAPI\bin\NLog.xml
+D:\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+D:\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+D:\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+D:\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+D:\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+D:\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+D:\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+D:\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+D:\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+D:\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\React_EMS_API\EMSAPI\bin\itextsharp.xml
+D:\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+D:\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+D:\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.xml
+D:\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+D:\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+D:\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+D:\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+D:\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\NLog.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+D:\Office Project\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\EPPlus.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\NLog.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Owin.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\WebGrease.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\itextsharp.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+D:\Office Project\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\EPPlus.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\NLog.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\itextsharp.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.xml
+D:\Office Project\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+D:\Office Project\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+D:\Office Project\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+D:\Office Project\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+D:\Office Project\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Unity.Abstractions.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\Unity.Container.dll
+D:\Office Project\React_EMS_API\EMSAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Office Project\React_EMS_API\EMSAPI\bin\Unity.Abstractions.pdb
+D:\Office Project\React_EMS_API\EMSAPI\bin\Unity.Container.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\NLog.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EMSAPI.dll.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EMSAPI.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EMSAPI.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csc.rsp
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csi.exe
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\csi.rsp
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Claims.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFBL.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFBO.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFCommon.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EPPlus.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\NLog.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\OfficeOpenXml.Extends.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Owin.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.IO.Packaging.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Cors.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Unity.Abstractions.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Unity.Container.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\itextsharp.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\SpreadsheetLight.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFBL.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFBO.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFCommon.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFDAL.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DemoEFDAL.dll.config
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EPPlus.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Cors.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\NLog.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Data.SqlClient.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.AccessControl.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.Permissions.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Security.Principal.Windows.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.Owin.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Unity.Abstractions.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Unity.Container.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\itextsharp.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\SpreadsheetLight.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\bin\DocumentFormat.OpenXml.xml
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\obj\Release\EMSAPI.csproj.CopyComplete
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\obj\Release\EMSAPI.dll
+C:\Users\Administrator\Desktop\New folder (4)\React_EMS_API\EMSAPI\obj\Release\EMSAPI.pdb

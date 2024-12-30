@@ -1,0 +1,50 @@
+.InputBlack input:-webkit-autofill,
+.InputBlack input:-webkit-autofill:hover,
+.InputBlack input:-webkit-autofill:focus,
+.InputBlack input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #1b1b1b inset !important;
+}
+/*Change text in autofill textbox*/
+.InputBlack input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  caret-color: white;
+}
+.sufee-login input,
+.sufee-login .form-control {
+  background: transparent;
+}
+.sufee-login input,
+.sufee-login .form-control {
+  border-bottom: 1px solid #fff;
+  background-color: transparent !important;
+}
+.material_style_login .form-group > label {
+  bottom: 33px;
+  left: 5px;
+  position: relative;
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events: none;
+  text-transform: capitalize;
+}
+.material_style_login .form-control:focus ~ label {
+  bottom: 50px;
+  left: 0px;
+}
+.material_style_login .form-control:valid ~ label {
+  bottom: 50px;
+  border-radius: 2px;
+  left: 0px;
+}
+.login-form .form-control:focus {
+  /* background-color: #fff; */
+  /* color: #000; */
+  outline: none !important;
+  box-shadow: none;
+}
+@media(max-width: 767px){
+  .login-content h2{
+    font-size: 18px;
+  }
+}

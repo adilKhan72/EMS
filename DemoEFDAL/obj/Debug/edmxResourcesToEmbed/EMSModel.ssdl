@@ -1,0 +1,1402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AssignmentTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="TaskID" Type="int" />
+    <Property Name="TaskOwnerID" Type="int" />
+    <Property Name="AssignmentDateTime" Type="date" />
+    <Property Name="ActualDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IsApproved" Type="bit" />
+    <Property Name="SubTaskId" Type="int" />
+    <Property Name="BillableHours" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IsBillableApproved" Type="int" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="BillableApprovedDateTime" Type="datetime" />
+    <Property Name="IsActualApproved" Type="int" />
+    <Property Name="UserIDActual" Type="int" />
+    <Property Name="ActualApprovedDateTime" Type="datetime" />
+    <Property Name="MainTaskID" Type="int" />
+  </EntityType>
+  <EntityType Name="AssignmentTable_Copy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="TaskID" Type="int" />
+    <Property Name="TaskOwnerID" Type="int" />
+    <Property Name="AssignmentDateTime" Type="date" />
+    <Property Name="ActualDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="IsApproved" Type="bit" />
+  </EntityType>
+  <EntityType Name="ClientTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClientName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ContactNumber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="Website_URL" Type="nvarchar(max)" />
+    <Property Name="Facebooklink" Type="nvarchar(max)" />
+    <Property Name="Twitter" Type="nvarchar(max)" />
+    <Property Name="instagramlink" Type="nvarchar(max)" />
+    <Property Name="Email" Type="varchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="DepartmentMapping">
+    <Key>
+      <PropertyRef Name="DepartMappingID" />
+    </Key>
+    <Property Name="DepartMappingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DepartID" Type="int" Nullable="false" />
+    <Property Name="MaintaskID" Type="int" Nullable="false" />
+    <Property Name="AdditionalCheck" Type="bit" />
+  </EntityType>
+  <EntityType Name="DepartmentTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DepartmentName" Type="nvarchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="FormattedScrappedData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="PhoneNo" Type="varchar" MaxLength="20" />
+    <Property Name="DataChunk" Type="varchar" MaxLength="2000" />
+    <Property Name="Country" Type="varchar" MaxLength="100" />
+    <Property Name="Department" Type="varchar" MaxLength="50" />
+    <Property Name="Company" Type="varchar" MaxLength="50" />
+    <Property Name="MessageType" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="Source" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_a4670f_rezaidemsdbcopy.dbo.LinksTable' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="LinksTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="link" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="LoginTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="AccountType" Type="nvarchar" MaxLength="50" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AttendenceSheetName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_a4670f_rezaidemsdbcopy.dbo.MainTaskTable' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="MainTaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MainTaskName" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="ProjectIDs" Type="varchar(max)" />
+    <Property Name="ProjectType" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="NotificationTable">
+    <Key>
+      <PropertyRef Name="iNotificationId" />
+    </Key>
+    <Property Name="iNotificationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="iProjectId" Type="int" />
+    <Property Name="dtCreation" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProjectBudgetDetail">
+    <Key>
+      <PropertyRef Name="BudgetID" />
+    </Key>
+    <Property Name="BudgetID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="ProjectBudgetYear" Type="datetime" />
+    <Property Name="ContractHoursInJanuary" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInFebruary" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMarch" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInApril" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMay" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJune" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJuly" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInAugust" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInSeptember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInOctober" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInNovember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInDecember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursPerMonth" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ProjectTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="500" />
+    <Property Name="IsExternal" Type="bit" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="Type" Type="varchar" MaxLength="100" />
+    <Property Name="EstimatedHours" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursPerMonth" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJanuary" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInFebruary" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMarch" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInApril" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInMay" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJune" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInJuly" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInAugust" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInSeptember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInOctober" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInNovember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ContractHoursInDecember" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ProjectDescription" Type="varchar(max)" />
+    <Property Name="ClientID" Type="int" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="ProjectOwner" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="ResetPasswordActivity">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GlobalID" Type="varchar(max)" />
+    <Property Name="LoginID" Type="int" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="CreationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ResourceMapping">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="ProjectName" Type="nvarchar" MaxLength="200" />
+    <Property Name="UserIDs" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_Projects">
+    <Key>
+      <PropertyRef Name="SchReport_ProjectID" />
+    </Key>
+    <Property Name="SchReport_ProjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="SchReport_ProjectName" Type="varchar" MaxLength="100" />
+    <Property Name="ProjectEstimate" Type="varchar" MaxLength="100" />
+    <Property Name="isActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_ResourceDetails">
+    <Key>
+      <PropertyRef Name="SchReport_ResourceDetailID" />
+    </Key>
+    <Property Name="SchReport_ResourceDetailID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="Phase" Type="varchar" MaxLength="100" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="Duration" Type="varchar" MaxLength="500" />
+    <Property Name="ProjectID" Type="int" />
+  </EntityType>
+  <EntityType Name="ScheduleReport_Updates">
+    <Key>
+      <PropertyRef Name="SchReport_UpdateID" />
+    </Key>
+    <Property Name="SchReport_UpdateID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Update#" Type="varchar" MaxLength="200" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="ProjectID" Type="int" />
+    <Property Name="Comments" Type="varchar" MaxLength="200" />
+    <Property Name="Phase" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Settings">
+    <Key>
+      <PropertyRef Name="iSettingId" />
+    </Key>
+    <Property Name="iSettingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vSettingName" Type="nvarchar" MaxLength="50" />
+    <Property Name="vSettingValue" Type="nvarchar" MaxLength="150" />
+    <Property Name="dtSettingCreation" Type="datetime" />
+    <Property Name="dtSettingModification" Type="datetime" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="lastModifiedBy" Type="varchar" MaxLength="255" />
+    <Property Name="SettingType" Type="varchar" MaxLength="200" />
+    <Property Name="Setting_Description" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="SubTaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubTaskName" Type="nvarchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Task_TaskWithEsimatesBridgeTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskTableID" Type="int" />
+    <Property Name="TaskTableWithEstimateID" Type="int" />
+  </EntityType>
+  <EntityType Name="TaskNotFoundTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProjectID" Type="nvarchar(max)" />
+    <Property Name="TaskDescription" Type="nvarchar(max)" />
+    <Property Name="TaskOwnerID" Type="int" />
+    <Property Name="AssignmentDateTime" Type="date" />
+    <Property Name="ActualDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="SubTaskDescription" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TaskOwnerTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskOwnerName" Type="varchar" MaxLength="500" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="TaskTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskName" Type="varchar" MaxLength="1000" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="EstimatedDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TaskTypeId" Type="int" />
+    <Property Name="Phase" Type="int" />
+    <Property Name="ProjectId" Type="int" />
+    <Property Name="MainTaskId" Type="int" />
+    <Property Name="Comments" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_a4670f_rezaidemsdbcopy.dbo.TaskTableCopy' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TaskTableCopy">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskName" Type="varchar" MaxLength="1000" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="EstimatedDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TaskTypeId" Type="int" />
+    <Property Name="Phase" Type="int" />
+    <Property Name="ProjectId" Type="int" />
+    <Property Name="MainTaskId" Type="int" />
+  </EntityType>
+  <EntityType Name="TaskTableWithEstimates">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskName" Type="nvarchar(max)" />
+    <Property Name="EstimatedDuration" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Phase" Type="int" />
+    <Property Name="TaskTypeId" Type="int" />
+    <Property Name="ProjectId" Type="int" />
+  </EntityType>
+  <EntityType Name="TaskType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Prefix" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TimeSheet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vName" Type="nvarchar" MaxLength="200" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="dtTimeSheet" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TimeSheetDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TimeSheetID" Type="int" />
+    <Property Name="CheckIn" Type="nvarchar" MaxLength="100" />
+    <Property Name="CheckOut" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="UrlShortnerLoginUser">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="200" />
+    <Property Name="Password" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="isActive" Type="bit" />
+    <Property Name="KeyValue" Type="nvarchar" MaxLength="100" />
+    <Property Name="isAdmin" Type="bit" />
+  </EntityType>
+  <EntityType Name="URLShortnerMappingAttributeDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ShortUrlID" Type="int" />
+    <Property Name="BrowserName" Type="nvarchar" MaxLength="200" />
+    <Property Name="OSname" Type="nvarchar" MaxLength="200" />
+    <Property Name="Language" Type="nvarchar" MaxLength="200" />
+    <Property Name="DeviceName" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="URLShortnerMappingTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Company" Type="varchar" MaxLength="50" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" />
+    <Property Name="ActualURL" Type="varchar(max)" />
+    <Property Name="ShortURL" Type="varchar" MaxLength="50" />
+    <Property Name="CreationDate" Type="datetime" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="modifyDate" Type="datetime" />
+    <Property Name="PageTitle" Type="varchar(max)" />
+    <Property Name="LinkOpenCount" Type="int" />
+    <Property Name="SessionID" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="URLShortnerUserDomains">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="DomainName" Type="nvarchar" MaxLength="200" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="isVerified" Type="bit" />
+  </EntityType>
+  <EntityType Name="UserNotifications">
+    <Key>
+      <PropertyRef Name="NotificationID" />
+    </Key>
+    <Property Name="NotificationID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="NotificationMessage" Type="varchar(max)" />
+    <Property Name="CreationDateTime" Type="datetime" />
+    <Property Name="isRead" Type="varchar" MaxLength="200" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="NotificationHeader" Type="varchar(max)" />
+    <Property Name="isSeen" Type="bit" />
+  </EntityType>
+  <EntityType Name="UserProfile">
+    <Key>
+      <PropertyRef Name="Userid" />
+    </Key>
+    <Property Name="Userid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Loginid" Type="int" />
+    <Property Name="Name" Type="varchar" MaxLength="200" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="Department" Type="varchar" MaxLength="100" />
+    <Property Name="Joiningdate" Type="datetime" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="EMSRole" Type="varchar" MaxLength="50" />
+    <Property Name="Picture" Type="varchar(max)" />
+    <Property Name="Creationdatetime" Type="datetime" />
+    <Property Name="Designation" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="UserProfileTable">
+    <Key>
+      <PropertyRef Name="UserProfileTableID" />
+    </Key>
+    <Property Name="UserProfileTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="TaskOwnerID" Type="int" />
+    <Property Name="Username" Type="varchar" MaxLength="255" />
+    <Property Name="FullName" Type="varchar" MaxLength="255" />
+    <Property Name="Password" Type="varchar" MaxLength="255" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="AccountType" Type="varchar" MaxLength="50" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="255" />
+    <Property Name="Department" Type="varchar" MaxLength="255" />
+    <Property Name="JoiningDate" Type="datetime" />
+    <Property Name="Picture" Type="varchar" MaxLength="255" />
+    <Property Name="AttendenceSheetName" Type="varchar" MaxLength="255" />
+    <Property Name="CreationDateTime" Type="datetime" />
+    <Property Name="Designation" Type="varchar" MaxLength="255" />
+    <Property Name="Department_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="UtilityProcedureExecutionTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProcedureName" Type="nvarchar" MaxLength="1000" />
+    <Property Name="ExecutionDate" Type="date" />
+  </EntityType>
+  <EntityType Name="UtilityRunningTimes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="startDate" Type="varchar" MaxLength="100" />
+    <Property Name="endDate" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_AssignmentTable_SubTaskTable">
+    <End Role="SubTaskTable" Type="Self.SubTaskTable" Multiplicity="0..1" />
+    <End Role="AssignmentTable" Type="Self.AssignmentTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubTaskTable">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AssignmentTable">
+        <PropertyRef Name="SubTaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskTable_TaskType">
+    <End Role="ProjectTable" Type="Self.ProjectTable" Multiplicity="0..1" />
+    <End Role="TaskTable" Type="Self.TaskTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectTable">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TaskTable">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskTableWithEstimates_ProjectTable">
+    <End Role="ProjectTable" Type="Self.ProjectTable" Multiplicity="0..1" />
+    <End Role="TaskTableWithEstimates" Type="Self.TaskTableWithEstimates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProjectTable">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TaskTableWithEstimates">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TaskTableWithEstimates_TaskType">
+    <End Role="TaskType" Type="Self.TaskType" Multiplicity="0..1" />
+    <End Role="TaskTableWithEstimates" Type="Self.TaskTableWithEstimates" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskTableWithEstimates">
+        <PropertyRef Name="TaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="FuncRandomKeyGeneration" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar(max)">
+    <Parameter Name="new_id" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="FuncRandomNumberGeneration" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar(max)">
+    <Parameter Name="new_id" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="Get_DefaultMaintask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Status" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Get_MapMainTaskinDepartmentMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Get_ProjectDescription" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetSetting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SettingName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="GetSetting_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SettingName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="GetUserlist" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LoginName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="InsertUserlist" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PASSWORD" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ISACTIVE" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ROLE" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="FULLNAME" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_AccountActivatedUrlShortner" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserEmail" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ActivationKey" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_ActualVsEstimatedHoursComparisonReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="int" Mode="In" />
+    <Parameter Name="FromDate" Type="date" Mode="In" />
+    <Parameter Name="ToDate" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_AddDesignation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="DesignationName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+    <Parameter Name="isUpdate" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_AddEditProjectUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="isUpdate" Type="bit" Mode="In" />
+    <Parameter Name="schUpdateID" Type="int" Mode="In" />
+    <Parameter Name="UpdateNum" Type="varchar" Mode="In" />
+    <Parameter Name="ResourceID" Type="int" Mode="In" />
+    <Parameter Name="projectID" Type="int" Mode="In" />
+    <Parameter Name="comments" Type="varchar" Mode="In" />
+    <Parameter Name="phase" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_AddMainTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="MainTaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+    <Parameter Name="isUpdate" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_AddNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="iProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_AddProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="ProjectName" Type="varchar" Mode="In" />
+    <Parameter Name="projectEstimate" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_AddRecord" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="TASKID" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="AssignmentDateTime" Type="datetime" Mode="In" />
+    <Parameter Name="ActualDuration" Type="varchar" Mode="In" />
+    <Parameter Name="CommentText" Type="varchar(max)" Mode="In" />
+    <Parameter Name="BillableHours" Type="varchar" Mode="In" />
+    <Parameter Name="IsBillableApproved" Type="int" Mode="In" />
+    <Parameter Name="UserIDBillable" Type="int" Mode="In" />
+    <Parameter Name="IsActualApproved" Type="int" Mode="In" />
+    <Parameter Name="UserIDActual" Type="int" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_AddTaskOwners" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="TaskOwnerName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+    <Parameter Name="isUpdate" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_AddTasks" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Phase" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ProjectName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="TaskTypeName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="EstimatedDuration" Type="decimal" Mode="In" />
+    <Parameter Name="MainTaskId" Type="int" Mode="In" />
+    <Parameter Name="Comments" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_AddTimeSheetEntry" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ResourceID" Type="int" Mode="In" />
+    <Parameter Name="ResourceName" Type="nvarchar" Mode="In" />
+    <Parameter Name="ResourceDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_AddTimeSheetEntryDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TimesheetID" Type="int" Mode="In" />
+    <Parameter Name="ResourceCheckin" Type="nvarchar" Mode="In" />
+    <Parameter Name="ResourceCheckOut" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_AddUpdateClient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="ClientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ContactNumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Website_URL" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Facebooklink" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Twitter" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="instagramlink" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_AddUpdateDepartment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="DepartmentName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_AddUpdateResource" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="isUpdate" Type="bit" Mode="In" />
+    <Parameter Name="SchResourcecid" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="Department" Type="varchar" Mode="In" />
+    <Parameter Name="ResourceID" Type="int" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+    <Parameter Name="Duration" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ApproveAssignments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_ChangePassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="NewPassword" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_ChangePassword_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="CurrPassword" Type="varchar" Mode="In" />
+    <Parameter Name="NewPassword" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_CheckAssignedProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_CheckMainTaskSubTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaintaskID" Type="int" Mode="In" />
+    <Parameter Name="SubTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_CheckUserHours" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="AssignmentDateTime" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_ComparisonReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeactiveUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteAssignments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteDepartment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteDepartmentMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DepartmentID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteDesignation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteProjectSchedule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteResourceSchedule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resourceID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteUpdateSchedule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UpdateID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_DeleteURLShortnerMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteUserDomain" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UniqueID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DifferenceHours" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fromDate" Type="datetime" Mode="In" />
+    <Parameter Name="toDate" Type="datetime" Mode="In" />
+    <Parameter Name="isApproved" Type="bit" Mode="In" />
+    <Parameter Name="UserID" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="SubTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_EditUserProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LoginID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Department" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Joiningdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="EMSRole" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Designation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PicturePath" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_EmailNotificationCheck" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="iProjectID" Type="int" Mode="In" />
+    <Parameter Name="DtSent" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_FetchProjectMappingMainTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maintaskid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_FetchUserMappingProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_FilterUserProfileTable" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FullName" Type="varchar" Mode="In" />
+    <Parameter Name="Designation" Type="varchar" Mode="In" />
+    <Parameter Name="Department" Type="varchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+    <Parameter Name="AccountType" Type="varchar" Mode="In" />
+    <Parameter Name="EmailAddress" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ForgetPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmailAddress" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_GenerateUserKeyURLShortner" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetActualHoursData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtTo" Type="datetime" Mode="In" />
+    <Parameter Name="dtFrom" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_getAssignmentData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TimesheetID" Type="int" Mode="In" />
+    <Parameter Name="ResourceCheckin" Type="nvarchar" Mode="In" />
+    <Parameter Name="ResourceCheckOut" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetAssignments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="int" Mode="In" />
+    <Parameter Name="FromDate" Type="datetime" Mode="In" />
+    <Parameter Name="ToDate" Type="datetime" Mode="In" />
+    <Parameter Name="iLoginUserID" Type="int" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetAssignments_copycopy" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="int" Mode="In" />
+    <Parameter Name="FromDate" Type="datetime" Mode="In" />
+    <Parameter Name="ToDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetAssignments_New" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fromDate" Type="datetime" Mode="In" />
+    <Parameter Name="toDate" Type="datetime" Mode="In" />
+    <Parameter Name="isApproved" Type="bit" Mode="In" />
+    <Parameter Name="UserID" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="SubTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_GetBaseURLSetting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetClientLazyLoading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recsPerPage" Type="int" Mode="In" />
+    <Parameter Name="page" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetClients" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="filter" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestDate" Type="datetime" Mode="In" />
+    <Parameter Name="IsManagementTime" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_copyNew" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="RequestEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="IsManagementTime" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_Staff" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestDate" Type="datetime" Mode="In" />
+    <Parameter Name="iStaffID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_Staff_Search" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+    <Parameter Name="iStaffID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_Staff_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestDate" Type="datetime" Mode="In" />
+    <Parameter Name="iStaffID" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="RequestEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="IsManagementTime" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDashboardStats_Update_AllProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDepartment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetDepartmentLazyLoading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recsPerPage" Type="int" Mode="In" />
+    <Parameter Name="page" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDesignation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetDetailShortURL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ShortUrlID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetDeviceUserList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetFilterProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetFilterProjectSchedule" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetFormattedTaskDataForReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectid" Type="int" Mode="In" />
+    <Parameter Name="fromdate" Type="datetime" Mode="In" />
+    <Parameter Name="todate" Type="datetime" Mode="In" />
+    <Parameter Name="resourceid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="taskid" Type="int" Mode="In" />
+    <Parameter Name="billable" Type="bit" Mode="In" />
+    <Parameter Name="DateRangeFormat" Type="bit" Mode="In" />
+    <Parameter Name="Actual" Type="bit" Mode="In" />
+    <Parameter Name="Subtaskid" Type="int" Mode="In" />
+    <Parameter Name="Departmentid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetFormattedTaskDataForReportGriddifference" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectid" Type="int" Mode="In" />
+    <Parameter Name="fromdate" Type="datetime" Mode="In" />
+    <Parameter Name="todate" Type="datetime" Mode="In" />
+    <Parameter Name="resourceid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="taskid" Type="int" Mode="In" />
+    <Parameter Name="billable" Type="bit" Mode="In" />
+    <Parameter Name="DateRangeFormat" Type="bit" Mode="In" />
+    <Parameter Name="Actual" Type="bit" Mode="In" />
+    <Parameter Name="Subtaskid" Type="int" Mode="In" />
+    <Parameter Name="Departmentid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetFullName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="AccountType" Type="varchar" Mode="In" />
+    <Parameter Name="Count" Type="int" Mode="InOut" />
+    <Parameter Name="Username" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetGuestUsersInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DomainName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SessionID" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetLastTimeSheetEntry" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_getLoginUserInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMainTaskList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MainTaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="filter" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMainTaskList_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MainTaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="filter" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMaintasks" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetMainTasksLazyLoading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recsPerPage" Type="int" Mode="In" />
+    <Parameter Name="page" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMappedMainTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMappedMainTaskByProjectID_DepartmentID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="departID" Type="int" Mode="In" />
+    <Parameter Name="AccountType" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMappedMainTaskinReportGrid" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="departID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetMultipleSelect" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetProjectBudgetDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="ProjectBudgetYear" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetProjectDatabyID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RequestStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="RequestEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="IsManagementTime" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetProjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetProjects_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetProjectsLazyLoading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recsPerPage" Type="int" Mode="In" />
+    <Parameter Name="page" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetProjectWithPercentage" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskownerID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_GetRandomURL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BaseURL" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetRecurringTasks" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetResourceMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetShortURLDashboard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSpentTaskTime" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSpentTaskTime_update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSubTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSubTaskTime" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="MainTaskName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSubTaskTimeOwner" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="MainTaskName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetTaskOwners" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskOwnerName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="filter" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_GetTasks" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetTasksDescription" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetTasksForProjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="isAdminUser" Type="bit" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetTasksNotFound" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="int" Mode="In" />
+    <Parameter Name="FromDate" Type="datetime" Mode="In" />
+    <Parameter Name="ToDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_getTimeSheetData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dtTimesheet" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_getUpdateTableCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_GetUserDomainList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="StatusID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetUserProfile" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetUserProfileTable" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="DepartmentID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertAssignment" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="ProjectName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="SubTaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerName" Type="varchar" Mode="In" />
+    <Parameter Name="AssignmentDateTime" Type="datetime" Mode="In" />
+    <Parameter Name="ActualDuration" Type="decimal" Mode="In" />
+    <Parameter Name="Type" Type="varchar" Mode="In" />
+    <Parameter Name="Phase" Type="int" Mode="In" />
+    <Parameter Name="TaskType" Type="nvarchar" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+    <Parameter Name="BillableHours" Type="decimal" Mode="In" />
+    <Parameter Name="IsBillableApproved" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="IsActualApproved" Type="int" Mode="In" />
+    <Parameter Name="UserIDActual" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertDepartmentMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DepartID" Type="int" Mode="In" />
+    <Parameter Name="MaintaskID" Type="int" Mode="In" />
+    <Parameter Name="AdditionalCheck" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertProjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Type" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EstimatedHours" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHours" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJan" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourFeb" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourMar" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourApr" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourMay" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJune" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJul" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourAug" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourSep" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourOct" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourNov" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourDec" Type="decimal" Mode="In" />
+    <Parameter Name="ProjectDescription" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertProjects_update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Type" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EstimatedHours" Type="decimal" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ProjectOwner" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ProjectDescription" Type="varchar(max)" Mode="In" />
+    <Parameter Name="isActive" Type="bit" Mode="In" />
+    <Parameter Name="isUpdateProjectBudget" Type="bit" Mode="In" />
+    <Parameter Name="ProjectBudgetYear" Type="datetime" Mode="In" />
+    <Parameter Name="ContractHoursPerMonth" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJan" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourFeb" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourMar" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourApr" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourMay" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJune" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourJul" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourAug" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourSep" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourOct" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourNov" Type="decimal" Mode="In" />
+    <Parameter Name="ContractHourDec" Type="decimal" Mode="In" />
+    <Parameter Name="ClientID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertRecurringTasksAtWeekStart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_InsertScrappedData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="PhoneNo" Type="varchar" Mode="In" />
+    <Parameter Name="DataChunk" Type="varchar" Mode="In" />
+    <Parameter Name="Country" Type="varchar" Mode="In" />
+    <Parameter Name="Department" Type="varchar" Mode="In" />
+    <Parameter Name="Company" Type="varchar" Mode="In" />
+    <Parameter Name="MessageType" Type="varchar" Mode="In" />
+    <Parameter Name="Source" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertSetting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MODE" Type="bit" Mode="In" />
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="VALUE" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="USERNAME" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertSetting_Update" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MODE" Type="bit" Mode="In" />
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="VALUE" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="USERNAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SettingType" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SettingDescription" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertTaskNotFound" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SubTaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ProjectName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="TaskOwnerName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ActualDuration" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="AssignmentDateTime" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertTaskWithEstimate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Phase" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EstimatedDuration" Type="decimal" Mode="In" />
+    <Parameter Name="TaskTypeId" Type="int" Mode="In" />
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateScheduleReport_ResourceDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchReport_ResourceDetailID" Type="int" Mode="In" />
+    <Parameter Name="ResourceID" Type="int" Mode="In" />
+    <Parameter Name="Phase" Type="varchar" Mode="In" />
+    <Parameter Name="StartDate" Type="datetime" Mode="In" />
+    <Parameter Name="EndDate" Type="datetime" Mode="In" />
+    <Parameter Name="Duration" Type="varchar" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateScheduleReport_Updates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchReport_UpdateID" Type="int" Mode="In" />
+    <Parameter Name="UpdateNo" Type="varchar" Mode="In" />
+    <Parameter Name="ResourceID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="Comments" Type="varchar" Mode="In" />
+    <Parameter Name="ProjectPhase" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUpdateScheduleReportProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchReport_ID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+    <Parameter Name="SchReport_ProjectName" Type="varchar" Mode="In" />
+    <Parameter Name="ProjectEstimate" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_InsertURLShortnerMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ActualURL" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ShotURL" Type="varchar" Mode="In" />
+    <Parameter Name="Company" Type="varchar" Mode="In" />
+    <Parameter Name="EmailAddress" Type="varchar" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="pagetitle" Type="varchar(max)" Mode="In" />
+    <Parameter Name="sessionID" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LoginID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Department" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Joiningdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Status" Type="bit" Mode="In" />
+    <Parameter Name="EMSRole" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Designation" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertUtilityRunningRange" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startDate" Type="varchar" Mode="In" />
+    <Parameter Name="endDate" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InserUserProfileTable" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserProfileTableID" Type="int" Mode="In" />
+    <Parameter Name="Username" Type="varchar" Mode="In" />
+    <Parameter Name="FullName" Type="varchar" Mode="In" />
+    <Parameter Name="Designation" Type="varchar" Mode="In" />
+    <Parameter Name="Department" Type="varchar" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+    <Parameter Name="AccountType" Type="varchar" Mode="In" />
+    <Parameter Name="EmailAddress" Type="varchar" Mode="In" />
+    <Parameter Name="JoiningDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_MapNewTasks" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_ResetPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Loginid" Type="int" Mode="In" />
+    <Parameter Name="ChangePassword" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ResetPasswordValidation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="GlobalID" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_RetrieveActualURL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ShortURL" Type="varchar" Mode="In" />
+    <Parameter Name="BrowserName" Type="varchar" Mode="In" />
+    <Parameter Name="OSName" Type="varchar" Mode="In" />
+    <Parameter Name="DeviceName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="Language" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_RetrieveScheduleReport_ResourceDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_RetrieveScheduleReport_Updates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_RetrieveScheduleReportProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SchReport_ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_SaveMainTaskMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="maintaskid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_SaveProjectMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_SaveUpdateMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectid" Type="int" Mode="In" />
+    <Parameter Name="projectName" Type="varchar(max)" Mode="In" />
+    <Parameter Name="UserIDs" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_SaveUpdateTaskMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+    <Parameter Name="ProjectIDs" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_SaveUserDomain" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="DomainName" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_SearchMainTask" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MainTaskName" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_SearchProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectName" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_TotalHoursOfProjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="int" Mode="In" />
+    <Parameter Name="FromDate" Type="datetime" Mode="In" />
+    <Parameter Name="ToDate" Type="datetime" Mode="In" />
+    <Parameter Name="TaskType" Type="int" Mode="In" />
+    <Parameter Name="IsApproved" Type="varchar" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_TotalHoursOfProjects_New" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProjectId" Type="int" Mode="In" />
+    <Parameter Name="TaskName" Type="varchar" Mode="In" />
+    <Parameter Name="TaskOwnerId" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="FromDate" Type="datetime" Mode="In" />
+    <Parameter Name="ToDate" Type="datetime" Mode="In" />
+    <Parameter Name="TaskType" Type="int" Mode="In" />
+    <Parameter Name="IsApproved" Type="varchar" Mode="In" />
+    <Parameter Name="MainTaskID" Type="int" Mode="In" />
+    <Parameter Name="SubTaskID" Type="int" Mode="In" />
+    <Parameter Name="DepartmentID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_unReaduserNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateClientIDinProject" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientID" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateClientIDNull" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateProjectClientID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="projectid" Type="int" Mode="In" />
+    <Parameter Name="ClientID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_UpdateURLShortnerMapping" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ActualURL" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ShortURL" Type="varchar(max)" Mode="In" />
+    <Parameter Name="userID" Type="int" Mode="In" />
+    <Parameter Name="PageTitle" Type="varchar(max)" Mode="In" />
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateUserDomain" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UniqueID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UrlShortnerFetchUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_UrlShortnerSearchShortURL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="ShortURL" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UrlShortnerSearchUserName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="keyWord" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UrlShortnerSetActiveUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+    <Parameter Name="IsActive" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="sp_UrlShortnerSignIn" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_UrlShortnerSignUp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="key" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UserLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="USERNAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_userNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_userNotificationCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_userNotificationDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NotificationID" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UserNotificationManagement" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="type" Type="int" Mode="In" />
+    <Parameter Name="notificationmessage" Type="varchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="int" Mode="In" />
+    <Parameter Name="notificationid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_userNotificationRead" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Userid" Type="int" Mode="In" />
+    <Parameter Name="Notificationid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_userNotificationSeen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Userid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_UserProfileManagement" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Userid" Type="int" Mode="In" />
+    <Parameter Name="Operationtype" Type="varchar" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_UserProfileTableLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="USERNAME" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UtilityProcedureExecution" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_WeeklyEmailUpdateValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="value" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="AssignmentTable" EntityType="Self.AssignmentTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AssignmentTable_Copy" EntityType="Self.AssignmentTable_Copy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClientTable" EntityType="Self.ClientTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DepartmentMapping" EntityType="Self.DepartmentMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DepartmentTable" EntityType="Self.DepartmentTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FormattedScrappedData" EntityType="Self.FormattedScrappedData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginTable" EntityType="Self.LoginTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NotificationTable" EntityType="Self.NotificationTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectBudgetDetail" EntityType="Self.ProjectBudgetDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectTable" EntityType="Self.ProjectTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResetPasswordActivity" EntityType="Self.ResetPasswordActivity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ResourceMapping" EntityType="Self.ResourceMapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScheduleReport_Projects" EntityType="Self.ScheduleReport_Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScheduleReport_ResourceDetails" EntityType="Self.ScheduleReport_ResourceDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScheduleReport_Updates" EntityType="Self.ScheduleReport_Updates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Settings" EntityType="Self.Settings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubTaskTable" EntityType="Self.SubTaskTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Task_TaskWithEsimatesBridgeTable" EntityType="Self.Task_TaskWithEsimatesBridgeTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskNotFoundTable" EntityType="Self.TaskNotFoundTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskOwnerTable" EntityType="Self.TaskOwnerTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskTable" EntityType="Self.TaskTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskTableWithEstimates" EntityType="Self.TaskTableWithEstimates" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskType" EntityType="Self.TaskType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeSheet" EntityType="Self.TimeSheet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeSheetDetail" EntityType="Self.TimeSheetDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrlShortnerLoginUser" EntityType="Self.UrlShortnerLoginUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URLShortnerMappingAttributeDetails" EntityType="Self.URLShortnerMappingAttributeDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URLShortnerMappingTable" EntityType="Self.URLShortnerMappingTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URLShortnerUserDomains" EntityType="Self.URLShortnerUserDomains" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserNotifications" EntityType="Self.UserNotifications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserProfileTable" EntityType="Self.UserProfileTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UtilityProcedureExecutionTable" EntityType="Self.UtilityProcedureExecutionTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UtilityRunningTimes" EntityType="Self.UtilityRunningTimes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LinksTable" EntityType="Self.LinksTable" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [LinksTable].[ID] AS [ID], 
+    [LinksTable].[link] AS [link]
+    FROM [dbo].[LinksTable] AS [LinksTable]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="MainTaskTable" EntityType="Self.MainTaskTable" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [MainTaskTable].[ID] AS [ID], 
+    [MainTaskTable].[MainTaskName] AS [MainTaskName], 
+    [MainTaskTable].[IsActive] AS [IsActive], 
+    [MainTaskTable].[CreationDate] AS [CreationDate], 
+    [MainTaskTable].[ProjectIDs] AS [ProjectIDs], 
+    [MainTaskTable].[ProjectType] AS [ProjectType]
+    FROM [dbo].[MainTaskTable] AS [MainTaskTable]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TaskTableCopy" EntityType="Self.TaskTableCopy" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TaskTableCopy].[ID] AS [ID], 
+    [TaskTableCopy].[TaskName] AS [TaskName], 
+    [TaskTableCopy].[IsActive] AS [IsActive], 
+    [TaskTableCopy].[EstimatedDuration] AS [EstimatedDuration], 
+    [TaskTableCopy].[TaskTypeId] AS [TaskTypeId], 
+    [TaskTableCopy].[Phase] AS [Phase], 
+    [TaskTableCopy].[ProjectId] AS [ProjectId], 
+    [TaskTableCopy].[MainTaskId] AS [MainTaskId]
+    FROM [dbo].[TaskTableCopy] AS [TaskTableCopy]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_AssignmentTable_SubTaskTable" Association="Self.FK_AssignmentTable_SubTaskTable">
+      <End Role="SubTaskTable" EntitySet="SubTaskTable" />
+      <End Role="AssignmentTable" EntitySet="AssignmentTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskTable_TaskType" Association="Self.FK_TaskTable_TaskType">
+      <End Role="ProjectTable" EntitySet="ProjectTable" />
+      <End Role="TaskTable" EntitySet="TaskTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskTableWithEstimates_ProjectTable" Association="Self.FK_TaskTableWithEstimates_ProjectTable">
+      <End Role="ProjectTable" EntitySet="ProjectTable" />
+      <End Role="TaskTableWithEstimates" EntitySet="TaskTableWithEstimates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TaskTableWithEstimates_TaskType" Association="Self.FK_TaskTableWithEstimates_TaskType">
+      <End Role="TaskType" EntitySet="TaskType" />
+      <End Role="TaskTableWithEstimates" EntitySet="TaskTableWithEstimates" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

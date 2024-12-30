@@ -1,0 +1,696 @@
+2022-08-30 09:06:01.8422 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2022-08-30 09:06:03.2382 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2022-08-30 09:06:03.5893 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 09:06:03.6411 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 09:06:03.6551 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 09:06:03.7060 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 09:06:03.7080 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 09:06:03.7498 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 09:06:03.8117 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 09:06:03.8117 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 09:06:03.8117 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 09:06:03.8708 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T04:06:03.451Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 09:06:03.9320 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 09:06:03.9320 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 09:06:04.0447 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 09:06:04.0966 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-08-30 09:11:12.8280 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 09:11:12.8338 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T04:11:12.741Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 09:11:12.9269 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 09:11:12.9809 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 09:11:12.9968 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 09:11:13.0961 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 09:11:13.0961 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-08-30 09:11:13.0961 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-20T04:11:12.714Z","ToDate":"2022-08-30T04:11:12.714Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 09:11:13.1090 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 09:11:13.2148 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 09:11:13.2387 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-08-30 09:11:13.3824 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  
+2022-08-30 09:11:24.3126 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-08T00:00:00","ToDate":"2022-08-30T04:11:12.714Z","IsApproved":null,"ClientID":0}
+2022-08-30 09:11:25.5076 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 09:11:25.6811 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-08T00:00:00","ToDate":"2022-08-30T04:11:12.714Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 09:11:25.7503 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:31:14.8723 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2022-08-30 11:31:16.0541 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2022-08-30 11:31:16.5085 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 11:31:16.5627 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:31:16.5627 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:31:16.5759 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 11:31:16.6267 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 11:31:16.6866 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 11:31:16.7435 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 11:31:16.7634 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 11:31:16.7634 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 11:31:16.7684 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:31:16.8853 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:31:16.289Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:31:17.0259 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:31:17.0598 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:31:17.1078 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-08-30 11:31:18.2891 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:31:18.222Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:31:18.3011 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-08-30 11:31:18.3011 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:31:18.3307 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:31:18.5435 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:31:18.5435 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:31:18.5557 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:31:18.5656 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:31:18.6145 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-20T06:31:18.195Z","ToDate":"2022-08-30T06:31:18.195Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:31:18.6773 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:31:18.6773 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-08-30 11:31:18.8369 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  
+2022-08-30 11:31:22.1083 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:31:18.195Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:31:23.4257 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:31:23.5978 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:31:18.195Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:31:23.6857 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:31:24.7060 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:31:24.7060 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":1}
+2022-08-30 11:31:24.8243 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:31:24.8243 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:32:31.7044 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:32:31.7044 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 11:32:31.7194 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:32:31.7214 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 11:32:31.7214 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-08-30 11:32:31.7427 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:32:31.376Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:32:31.8971 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 11:32:31.8971 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:32:31.9922 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 11:32:31.9922 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:32:32.0431 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:32:32.0900 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:32:32.0900 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:32:32.1727 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:32:32.1727 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:32:31.381Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:32:32.1887 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-08-30 11:32:32.1917 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:32:32.3059 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:32:32.3059 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:32:32.3757 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 11:32:32.4221 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-20T06:32:31.322Z","ToDate":"2022-08-30T06:32:31.322Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:32:32.4221 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 11:32:32.4676 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:32:32.6728 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  
+2022-08-30 11:37:18.0648 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:32:31.322Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:37:19.4378 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:37:19.6610 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:32:31.322Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:37:19.8993 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:37:24.5700 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:37:24.5880 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":1}
+2022-08-30 11:37:24.6578 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:37:24.7167 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:37:44.0743 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":49230,"ProjectID":2087,"TASKID":2523760,"UserID":74,"AssignmentDateTime":"08/01/2022","ActualDuration":"1.00","CommentText":"Social media captions for twitter and instagram feed","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":1}
+2022-08-30 11:37:44.2745 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2022-08-30 11:37:45.5535 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:37:45.5535 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:32:31.322Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:37:45.7008 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:37:47.0449 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:37:47.2907 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:32:31.322Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:37:47.5286 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:38:36.0947 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:38:36.0947 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:38:36.0947 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-20T06:38:35.834Z","ToDate":"2022-08-30T06:38:35.834Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:38:36.1066 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ProjectName":""}
+2022-08-30 11:38:36.1066 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 11:38:36.1136 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:38:35.889Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:38:36.2333 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:38:36.2891 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 11:38:36.2991 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:38:35.895Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:38:36.3669 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 11:38:36.4118 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:38:36.5036 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Failed)  
+2022-08-30 11:38:36.5036 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:38:36.5036 INFO Exit the Projects Controller.  GetProjects Method(Success) 
+2022-08-30 11:38:36.5036 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 11:38:36.5387 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:38:36.5387 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:38:36.5387 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:38:36.5961 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:38:36.5961 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:38:36.7045 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 11:38:36.7075 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:38:36.7528 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 11:38:36.8017 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:38:44.6665 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:38:45.9243 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:38:46.1139 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:38:46.2008 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:38:49.2833 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:38:49.2833 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":1}
+2022-08-30 11:38:49.4888 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:38:49.5905 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:39:05.9257 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:39:05.9768 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:39:11.4900 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:39:11.5043 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":1}
+2022-08-30 11:39:11.5513 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:39:11.6011 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:39:15.8869 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":49230,"ProjectID":2087,"TASKID":2523760,"UserID":74,"AssignmentDateTime":"08/02/2022","ActualDuration":"1.00","CommentText":"Social media captions for twitter and instagram feed","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":1}
+2022-08-30 11:39:16.0199 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2022-08-30 11:39:18.3399 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:39:18.3611 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:39:18.4113 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:39:19.6663 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:39:19.8134 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:39:20.0188 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:39:26.7407 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:39:26.7407 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":173}
+2022-08-30 11:39:26.7932 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:39:26.8500 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:39:44.9676 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:39:45.0195 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:39:46.0425 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:39:46.0425 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":173}
+2022-08-30 11:39:46.0989 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:39:46.1428 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:39:50.6177 INFO Entering the Reports Controller.  SaveAssignemntToDb Method   Arguments:: {"ID":49232,"ProjectID":2087,"TASKID":2525138,"UserID":74,"AssignmentDateTime":"08/01/2022","ActualDuration":"6.00","CommentText":"Research for guest blog about AI intelligence xzcxzczxc","BillableHours":null,"IsBillableApproved":0,"UserIDBillable":0,"IsActualApproved":0,"UserIDActual":0,"MainTaskID":173}
+2022-08-30 11:39:50.7301 INFO Exit the Reports Controller.  SaveAssignemntToDb Method(Success)  
+2022-08-30 11:39:51.8549 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":0,"MainTaskID":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","IsApproved":null,"ClientID":0}
+2022-08-30 11:39:51.8738 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:39:51.9267 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:39:53.1653 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:39:53.3631 INFO Entering the Reports Controller.  GetTotalHoursForTasks Method   Arguments:: {"LoggedInUserId":0,"ProjectId":0,"TaskName":"","TaskOwnerId":0,"FromDate":"2022-08-01T00:00:00","ToDate":"2022-08-30T06:38:35.834Z","taskTypePrefixes":null,"IsApproved":null,"MainTaskID":0,"ClientID":0,"SubTaskID":0}
+2022-08-30 11:39:53.4229 INFO Exit the Reports Controller.  GetTotalHoursForTasks Method(Success)  
+2022-08-30 11:39:54.7248 INFO Entering the MainTask Controller.  GetMainTaskMappedList Method   Arguments:: null
+2022-08-30 11:39:54.7248 INFO Entering the SubTasks Controller.  GetSubTaskList Method   Arguments:: {"projectID":2087,"maintaskID":173}
+2022-08-30 11:39:54.7868 INFO Exit the SubTasks Controller.  GetSubTaskList Method(Success)  
+2022-08-30 11:39:54.8398 INFO Exit the MainTask Controller.  GetMainTaskMappedList Method(Success)  
+2022-08-30 11:39:57.3138 INFO Entering the MainTask Controller.  GetMainTasks Method   Arguments:: null
+2022-08-30 11:39:57.3666 INFO Exit the MainTask Controller.  GetMainTasks Method(Success)  
+2022-08-30 11:40:02.4692 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:40:02.4692 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:40:02.4722 INFO Entering the Projects Controller.  AllProject Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 11:40:02.5315 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2022-08-30 11:40:02.5381 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:40:02.5891 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:40:02.7003 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2022-08-30 11:40:03.2445 INFO Exit the Projects Controller.  AllProject Method(Success)   
+2022-08-30 11:40:21.2576 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:40:21.3012 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:21.3499 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:40:21.3699 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.3779 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:40:21.3779 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.4440 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.6156 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:21.6719 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:21.7248 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:40:21.7248 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:21.7627 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:40:21.8625 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:21.8625 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:40:21.8625 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:40:21.8840 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.8969 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.8969 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:21.9159 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:40:21.9638 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:22.0129 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:40:22.1097 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:22.1482 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:22.1482 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:40:24.6276 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-03-01T00:00:00","RequestEndDate":"2022-03-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:24.6276 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:24.6784 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:24.7262 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:24.8086 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:24.8991 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:24.9460 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:24.9460 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:26.2806 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:26.3085 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:26.3142 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:26.3361 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:26.4307 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:26.4791 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:26.5777 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:26.5827 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:27.6237 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:27.6237 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:40:27.6407 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:40:27.6556 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:40:27.7035 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:27.7974 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:27.8046 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:27.9460 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:31.3576 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:31.3703 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:40:31.3817 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:40:31.4070 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:40:31.5092 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:31.5531 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:31.6513 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:31.6622 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:33.4142 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:33.4142 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:33.4247 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:33.4496 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:40:33.5085 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:33.6478 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:33.6961 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:33.7050 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:35.6216 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:35.6216 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:40:35.6295 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:40:35.6423 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:40:35.7054 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:35.8908 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:40:35.8988 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:35.9477 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:38.3729 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:38.3832 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:40:38.3975 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:38.4679 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:40:38.5177 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:40:38.6175 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:40:38.6175 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:40:38.6751 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:41:32.3019 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:41:32.3019 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:32.3247 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:32.4024 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:32.5042 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:41:32.5507 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:41:34.3950 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:41:50.5769 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:41:54.5093 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:54.5093 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:54.5293 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:41:54.5442 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:41:54.6021 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:41:54.6968 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:41:54.7436 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:41:57.2757 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:42:07.0594 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:42:07.0751 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:07.0821 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:07.0821 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:07.1539 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:42:07.2517 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:42:08.6327 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:42:08.6327 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:42:10.4028 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:10.4028 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:42:10.4082 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:10.4082 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:42:10.5304 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:42:10.6373 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:42:10.7008 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:43:07.5429 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:46:24.6598 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:46:24.6598 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:46:24.7406 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:46:24.7406 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:46:24.7406 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:46:24.8519 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:46:24.8961 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:47:20.3779 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:48:28.0824 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:48:28.0824 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:48:28.1612 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:48:28.1612 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:48:28.1760 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:48:46.2171 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:48:46.2171 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:48:46.3029 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:48:50.2677 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:48:50.2677 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:48:50.2982 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:48:50.3561 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:48:50.4099 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:48:55.7840 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:48:56.7969 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:48:56.7969 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:49:16.6258 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:49:16.6567 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:49:16.6727 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T06:49:16.522Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 11:49:16.6746 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 11:49:16.6746 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:49:16.7985 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 11:49:16.7985 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 11:49:19.5047 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 11:49:19.5217 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 11:49:19.5776 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 11:49:19.6538 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 11:49:19.6538 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 11:49:20.5644 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:49:20.6041 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:49:20.6041 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 11:49:20.6716 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 11:49:20.6873 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:49:20.7348 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:49:20.7378 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:49:20.7547 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:49:20.8103 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:49:20.8173 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:49:20.9098 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:49:20.9098 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:49:21.0068 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:49:21.0208 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:50:20.5511 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:50:20.5511 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:50:20.5511 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:50:20.5723 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-02-01T00:00:00","RequestEndDate":"2022-02-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:50:20.6724 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:50:20.7791 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:50:47.0391 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:51:18.5024 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:51:25.2499 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:51:25.2608 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2022-08-30 11:51:25.2759 INFO Entering the Projects Controller.  AllProject Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 11:51:25.3292 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:51:25.3292 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:51:25.4738 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2022-08-30 11:51:25.4738 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:51:25.6344 INFO Exit the Projects Controller.  AllProject Method(Success)   
+2022-08-30 11:51:36.6125 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:51:36.6125 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:51:36.6356 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:51:36.6463 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:51:36.7664 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:51:36.7664 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:51:36.7664 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:51:36.8110 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:51:36.8140 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:51:36.9307 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:51:36.9307 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:51:37.0249 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:51:41.7151 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:52:09.5349 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:52:09.8410 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:52:09.8410 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:52:09.8534 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:52:09.8798 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:52:09.8928 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:52:10.0082 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:52:10.0971 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:52:10.0971 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:52:10.1264 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:52:10.1972 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:58:55.2340 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:58:55.2594 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:58:55.2594 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:58:55.3242 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-01-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:58:55.3727 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:58:55.4226 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:58:55.4775 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:08.0153 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:08.0313 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:59:08.0333 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-02-01T00:00:00","RequestEndDate":"2022-02-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:08.1038 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:59:08.1038 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 11:59:08.1131 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:08.2641 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:08.3155 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:08.3155 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:14.6227 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:59:14.6268 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:59:14.6268 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-03-01T00:00:00","RequestEndDate":"2022-03-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:14.6268 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 11:59:14.6866 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:14.7873 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:14.8940 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:14.9542 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:17.0836 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-04-01T00:00:00","RequestEndDate":"2022-04-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:17.0836 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:59:17.1215 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:59:17.1215 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-04-01T00:00:00","EndDate":"2022-04-01T00:00:00"}
+2022-08-30 11:59:17.2811 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:17.3299 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:17.3792 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:17.3792 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:19.7925 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-05-01T00:00:00","EndDate":"2022-05-01T00:00:00"}
+2022-08-30 11:59:19.7925 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-05-01T00:00:00","EndDate":"2022-05-01T00:00:00"}
+2022-08-30 11:59:19.7975 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-05-01T00:00:00","RequestEndDate":"2022-05-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:19.7975 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-05-01T00:00:00","EndDate":"2022-05-01T00:00:00"}
+2022-08-30 11:59:19.9065 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:19.9105 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:20.0564 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:20.0564 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:22.4898 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-06-01T00:00:00","EndDate":"2022-06-01T00:00:00"}
+2022-08-30 11:59:22.4898 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-06-01T00:00:00","RequestEndDate":"2022-06-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:22.5087 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-06-01T00:00:00","EndDate":"2022-06-01T00:00:00"}
+2022-08-30 11:59:22.6174 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:22.6344 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-06-01T00:00:00","EndDate":"2022-06-01T00:00:00"}
+2022-08-30 11:59:22.7601 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:22.8159 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:22.8159 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:25.4746 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:25.4746 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:25.4859 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:25.5775 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:25.5875 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:25.5875 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-07-01T00:00:00","RequestEndDate":"2022-07-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:25.6922 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:25.7884 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:28.4225 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-08-01T00:00:00","EndDate":"2022-08-01T00:00:00"}
+2022-08-30 11:59:28.4225 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:28.4379 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-08-01T00:00:00","EndDate":"2022-08-01T00:00:00"}
+2022-08-30 11:59:28.4379 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-08-01T00:00:00","EndDate":"2022-08-01T00:00:00"}
+2022-08-30 11:59:28.5582 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:28.6618 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:28.7098 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:28.7098 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:32.7008 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-10-01T00:00:00","RequestEndDate":"2022-10-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:32.7008 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:32.7186 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:32.7725 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:32.7844 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:32.8884 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:32.9343 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:32.9922 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:37.1606 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:37.1606 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:37.1810 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:37.1810 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-10-01T00:00:00","EndDate":"2022-10-01T00:00:00"}
+2022-08-30 11:59:37.2931 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:37.3520 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:37.4388 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:37.4388 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:45.8793 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:45.8793 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:45.8964 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:45.9560 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:45.9720 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:46.1206 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:46.1705 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:46.1885 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:48.1532 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:48.1532 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:48.1679 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:48.2277 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 11:59:48.2717 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:48.3834 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:48.4283 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:48.4921 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:51.5384 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 11:59:51.6853 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-08-30 11:59:52.6797 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:59:52.6908 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2022-08-30 11:59:52.6908 INFO Entering the Projects Controller.  AllProject Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-08-30 11:59:52.7187 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:59:52.8644 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2022-08-30 11:59:52.8644 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:59:52.9837 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:59:53.0525 INFO Exit the Projects Controller.  AllProject Method(Success)   
+2022-08-30 11:59:59.3444 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:59:59.3444 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 11:59:59.4213 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 11:59:59.4233 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.4233 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.4413 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.4413 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:59:59.6115 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 11:59:59.6703 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 11:59:59.6843 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:59:59.6843 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.6883 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 11:59:59.7997 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 11:59:59.7997 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.8207 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 11:59:59.8207 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 11:59:59.8765 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 11:59:59.8765 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 11:59:59.9845 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:00.0814 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:00.0814 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 12:00:00.1342 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:01.7435 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:00:01.7435 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:00:01.7435 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:01.7514 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:00:01.8133 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:02.0004 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:02.0504 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:02.0504 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:00:05.3648 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:05.3648 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:05.3777 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:05.3777 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:05.4395 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:05.4990 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:05.6004 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:05.6666 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:00:07.2353 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:07.2353 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:07.2353 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:07.2634 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:07.3617 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:07.4109 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:07.5108 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:00:07.5108 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:18.0442 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:18.0571 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:18.1318 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:18.1318 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:00:18.2355 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:00:18.2864 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:18.3306 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:18.3306 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:45.1284 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:45.1284 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:45.1284 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:45.1284 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:45.1929 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:45.2428 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:45.3547 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:45.4057 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:00:58.4965 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:58.5043 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:58.5271 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-02-01T00:00:00","EndDate":"2022-02-01T00:00:00"}
+2022-08-30 12:00:58.5430 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:00:58.6438 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:00:58.6956 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:00:58.7934 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:00:58.8103 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:19.0394 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:02:19.1137 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 12:02:19.1137 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 12:02:19.1137 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 12:02:19.1137 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 12:02:19.1857 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 12:02:19.2485 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 12:02:19.3074 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 12:02:19.4003 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 12:02:19.4783 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 12:02:19.4783 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 12:02:19.5828 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T07:02:18.922Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 12:02:19.5828 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 12:02:19.6556 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:19.6957 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 12:02:19.7087 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 12:02:19.7864 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:02:19.7864 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 12:02:19.8065 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:02:19.8195 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:02:20.0738 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:02:20.1845 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:02:20.1935 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 12:02:20.2892 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 12:02:20.3022 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:02:20.3504 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 12:02:23.7265 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:02:23.7265 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:02:23.7423 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:02:23.7423 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:02:23.8410 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:02:23.8929 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:02:23.9866 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:02:24.0425 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:26.3269 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:26.3399 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:26.4288 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:02:26.4288 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-01-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:02:26.4288 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:26.5065 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:02:26.6512 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:26.6592 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:02:29.4031 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:29.4091 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:02:29.4091 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:29.4311 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:29.5412 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:02:29.5911 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:02:29.6342 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:02:29.7325 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:52.0419 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-01-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:02:52.0608 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:52.0718 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:52.1436 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:02:52.2413 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:02:52.2877 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:02:52.3343 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:02:52.3343 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:03:04.0491 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:03:04.0491 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:04.0491 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:04.1169 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:03:04.1169 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:04.2916 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:03:04.3410 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:03:04.3580 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:03:47.0139 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 12:03:47.0309 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-08-30 12:03:47.0319 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-08-30 12:03:47.0548 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-08-30 12:03:47.0658 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-08-30 12:03:47.0658 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-08-01T00:00:00","RequestEndDate":"2022-08-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:03:47.1300 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-08-30 12:03:47.1958 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2022-08-30 12:03:47.2487 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-08-30 12:03:47.3026 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 12:03:47.4045 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-08-30 12:03:47.4524 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-08-30 12:03:47.4614 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-08-20T07:03:46.885Z","ToDate":null,"IsApproved":null,"ClientID":0}
+2022-08-30 12:03:47.5033 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:03:47.5033 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-08-30 12:03:47.6379 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-08-30 12:03:47.6379 INFO Entering the Client Controller.  GetClientList Method   Arguments:: {"ID":0,"ClientName":"","ClientEmail":"","ContactNumber":"","Address":"","Website_URL":"","Facebooklink":"","Twitter":"","instagramlink":"","Active":false}
+2022-08-30 12:03:47.7048 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:03:47.7048 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:03:47.7048 INFO Entering the Projects Controller.  GetProjects Method   Arguments:: {"ID":2045,"Name":null,"IsExternal":false,"IsActive":false,"Type":null,"EstimatedHours":0.0,"StartDate":null,"EndDate":null,"ProjectOwner":null,"ProjectDescription":null,"isUpdateProjectBudget":false,"ProjectBudgetYear":"2022-08-30T00:00:00","ContractHours":0.0,"JanContract":0.0,"FebContract":0.0,"MarContract":0.0,"AprContract":0.0,"MayContract":0.0,"JunContract":0.0,"JulContract":0.0,"AugContract":0.0,"SepContract":0.0,"OctContract":0.0,"NovContract":0.0,"DecContract":0.0,"ClientID":0}
+2022-08-30 12:03:47.7048 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-07-01T00:00:00","EndDate":"2022-07-01T00:00:00"}
+2022-08-30 12:03:47.7826 INFO Exit the Client Controller.  GetClientList Method(Success)   
+2022-08-30 12:03:47.9671 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:03:48.0119 INFO Exit the Projects Controller.  GetProjectsBudgetDetail Method(Success) 
+2022-08-30 12:03:48.1309 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:03:48.1454 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:03:57.0607 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:03:57.0806 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:03:57.0806 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:03:57.1480 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:03:57.1480 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:03:57.2516 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:03:57.3023 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:03:57.3832 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:03:58.9675 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-01-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:03:58.9675 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:58.9675 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:58.9884 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-01-01T00:00:00"}
+2022-08-30 12:03:59.1465 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:03:59.3425 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:03:59.5191 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:03:59.5191 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:04:01.1434 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:01.1434 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:04:01.1563 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:01.1733 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:01.2885 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:04:01.3833 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:04:01.4401 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:04:01.4660 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:04:03.6400 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 12:04:03.6450 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 12:04:03.6450 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-03-01T00:00:00","EndDate":"2022-03-01T00:00:00"}
+2022-08-30 12:04:03.7150 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:04:03.7150 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-03-01T00:00:00","RequestEndDate":"2022-03-01T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:04:03.8188 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:04:03.8686 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:04:03.9244 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   
+2022-08-30 12:04:06.8548 INFO Entering the DashBoard Controller.  GetDashBoardStats_byProjectID Method   Arguments:: {"RequestStartDate":"2022-01-01T00:00:00","RequestEndDate":"2022-08-30T00:00:00","ProjectID":2045,"ManagementCheck":false}
+2022-08-30 12:04:06.8548 INFO Entering the DashBoard Controller.  GetSpentTaskTime Method   Arguments:: {"ProjectId":2045,"StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:06.8548 INFO Entering the DashBoard Controller.  GetSubTaskTime Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:06.8730 INFO Entering the DashBoard Controller.  GetSubTaskTimeOwner Method   Arguments:: {"ProjectId":2045,"MaintaskName":"","StartDate":"2022-01-01T00:00:00","EndDate":"2022-08-30T00:00:00"}
+2022-08-30 12:04:06.9758 INFO Exit the DashBoard Controller.  GetSpentTaskTime Method(Success)   
+2022-08-30 12:04:07.0237 INFO Exit the DashBoard Controller.  GetSubTaskTime Method(Success)   
+2022-08-30 12:04:07.1236 INFO Exit the DashBoard Controller.  GetSubTaskTimeOwner Method(Success)   
+2022-08-30 12:04:07.1286 INFO Exit the DashBoard Controller.  GetDashBoardStats_byProjectID Method(Success)   

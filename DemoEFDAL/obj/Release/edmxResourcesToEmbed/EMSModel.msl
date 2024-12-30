@@ -1,0 +1,1861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="EMSEntities">
+    <FunctionImportMapping FunctionImportName="GetSetting" FunctionName="Model.Store.GetSetting">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetSetting_Result">
+          <ScalarProperty Name="iSettingId" ColumnName="iSettingId" />
+          <ScalarProperty Name="vSettingName" ColumnName="vSettingName" />
+          <ScalarProperty Name="vSettingValue" ColumnName="vSettingValue" />
+          <ScalarProperty Name="dtSettingCreation" ColumnName="dtSettingCreation" />
+          <ScalarProperty Name="dtSettingModification" ColumnName="dtSettingModification" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUserlist" FunctionName="Model.Store.GetUserlist">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetUserlist_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InsertUserlist" FunctionName="Model.Store.InsertUserlist" />
+    <FunctionImportMapping FunctionImportName="sp_ActualVsEstimatedHoursComparisonReport" FunctionName="Model.Store.sp_ActualVsEstimatedHoursComparisonReport" />
+    <FunctionImportMapping FunctionImportName="sp_AddEditProjectUpdate" FunctionName="Model.Store.sp_AddEditProjectUpdate" />
+    <FunctionImportMapping FunctionImportName="sp_AddMainTask" FunctionName="Model.Store.sp_AddMainTask" />
+    <FunctionImportMapping FunctionImportName="sp_AddNotification" FunctionName="Model.Store.sp_AddNotification" />
+    <FunctionImportMapping FunctionImportName="sp_AddProject" FunctionName="Model.Store.sp_AddProject" />
+    <FunctionImportMapping FunctionImportName="sp_AddTaskOwners" FunctionName="Model.Store.sp_AddTaskOwners" />
+    <FunctionImportMapping FunctionImportName="sp_AddTimeSheetEntry" FunctionName="Model.Store.sp_AddTimeSheetEntry" />
+    <FunctionImportMapping FunctionImportName="sp_AddTimeSheetEntryDetail" FunctionName="Model.Store.sp_AddTimeSheetEntryDetail" />
+    <FunctionImportMapping FunctionImportName="sp_AddUpdateResource" FunctionName="Model.Store.sp_AddUpdateResource" />
+    <FunctionImportMapping FunctionImportName="sp_ApproveAssignments" FunctionName="Model.Store.sp_ApproveAssignments" />
+    <FunctionImportMapping FunctionImportName="sp_ComparisonReport" FunctionName="Model.Store.sp_ComparisonReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ComparisonReport_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TotalActualDuration" ColumnName="TotalActualDuration" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="RemainingHours" ColumnName="RemainingHours" />
+          <ScalarProperty Name="OverBudget" ColumnName="OverBudget" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DeleteAssignments" FunctionName="Model.Store.sp_DeleteAssignments" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteProjectSchedule" FunctionName="Model.Store.sp_DeleteProjectSchedule" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteResourceSchedule" FunctionName="Model.Store.sp_DeleteResourceSchedule" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteUpdateSchedule" FunctionName="Model.Store.sp_DeleteUpdateSchedule" />
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationCheck" FunctionName="Model.Store.sp_EmailNotificationCheck" />
+    <FunctionImportMapping FunctionImportName="sp_GetActualHoursData" FunctionName="Model.Store.sp_GetActualHoursData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetActualHoursData_Result">
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getAssignmentData" FunctionName="Model.Store.sp_getAssignmentData" />
+    <FunctionImportMapping FunctionImportName="sp_GetAssignments" FunctionName="Model.Store.sp_GetAssignments">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetAssignments_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TaskOwnerName" ColumnName="TaskOwnerName" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="TaskOwnerId" ColumnName="TaskOwnerId" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="TaskTypeName" ColumnName="TaskTypeName" />
+          <ScalarProperty Name="TaskTypePrefix" ColumnName="TaskTypePrefix" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="SubTaskId" ColumnName="SubTaskId" />
+          <ScalarProperty Name="SubTaskName" ColumnName="SubTaskName" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetAssignments_copycopy" FunctionName="Model.Store.sp_GetAssignments_copycopy">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetAssignments_copycopy_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TaskOwnerName" ColumnName="TaskOwnerName" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="TaskOwnerId" ColumnName="TaskOwnerId" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="TaskTypeName" ColumnName="TaskTypeName" />
+          <ScalarProperty Name="TaskTypePrefix" ColumnName="TaskTypePrefix" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="SubTaskId" ColumnName="SubTaskId" />
+          <ScalarProperty Name="SubTaskName" ColumnName="SubTaskName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_Staff" FunctionName="Model.Store.sp_GetDashboardStats_Staff">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_Staff1_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalProjectHour" ColumnName="TotalProjectHour" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDeviceUserList" FunctionName="Model.Store.sp_GetDeviceUserList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDeviceUserList_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetFilterProject" FunctionName="Model.Store.sp_GetFilterProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetFilterProject_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="SchReport_ProjectName" ColumnName="SchReport_ProjectName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetFilterProjectSchedule" FunctionName="Model.Store.sp_GetFilterProjectSchedule">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetFilterProjectSchedule_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetLastTimeSheetEntry" FunctionName="Model.Store.sp_GetLastTimeSheetEntry" />
+    <FunctionImportMapping FunctionImportName="sp_GetMainTaskList" FunctionName="Model.Store.sp_GetMainTaskList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMainTaskList_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetRecurringTasks" FunctionName="Model.Store.sp_GetRecurringTasks">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetRecurringTasks_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetTasksForProjects" FunctionName="Model.Store.sp_GetTasksForProjects">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetTasksForProjects_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetTasksNotFound" FunctionName="Model.Store.sp_GetTasksNotFound">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetTasksNotFound_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
+          <ScalarProperty Name="TaskOwnerName" ColumnName="TaskOwnerName" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="TaskOwnerId" ColumnName="TaskOwnerId" />
+          <ScalarProperty Name="SubTaskDescription" ColumnName="SubTaskDescription" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getTimeSheetData" FunctionName="Model.Store.sp_getTimeSheetData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_getTimeSheetData_Result">
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="dtTimeSheet" ColumnName="dtTimeSheet" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="CheckIn" ColumnName="CheckIn" />
+          <ScalarProperty Name="CheckOut" ColumnName="CheckOut" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getUpdateTableCount" FunctionName="Model.Store.sp_getUpdateTableCount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_getUpdateTableCount_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="UpdateCount" ColumnName="UpdateCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertAssignment" FunctionName="Model.Store.sp_InsertAssignment" />
+    <FunctionImportMapping FunctionImportName="sp_InsertProjects" FunctionName="Model.Store.sp_InsertProjects" />
+    <FunctionImportMapping FunctionImportName="sp_InsertRecurringTasksAtWeekStart" FunctionName="Model.Store.sp_InsertRecurringTasksAtWeekStart" />
+    <FunctionImportMapping FunctionImportName="sp_InsertSetting" FunctionName="Model.Store.sp_InsertSetting" />
+    <FunctionImportMapping FunctionImportName="sp_InsertTaskNotFound" FunctionName="Model.Store.sp_InsertTaskNotFound" />
+    <FunctionImportMapping FunctionImportName="sp_InsertTaskWithEstimate" FunctionName="Model.Store.sp_InsertTaskWithEstimate" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateScheduleReport_ResourceDetails" FunctionName="Model.Store.sp_InsertUpdateScheduleReport_ResourceDetails" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateScheduleReport_Updates" FunctionName="Model.Store.sp_InsertUpdateScheduleReport_Updates" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUpdateScheduleReportProject" FunctionName="Model.Store.sp_InsertUpdateScheduleReportProject" />
+    <FunctionImportMapping FunctionImportName="sp_MapNewTasks" FunctionName="Model.Store.sp_MapNewTasks" />
+    <FunctionImportMapping FunctionImportName="sp_RetrieveScheduleReport_ResourceDetails" FunctionName="Model.Store.sp_RetrieveScheduleReport_ResourceDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_RetrieveScheduleReport_ResourceDetails_Result">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="SchReport_ResourceDetailID" ColumnName="SchReport_ResourceDetailID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_RetrieveScheduleReport_Updates" FunctionName="Model.Store.sp_RetrieveScheduleReport_Updates">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_RetrieveScheduleReport_Updates_Result">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="SchReport_UpdateID" ColumnName="SchReport_UpdateID" />
+          <ScalarProperty Name="Update_" ColumnName="Update#" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_RetrieveScheduleReportProject" FunctionName="Model.Store.sp_RetrieveScheduleReportProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_RetrieveScheduleReportProject_Result">
+          <ScalarProperty Name="SchReport_ProjectID" ColumnName="SchReport_ProjectID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="SchReport_ProjectName" ColumnName="SchReport_ProjectName" />
+          <ScalarProperty Name="ProjectEstimate" ColumnName="ProjectEstimate" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_TotalHoursOfProjects" FunctionName="Model.Store.sp_TotalHoursOfProjects">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_TotalHoursOfProjects_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="TotalActualDuration" ColumnName="TotalActualDuration" />
+          <ScalarProperty Name="RemainingHours" ColumnName="RemainingHours" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UtilityProcedureExecution" FunctionName="Model.Store.sp_UtilityProcedureExecution" />
+    <FunctionImportMapping FunctionImportName="sp_WeeklyEmailUpdateValue" FunctionName="Model.Store.sp_WeeklyEmailUpdateValue" />
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationCheck1" FunctionName="Model.Store.sp_EmailNotificationCheck">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_EmailNotificationCheck1_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_EmailNotificationCheck2" FunctionName="Model.Store.sp_EmailNotificationCheck">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_EmailNotificationCheck1_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotification" FunctionName="Model.Store.sp_userNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_userNotification_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="isRead" ColumnName="isRead" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="NotificationHeader" ColumnName="NotificationHeader" />
+          <ScalarProperty Name="isSeen" ColumnName="isSeen" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotification1" FunctionName="Model.Store.sp_userNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_userNotification_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotification2" FunctionName="Model.Store.sp_userNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_userNotification2_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_AccountActivatedUrlShortner" FunctionName="Model.Store.SP_AccountActivatedUrlShortner" />
+    <FunctionImportMapping FunctionImportName="SP_DeleteURLShortnerMapping" FunctionName="Model.Store.SP_DeleteURLShortnerMapping" />
+    <FunctionImportMapping FunctionImportName="SP_GenerateUserKeyURLShortner" FunctionName="Model.Store.SP_GenerateUserKeyURLShortner" />
+    <FunctionImportMapping FunctionImportName="SP_GetBaseURLSetting" FunctionName="Model.Store.SP_GetBaseURLSetting" />
+    <FunctionImportMapping FunctionImportName="sp_GetDetailShortURL" FunctionName="Model.Store.sp_GetDetailShortURL" />
+    <FunctionImportMapping FunctionImportName="SP_GetRandomURL" FunctionName="Model.Store.SP_GetRandomURL" />
+    <FunctionImportMapping FunctionImportName="sp_GetShortURLDashboard" FunctionName="Model.Store.sp_GetShortURLDashboard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetShortURLDashboard_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ActualURL" ColumnName="ActualURL" />
+          <ScalarProperty Name="ShortURL" ColumnName="ShortURL" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="LinkOpenCount" ColumnName="LinkOpenCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertScrappedData" FunctionName="Model.Store.sp_InsertScrappedData" />
+    <FunctionImportMapping FunctionImportName="SP_InsertURLShortnerMapping" FunctionName="Model.Store.SP_InsertURLShortnerMapping" />
+    <FunctionImportMapping FunctionImportName="sp_InsertUtilityRunningRange" FunctionName="Model.Store.sp_InsertUtilityRunningRange" />
+    <FunctionImportMapping FunctionImportName="SP_RetrieveActualURL" FunctionName="Model.Store.SP_RetrieveActualURL" />
+    <FunctionImportMapping FunctionImportName="sp_SaveUpdateMapping" FunctionName="Model.Store.sp_SaveUpdateMapping" />
+    <FunctionImportMapping FunctionImportName="sp_SaveUpdateTaskMapping" FunctionName="Model.Store.sp_SaveUpdateTaskMapping" />
+    <FunctionImportMapping FunctionImportName="SP_UpdateURLShortnerMapping" FunctionName="Model.Store.SP_UpdateURLShortnerMapping" />
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerFetchUsers" FunctionName="Model.Store.sp_UrlShortnerFetchUsers">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UrlShortnerFetchUsers_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerSearchShortURL" FunctionName="Model.Store.sp_UrlShortnerSearchShortURL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UrlShortnerSearchShortURL_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ActualURL" ColumnName="ActualURL" />
+          <ScalarProperty Name="ShortURL" ColumnName="ShortURL" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="LinkOpenCount" ColumnName="LinkOpenCount" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerSearchUserName" FunctionName="Model.Store.sp_UrlShortnerSearchUserName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UrlShortnerSearchUserName_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerSetActiveUser" FunctionName="Model.Store.sp_UrlShortnerSetActiveUser" />
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerSignIn" FunctionName="Model.Store.sp_UrlShortnerSignIn">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UrlShortnerSignIn_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UrlShortnerSignUp" FunctionName="Model.Store.sp_UrlShortnerSignUp" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteUserDomain" FunctionName="Model.Store.sp_DeleteUserDomain" />
+    <FunctionImportMapping FunctionImportName="sp_GetGuestUsersInfo" FunctionName="Model.Store.sp_GetGuestUsersInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetGuestUsersInfo_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ActualURL" ColumnName="ActualURL" />
+          <ScalarProperty Name="ShortURL" ColumnName="ShortURL" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserDomainList" FunctionName="Model.Store.sp_GetUserDomainList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetUserDomainList_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="isVerified" ColumnName="isVerified" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SaveUserDomain" FunctionName="Model.Store.sp_SaveUserDomain" />
+    <FunctionImportMapping FunctionImportName="sp_UpdateUserDomain" FunctionName="Model.Store.sp_UpdateUserDomain" />
+    <FunctionImportMapping FunctionImportName="sp_UserNotificationManagement" FunctionName="Model.Store.sp_UserNotificationManagement">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UserNotificationManagement_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserProfileManagement" FunctionName="Model.Store.sp_UserProfileManagement">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UserProfileManagement_Result">
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="Loginid" ColumnName="Loginid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Joiningdate" ColumnName="Joiningdate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EMSRole" ColumnName="EMSRole" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Creationdatetime" ColumnName="Creationdatetime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ChangePassword" FunctionName="Model.Store.sp_ChangePassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ChangePassword_Result">
+          <ScalarProperty Name="responseCode" ColumnName="responseCode" />
+          <ScalarProperty Name="responsemsg" ColumnName="responsemsg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getLoginUserInfo1" FunctionName="Model.Store.sp_getLoginUserInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_getLoginUserInfo1_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_getLoginUserInfo2" FunctionName="Model.Store.sp_getLoginUserInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_getLoginUserInfo_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UserLogin" FunctionName="Model.Store.sp_UserLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UserLogin_Result">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetFullName" FunctionName="Model.Store.sp_GetFullName" />
+    <FunctionImportMapping FunctionImportName="sp_GetFullName1" FunctionName="Model.Store.sp_GetFullName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetFullName1_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMultipleSelect" FunctionName="Model.Store.sp_GetMultipleSelect">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMultipleSelect_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotificationCount" FunctionName="Model.Store.sp_userNotificationCount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_userNotificationCount_Result">
+          <ScalarProperty Name="count" ColumnName="count" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetSubTask" FunctionName="Model.Store.sp_GetSubTask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetSubTask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetTaskOwners" FunctionName="Model.Store.sp_GetTaskOwners">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetTaskOwners_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskOwnerName" ColumnName="TaskOwnerName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMainTaskList1" FunctionName="Model.Store.sp_GetMainTaskList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMainTaskList1_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMaintasks" FunctionName="Model.Store.sp_GetMaintasks">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMaintasks_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetTasksDescription" FunctionName="Model.Store.sp_GetTasksDescription">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetTasksDescription_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetUserProfile" FunctionName="Model.Store.sp_GetUserProfile">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetUserProfile_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Joiningdate" ColumnName="Joiningdate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="EMSRole" ColumnName="EMSRole" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="Creationdatetime" ColumnName="Creationdatetime" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ResetPassword" FunctionName="Model.Store.sp_ResetPassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ResetPassword_Result">
+          <ScalarProperty Name="responseCode" ColumnName="responseCode" />
+          <ScalarProperty Name="responsemsg" ColumnName="responsemsg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ResetPasswordValidation" FunctionName="Model.Store.sp_ResetPasswordValidation">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ResetPasswordValidation_Result">
+          <ScalarProperty Name="Response" ColumnName="Response" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotificationDelete" FunctionName="Model.Store.sp_userNotificationDelete">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_userNotificationDelete_Result">
+          <ScalarProperty Name="responseCode" ColumnName="responseCode" />
+          <ScalarProperty Name="responsemsg" ColumnName="responsemsg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ChangePassword_Update" FunctionName="Model.Store.sp_ChangePassword_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ChangePassword_Update_Result">
+          <ScalarProperty Name="responseCode" ColumnName="responseCode" />
+          <ScalarProperty Name="responsemsg" ColumnName="responsemsg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetSpentTaskTime" FunctionName="Model.Store.sp_GetSpentTaskTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetSpentTaskTime_Result">
+          <ScalarProperty Name="Actualduration" ColumnName="Actualduration" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertUser" FunctionName="Model.Store.sp_InsertUser" />
+    <FunctionImportMapping FunctionImportName="sp_EditUserProfile" FunctionName="Model.Store.sp_EditUserProfile" />
+    <FunctionImportMapping FunctionImportName="sp_GetMainTaskList_Update" FunctionName="Model.Store.sp_GetMainTaskList_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMainTaskList_Update_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_Staff_Update" FunctionName="Model.Store.sp_GetDashboardStats_Staff_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_Staff_Update_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalProjectHour" ColumnName="TotalProjectHour" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_Staff_Search" FunctionName="Model.Store.sp_GetDashboardStats_Staff_Search">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_Staff_Search_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalProjectHour" ColumnName="TotalProjectHour" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotificationRead1" FunctionName="Model.Store.sp_userNotificationRead" />
+    <FunctionImportMapping FunctionImportName="sp_unReaduserNotification1" FunctionName="Model.Store.sp_unReaduserNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_unReaduserNotification1_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="isRead" ColumnName="isRead" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="NotificationHeader" ColumnName="NotificationHeader" />
+          <ScalarProperty Name="isSeen" ColumnName="isSeen" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_unReaduserNotification" FunctionName="Model.Store.sp_unReaduserNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_unReaduserNotification_Result">
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="isRead" ColumnName="isRead" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="NotificationHeader" ColumnName="NotificationHeader" />
+          <ScalarProperty Name="isSeen" ColumnName="isSeen" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_userNotificationSeen" FunctionName="Model.Store.sp_userNotificationSeen" />
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_copyNew" FunctionName="Model.Store.sp_GetDashboardStats_copyNew">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_copyNew_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetSpentTaskTime_update" FunctionName="Model.Store.sp_GetSpentTaskTime_update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetSpentTaskTime_update_Result">
+          <ScalarProperty Name="Actualduration" ColumnName="Actualduration" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="AssignmentTables">
+      <EntityTypeMapping TypeName="Model.AssignmentTable">
+        <MappingFragment StoreEntitySet="AssignmentTable">
+          <ScalarProperty Name="MainTaskID" ColumnName="MainTaskID" />
+          <ScalarProperty Name="ActualApprovedDateTime" ColumnName="ActualApprovedDateTime" />
+          <ScalarProperty Name="UserIDActual" ColumnName="UserIDActual" />
+          <ScalarProperty Name="IsActualApproved" ColumnName="IsActualApproved" />
+          <ScalarProperty Name="BillableApprovedDateTime" ColumnName="BillableApprovedDateTime" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="IsBillableApproved" ColumnName="IsBillableApproved" />
+          <ScalarProperty Name="BillableHours" ColumnName="BillableHours" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AssignmentTable_Copy">
+      <EntityTypeMapping TypeName="Model.AssignmentTable_Copy">
+        <MappingFragment StoreEntitySet="AssignmentTable_Copy">
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FormattedScrappedDatas">
+      <EntityTypeMapping TypeName="Model.FormattedScrappedData">
+        <MappingFragment StoreEntitySet="FormattedScrappedData">
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="DataChunk" ColumnName="DataChunk" />
+          <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginTables">
+      <EntityTypeMapping TypeName="Model.LoginTable">
+        <MappingFragment StoreEntitySet="LoginTable">
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationTables">
+      <EntityTypeMapping TypeName="Model.NotificationTable">
+        <MappingFragment StoreEntitySet="NotificationTable">
+          <ScalarProperty Name="dtCreation" ColumnName="dtCreation" />
+          <ScalarProperty Name="iProjectId" ColumnName="iProjectId" />
+          <ScalarProperty Name="iNotificationId" ColumnName="iNotificationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProjectBudgetDetails">
+      <EntityTypeMapping TypeName="Model.ProjectBudgetDetail">
+        <MappingFragment StoreEntitySet="ProjectBudgetDetail">
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="ContractHoursInDecember" ColumnName="ContractHoursInDecember" />
+          <ScalarProperty Name="ContractHoursInNovember" ColumnName="ContractHoursInNovember" />
+          <ScalarProperty Name="ContractHoursInOctober" ColumnName="ContractHoursInOctober" />
+          <ScalarProperty Name="ContractHoursInSeptember" ColumnName="ContractHoursInSeptember" />
+          <ScalarProperty Name="ContractHoursInAugust" ColumnName="ContractHoursInAugust" />
+          <ScalarProperty Name="ContractHoursInJuly" ColumnName="ContractHoursInJuly" />
+          <ScalarProperty Name="ContractHoursInJune" ColumnName="ContractHoursInJune" />
+          <ScalarProperty Name="ContractHoursInMay" ColumnName="ContractHoursInMay" />
+          <ScalarProperty Name="ContractHoursInApril" ColumnName="ContractHoursInApril" />
+          <ScalarProperty Name="ContractHoursInMarch" ColumnName="ContractHoursInMarch" />
+          <ScalarProperty Name="ContractHoursInFebruary" ColumnName="ContractHoursInFebruary" />
+          <ScalarProperty Name="ContractHoursInJanuary" ColumnName="ContractHoursInJanuary" />
+          <ScalarProperty Name="ProjectBudgetYear" ColumnName="ProjectBudgetYear" />
+          <ScalarProperty Name="BudgetID" ColumnName="BudgetID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResetPasswordActivities">
+      <EntityTypeMapping TypeName="Model.ResetPasswordActivity">
+        <MappingFragment StoreEntitySet="ResetPasswordActivity">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LoginID" ColumnName="LoginID" />
+          <ScalarProperty Name="GlobalID" ColumnName="GlobalID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResourceMappings">
+      <EntityTypeMapping TypeName="Model.ResourceMapping">
+        <MappingFragment StoreEntitySet="ResourceMapping">
+          <ScalarProperty Name="UserIDs" ColumnName="UserIDs" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleReport_Projects">
+      <EntityTypeMapping TypeName="Model.ScheduleReport_Projects">
+        <MappingFragment StoreEntitySet="ScheduleReport_Projects">
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="ProjectEstimate" ColumnName="ProjectEstimate" />
+          <ScalarProperty Name="SchReport_ProjectName" ColumnName="SchReport_ProjectName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="SchReport_ProjectID" ColumnName="SchReport_ProjectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleReport_ResourceDetails">
+      <EntityTypeMapping TypeName="Model.ScheduleReport_ResourceDetails">
+        <MappingFragment StoreEntitySet="ScheduleReport_ResourceDetails">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="SchReport_ResourceDetailID" ColumnName="SchReport_ResourceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScheduleReport_Updates">
+      <EntityTypeMapping TypeName="Model.ScheduleReport_Updates">
+        <MappingFragment StoreEntitySet="ScheduleReport_Updates">
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="Update_" ColumnName="Update#" />
+          <ScalarProperty Name="SchReport_UpdateID" ColumnName="SchReport_UpdateID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubTaskTables">
+      <EntityTypeMapping TypeName="Model.SubTaskTable">
+        <MappingFragment StoreEntitySet="SubTaskTable">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SubTaskName" ColumnName="SubTaskName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Task_TaskWithEsimatesBridgeTable">
+      <EntityTypeMapping TypeName="Model.Task_TaskWithEsimatesBridgeTable">
+        <MappingFragment StoreEntitySet="Task_TaskWithEsimatesBridgeTable">
+          <ScalarProperty Name="TaskTableWithEstimateID" ColumnName="TaskTableWithEstimateID" />
+          <ScalarProperty Name="TaskTableID" ColumnName="TaskTableID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskNotFoundTables">
+      <EntityTypeMapping TypeName="Model.TaskNotFoundTable">
+        <MappingFragment StoreEntitySet="TaskNotFoundTable">
+          <ScalarProperty Name="SubTaskDescription" ColumnName="SubTaskDescription" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="TaskDescription" ColumnName="TaskDescription" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskOwnerTables">
+      <EntityTypeMapping TypeName="Model.TaskOwnerTable">
+        <MappingFragment StoreEntitySet="TaskOwnerTable">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TaskOwnerName" ColumnName="TaskOwnerName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskTableWithEstimates">
+      <EntityTypeMapping TypeName="Model.TaskTableWithEstimate">
+        <MappingFragment StoreEntitySet="TaskTableWithEstimates">
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskTypes">
+      <EntityTypeMapping TypeName="Model.TaskType">
+        <MappingFragment StoreEntitySet="TaskType">
+          <ScalarProperty Name="Prefix" ColumnName="Prefix" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeSheets">
+      <EntityTypeMapping TypeName="Model.TimeSheet">
+        <MappingFragment StoreEntitySet="TimeSheet">
+          <ScalarProperty Name="dtTimeSheet" ColumnName="dtTimeSheet" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="vName" ColumnName="vName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeSheetDetails">
+      <EntityTypeMapping TypeName="Model.TimeSheetDetail">
+        <MappingFragment StoreEntitySet="TimeSheetDetail">
+          <ScalarProperty Name="CheckOut" ColumnName="CheckOut" />
+          <ScalarProperty Name="CheckIn" ColumnName="CheckIn" />
+          <ScalarProperty Name="TimeSheetID" ColumnName="TimeSheetID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrlShortnerLoginUsers">
+      <EntityTypeMapping TypeName="Model.UrlShortnerLoginUser">
+        <MappingFragment StoreEntitySet="UrlShortnerLoginUser">
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+          <ScalarProperty Name="KeyValue" ColumnName="KeyValue" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URLShortnerMappingAttributeDetails">
+      <EntityTypeMapping TypeName="Model.URLShortnerMappingAttributeDetail">
+        <MappingFragment StoreEntitySet="URLShortnerMappingAttributeDetails">
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="OSname" ColumnName="OSname" />
+          <ScalarProperty Name="BrowserName" ColumnName="BrowserName" />
+          <ScalarProperty Name="ShortUrlID" ColumnName="ShortUrlID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URLShortnerMappingTables">
+      <EntityTypeMapping TypeName="Model.URLShortnerMappingTable">
+        <MappingFragment StoreEntitySet="URLShortnerMappingTable">
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="LinkOpenCount" ColumnName="LinkOpenCount" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="modifyDate" ColumnName="modifyDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ShortURL" ColumnName="ShortURL" />
+          <ScalarProperty Name="ActualURL" ColumnName="ActualURL" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URLShortnerUserDomains">
+      <EntityTypeMapping TypeName="Model.URLShortnerUserDomain">
+        <MappingFragment StoreEntitySet="URLShortnerUserDomains">
+          <ScalarProperty Name="isVerified" ColumnName="isVerified" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="DomainName" ColumnName="DomainName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNotifications">
+      <EntityTypeMapping TypeName="Model.UserNotification">
+        <MappingFragment StoreEntitySet="UserNotifications">
+          <ScalarProperty Name="isSeen" ColumnName="isSeen" />
+          <ScalarProperty Name="NotificationHeader" ColumnName="NotificationHeader" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="isRead" ColumnName="isRead" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="NotificationMessage" ColumnName="NotificationMessage" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="NotificationID" ColumnName="NotificationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="Model.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfile">
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Creationdatetime" ColumnName="Creationdatetime" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="EMSRole" ColumnName="EMSRole" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Joiningdate" ColumnName="Joiningdate" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Loginid" ColumnName="Loginid" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UtilityProcedureExecutionTables">
+      <EntityTypeMapping TypeName="Model.UtilityProcedureExecutionTable">
+        <MappingFragment StoreEntitySet="UtilityProcedureExecutionTable">
+          <ScalarProperty Name="ExecutionDate" ColumnName="ExecutionDate" />
+          <ScalarProperty Name="ProcedureName" ColumnName="ProcedureName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UtilityRunningTimes">
+      <EntityTypeMapping TypeName="Model.UtilityRunningTime">
+        <MappingFragment StoreEntitySet="UtilityRunningTimes">
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LinksTables">
+      <EntityTypeMapping TypeName="Model.LinksTable">
+        <MappingFragment StoreEntitySet="LinksTable">
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MainTaskTables">
+      <EntityTypeMapping TypeName="Model.MainTaskTable">
+        <MappingFragment StoreEntitySet="MainTaskTable">
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskTableCopies">
+      <EntityTypeMapping TypeName="Model.TaskTableCopy">
+        <MappingFragment StoreEntitySet="TaskTableCopy">
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_AssignmentTable_SubTaskTable" TypeName="Model.FK_AssignmentTable_SubTaskTable" StoreEntitySet="AssignmentTable">
+      <EndProperty Name="AssignmentTable">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <EndProperty Name="SubTaskTable">
+        <ScalarProperty Name="ID" ColumnName="SubTaskId" />
+      </EndProperty>
+      <Condition ColumnName="SubTaskId" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_TaskTableWithEstimates_TaskType" TypeName="Model.FK_TaskTableWithEstimates_TaskType" StoreEntitySet="TaskTableWithEstimates">
+      <EndProperty Name="TaskTableWithEstimate">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <EndProperty Name="TaskType">
+        <ScalarProperty Name="Id" ColumnName="TaskTypeId" />
+      </EndProperty>
+      <Condition ColumnName="TaskTypeId" IsNull="false" />
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetProjectBudgetDetail" FunctionName="Model.Store.sp_GetProjectBudgetDetail">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjectBudgetDetail_Result">
+          <ScalarProperty Name="BudgetID" ColumnName="BudgetID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectBudgetYear" ColumnName="ProjectBudgetYear" />
+          <ScalarProperty Name="ContractHoursInJanuary" ColumnName="ContractHoursInJanuary" />
+          <ScalarProperty Name="ContractHoursInFebruary" ColumnName="ContractHoursInFebruary" />
+          <ScalarProperty Name="ContractHoursInMarch" ColumnName="ContractHoursInMarch" />
+          <ScalarProperty Name="ContractHoursInApril" ColumnName="ContractHoursInApril" />
+          <ScalarProperty Name="ContractHoursInMay" ColumnName="ContractHoursInMay" />
+          <ScalarProperty Name="ContractHoursInJune" ColumnName="ContractHoursInJune" />
+          <ScalarProperty Name="ContractHoursInJuly" ColumnName="ContractHoursInJuly" />
+          <ScalarProperty Name="ContractHoursInAugust" ColumnName="ContractHoursInAugust" />
+          <ScalarProperty Name="ContractHoursInSeptember" ColumnName="ContractHoursInSeptember" />
+          <ScalarProperty Name="ContractHoursInOctober" ColumnName="ContractHoursInOctober" />
+          <ScalarProperty Name="ContractHoursInNovember" ColumnName="ContractHoursInNovember" />
+          <ScalarProperty Name="ContractHoursInDecember" ColumnName="ContractHoursInDecember" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SearchProject" FunctionName="Model.Store.sp_SearchProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_SearchProject_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetProjectsLazyLoading" FunctionName="Model.Store.sp_GetProjectsLazyLoading">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjectsLazyLoading_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetSubTaskTime" FunctionName="Model.Store.sp_GetSubTaskTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetSubTaskTime_Result">
+          <ScalarProperty Name="Actualduration" ColumnName="Actualduration" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetSubTaskTimeOwner" FunctionName="Model.Store.sp_GetSubTaskTimeOwner">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetSubTaskTimeOwner_Result">
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_AddRecord" FunctionName="Model.Store.sp_AddRecord" />
+    <FunctionImportMapping FunctionImportName="sp_GetMainTasksLazyLoading" FunctionName="Model.Store.sp_GetMainTasksLazyLoading">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMainTasksLazyLoading_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SaveProjectMapping" FunctionName="Model.Store.sp_SaveProjectMapping" />
+    <FunctionImportMapping FunctionImportName="sp_FetchProjectMappingMainTask" FunctionName="Model.Store.sp_FetchProjectMappingMainTask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_FetchProjectMappingMainTask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskID" ColumnName="MainTaskID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SaveMainTaskMapping" FunctionName="Model.Store.sp_SaveMainTaskMapping" />
+    <FunctionImportMapping FunctionImportName="sp_SearchMainTask" FunctionName="Model.Store.sp_SearchMainTask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_SearchMainTask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_CheckAssignedProject" FunctionName="Model.Store.sp_CheckAssignedProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_CheckAssignedProject_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="UserIDs" ColumnName="UserIDs" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_AddDesignation" FunctionName="Model.Store.sp_AddDesignation" />
+    <FunctionImportMapping FunctionImportName="sp_GetDesignation" FunctionName="Model.Store.sp_GetDesignation">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDesignation_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DesignationName" ColumnName="DesignationName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DeleteDesignation" FunctionName="Model.Store.sp_DeleteDesignation" />
+    <EntitySetMapping Name="Settings">
+      <EntityTypeMapping TypeName="Model.Setting">
+        <MappingFragment StoreEntitySet="Settings">
+          <ScalarProperty Name="Setting_Description" ColumnName="Setting_Description" />
+          <ScalarProperty Name="SettingType" ColumnName="SettingType" />
+          <ScalarProperty Name="lastModifiedBy" ColumnName="lastModifiedBy" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="dtSettingModification" ColumnName="dtSettingModification" />
+          <ScalarProperty Name="dtSettingCreation" ColumnName="dtSettingCreation" />
+          <ScalarProperty Name="vSettingValue" ColumnName="vSettingValue" />
+          <ScalarProperty Name="vSettingName" ColumnName="vSettingName" />
+          <ScalarProperty Name="iSettingId" ColumnName="iSettingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetSetting_Update" FunctionName="Model.Store.GetSetting_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GetSetting_Update_Result">
+          <ScalarProperty Name="iSettingId" ColumnName="iSettingId" />
+          <ScalarProperty Name="vSettingName" ColumnName="vSettingName" />
+          <ScalarProperty Name="vSettingValue" ColumnName="vSettingValue" />
+          <ScalarProperty Name="dtSettingCreation" ColumnName="dtSettingCreation" />
+          <ScalarProperty Name="dtSettingModification" ColumnName="dtSettingModification" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="lastModifiedBy" ColumnName="lastModifiedBy" />
+          <ScalarProperty Name="SettingType" ColumnName="SettingType" />
+          <ScalarProperty Name="Setting_Description" ColumnName="Setting_Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_AddUpdateClient" FunctionName="Model.Store.sp_AddUpdateClient" />
+    <FunctionImportMapping FunctionImportName="sp_DeactiveUser" FunctionName="Model.Store.sp_DeactiveUser" />
+    <FunctionImportMapping FunctionImportName="sp_UserProfileTableLogin" FunctionName="Model.Store.sp_UserProfileTableLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_UserProfileTableLogin_Result">
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetResourceMapping" FunctionName="Model.Store.sp_GetResourceMapping">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetResourceMapping_Result">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="UserIDs" ColumnName="UserIDs" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="ProjectTables">
+      <EntityTypeMapping TypeName="Model.ProjectTable">
+        <MappingFragment StoreEntitySet="ProjectTable">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ContractHoursInDecember" ColumnName="ContractHoursInDecember" />
+          <ScalarProperty Name="ContractHoursInNovember" ColumnName="ContractHoursInNovember" />
+          <ScalarProperty Name="ContractHoursInOctober" ColumnName="ContractHoursInOctober" />
+          <ScalarProperty Name="ContractHoursInSeptember" ColumnName="ContractHoursInSeptember" />
+          <ScalarProperty Name="ContractHoursInAugust" ColumnName="ContractHoursInAugust" />
+          <ScalarProperty Name="ContractHoursInJuly" ColumnName="ContractHoursInJuly" />
+          <ScalarProperty Name="ContractHoursInJune" ColumnName="ContractHoursInJune" />
+          <ScalarProperty Name="ContractHoursInMay" ColumnName="ContractHoursInMay" />
+          <ScalarProperty Name="ContractHoursInApril" ColumnName="ContractHoursInApril" />
+          <ScalarProperty Name="ContractHoursInMarch" ColumnName="ContractHoursInMarch" />
+          <ScalarProperty Name="ContractHoursInFebruary" ColumnName="ContractHoursInFebruary" />
+          <ScalarProperty Name="ContractHoursInJanuary" ColumnName="ContractHoursInJanuary" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_TaskTableWithEstimates_ProjectTable" TypeName="Model.FK_TaskTableWithEstimates_ProjectTable" StoreEntitySet="TaskTableWithEstimates">
+      <EndProperty Name="TaskTableWithEstimate">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <EndProperty Name="ProjectTable">
+        <ScalarProperty Name="ID" ColumnName="ProjectId" />
+      </EndProperty>
+      <Condition ColumnName="ProjectId" IsNull="false" />
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetProjects" FunctionName="Model.Store.sp_GetProjects">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjects_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="ContractHoursInJanuary" ColumnName="ContractHoursInJanuary" />
+          <ScalarProperty Name="ContractHoursInFebruary" ColumnName="ContractHoursInFebruary" />
+          <ScalarProperty Name="ContractHoursInMarch" ColumnName="ContractHoursInMarch" />
+          <ScalarProperty Name="ContractHoursInApril" ColumnName="ContractHoursInApril" />
+          <ScalarProperty Name="ContractHoursInMay" ColumnName="ContractHoursInMay" />
+          <ScalarProperty Name="ContractHoursInJune" ColumnName="ContractHoursInJune" />
+          <ScalarProperty Name="ContractHoursInJuly" ColumnName="ContractHoursInJuly" />
+          <ScalarProperty Name="ContractHoursInAugust" ColumnName="ContractHoursInAugust" />
+          <ScalarProperty Name="ContractHoursInSeptember" ColumnName="ContractHoursInSeptember" />
+          <ScalarProperty Name="ContractHoursInOctober" ColumnName="ContractHoursInOctober" />
+          <ScalarProperty Name="ContractHoursInNovember" ColumnName="ContractHoursInNovember" />
+          <ScalarProperty Name="ContractHoursInDecember" ColumnName="ContractHoursInDecember" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UpdateClientIDinProject" FunctionName="Model.Store.sp_UpdateClientIDinProject" />
+    <FunctionImportMapping FunctionImportName="sp_UpdateClientIDNull" FunctionName="Model.Store.sp_UpdateClientIDNull" />
+    <FunctionImportMapping FunctionImportName="sp_UpdateProjectClientID" FunctionName="Model.Store.sp_UpdateProjectClientID" />
+    <FunctionImportMapping FunctionImportName="sp_GetClientLazyLoading" FunctionName="Model.Store.sp_GetClientLazyLoading">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetClientLazyLoading_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Website_URL" ColumnName="Website_URL" />
+          <ScalarProperty Name="Facebooklink" ColumnName="Facebooklink" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="instagramlink" ColumnName="instagramlink" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetClients" FunctionName="Model.Store.sp_GetClients">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetClients_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Website_URL" ColumnName="Website_URL" />
+          <ScalarProperty Name="Facebooklink" ColumnName="Facebooklink" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="instagramlink" ColumnName="instagramlink" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="ClientTables">
+      <EntityTypeMapping TypeName="Model.ClientTable">
+        <MappingFragment StoreEntitySet="ClientTable">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="instagramlink" ColumnName="instagramlink" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="Facebooklink" ColumnName="Facebooklink" />
+          <ScalarProperty Name="Website_URL" ColumnName="Website_URL" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats" FunctionName="Model.Store.sp_GetDashboardStats" />
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_Update" FunctionName="Model.Store.sp_GetDashboardStats_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_Update_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetProjects_Update" FunctionName="Model.Store.sp_GetProjects_Update">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjects_Update_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="ProjectBudgetYear" ColumnName="ProjectBudgetYear" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="ContractHoursInJanuary" ColumnName="ContractHoursInJanuary" />
+          <ScalarProperty Name="ContractHoursInFebruary" ColumnName="ContractHoursInFebruary" />
+          <ScalarProperty Name="ContractHoursInMarch" ColumnName="ContractHoursInMarch" />
+          <ScalarProperty Name="ContractHoursInApril" ColumnName="ContractHoursInApril" />
+          <ScalarProperty Name="ContractHoursInMay" ColumnName="ContractHoursInMay" />
+          <ScalarProperty Name="ContractHoursInJune" ColumnName="ContractHoursInJune" />
+          <ScalarProperty Name="ContractHoursInJuly" ColumnName="ContractHoursInJuly" />
+          <ScalarProperty Name="ContractHoursInAugust" ColumnName="ContractHoursInAugust" />
+          <ScalarProperty Name="ContractHoursInSeptember" ColumnName="ContractHoursInSeptember" />
+          <ScalarProperty Name="ContractHoursInOctober" ColumnName="ContractHoursInOctober" />
+          <ScalarProperty Name="ContractHoursInNovember" ColumnName="ContractHoursInNovember" />
+          <ScalarProperty Name="ContractHoursInDecember" ColumnName="ContractHoursInDecember" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertProjects_update" FunctionName="Model.Store.sp_InsertProjects_update" />
+    <FunctionImportMapping FunctionImportName="sp_GetProjectWithPercentage" FunctionName="Model.Store.sp_GetProjectWithPercentage">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjectWithPercentage_Result">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertSetting_Update" FunctionName="Model.Store.sp_InsertSetting_Update" />
+    <FunctionImportMapping FunctionImportName="Get_ProjectDescription" FunctionName="Model.Store.Get_ProjectDescription">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.Get_ProjectDescription_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_FetchUserMappingProject" FunctionName="Model.Store.sp_FetchUserMappingProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_FetchUserMappingProject_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="UserIDs" ColumnName="UserIDs" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_CheckUserHours" FunctionName="Model.Store.sp_CheckUserHours" />
+    <FunctionImportMapping FunctionImportName="sp_CheckMainTaskSubTask" FunctionName="Model.Store.sp_CheckMainTaskSubTask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_CheckMainTaskSubTask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ForgetPassword" FunctionName="Model.Store.sp_ForgetPassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_ForgetPassword_Result">
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="GlobalID" ColumnName="GlobalID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDashboardStats_Update_AllProject" FunctionName="Model.Store.sp_GetDashboardStats_Update_AllProject">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDashboardStats_Update_AllProject_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="Total_Hours_Spent" ColumnName="Total Hours Spent" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="DepartmentTables">
+      <EntityTypeMapping TypeName="Model.DepartmentTable">
+        <MappingFragment StoreEntitySet="DepartmentTable">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDepartment" FunctionName="Model.Store.sp_GetDepartment">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDepartment_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_AddUpdateDepartment" FunctionName="Model.Store.sp_AddUpdateDepartment" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteDepartment" FunctionName="Model.Store.sp_DeleteDepartment" />
+    <FunctionImportMapping FunctionImportName="sp_GetProjectDatabyID" FunctionName="Model.Store.sp_GetProjectDatabyID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetProjectDatabyID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="ProjectOwner" ColumnName="ProjectOwner" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ContractHoursPerMonth" ColumnName="ContractHoursPerMonth" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetDepartmentLazyLoading" FunctionName="Model.Store.sp_GetDepartmentLazyLoading">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetDepartmentLazyLoading_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DeleteDepartmentMapping" FunctionName="Model.Store.sp_DeleteDepartmentMapping" />
+    <EntitySetMapping Name="UserProfileTables">
+      <EntityTypeMapping TypeName="Model.UserProfileTable">
+        <MappingFragment StoreEntitySet="UserProfileTable">
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_FilterUserProfileTable" FunctionName="Model.Store.sp_FilterUserProfileTable">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_FilterUserProfileTable_Result">
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InserUserProfileTable" FunctionName="Model.Store.sp_InserUserProfileTable" />
+    <FunctionImportMapping FunctionImportName="Get_DefaultMaintask" FunctionName="Model.Store.Get_DefaultMaintask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.Get_DefaultMaintask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="DepartmentMappings">
+      <EntityTypeMapping TypeName="Model.DepartmentMapping">
+        <MappingFragment StoreEntitySet="DepartmentMapping">
+          <ScalarProperty Name="AdditionalCheck" ColumnName="AdditionalCheck" />
+          <ScalarProperty Name="MaintaskID" ColumnName="MaintaskID" />
+          <ScalarProperty Name="DepartID" ColumnName="DepartID" />
+          <ScalarProperty Name="DepartMappingID" ColumnName="DepartMappingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Get_MapMainTaskinDepartmentMapping" FunctionName="Model.Store.Get_MapMainTaskinDepartmentMapping">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.Get_MapMainTaskinDepartmentMapping_Result">
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="DepartMappingID" ColumnName="DepartMappingID" />
+          <ScalarProperty Name="DepartID" ColumnName="DepartID" />
+          <ScalarProperty Name="MaintaskID" ColumnName="MaintaskID" />
+          <ScalarProperty Name="AdditionalCheck" ColumnName="AdditionalCheck" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertDepartmentMapping" FunctionName="Model.Store.sp_InsertDepartmentMapping" />
+    <FunctionImportMapping FunctionImportName="sp_GetUserProfileTable" FunctionName="Model.Store.sp_GetUserProfileTable">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetUserProfileTable_Result">
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TaskOwnerID" ColumnName="TaskOwnerID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="AttendenceSheetName" ColumnName="AttendenceSheetName" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Department_ID" ColumnName="Department_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMappedMainTaskinReportGrid" FunctionName="Model.Store.sp_GetMappedMainTaskinReportGrid">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMappedMainTaskinReportGrid_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectIDs" ColumnName="ProjectIDs" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="DepartMappingID" ColumnName="DepartMappingID" />
+          <ScalarProperty Name="DepartID" ColumnName="DepartID" />
+          <ScalarProperty Name="MaintaskID" ColumnName="MaintaskID" />
+          <ScalarProperty Name="AdditionalCheck" ColumnName="AdditionalCheck" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMappedMainTask" FunctionName="Model.Store.sp_GetMappedMainTask">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMappedMainTask_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskID" ColumnName="MainTaskID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetMappedMainTaskByProjectID_DepartmentID" FunctionName="Model.Store.sp_GetMappedMainTaskByProjectID_DepartmentID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetMappedMainTaskByProjectID_DepartmentID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MainTaskID" ColumnName="MainTaskID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="ProjectType" ColumnName="ProjectType" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="TaskTables">
+      <EntityTypeMapping TypeName="Model.TaskTable">
+        <MappingFragment StoreEntitySet="TaskTable">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_TaskTable_TaskType" TypeName="Model.FK_TaskTable_TaskType" StoreEntitySet="TaskTable">
+      <EndProperty Name="TaskTable">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+      <EndProperty Name="ProjectTable">
+        <ScalarProperty Name="ID" ColumnName="ProjectId" />
+      </EndProperty>
+      <Condition ColumnName="ProjectId" IsNull="false" />
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="sp_AddTasks" FunctionName="Model.Store.sp_AddTasks" />
+    <FunctionImportMapping FunctionImportName="sp_GetTasks" FunctionName="Model.Store.sp_GetTasks">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetTasks_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="EstimatedDuration" ColumnName="EstimatedDuration" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Phase" ColumnName="Phase" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="TaskTypeName" ColumnName="TaskTypeName" />
+          <ScalarProperty Name="TaskTypePrefix" ColumnName="TaskTypePrefix" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="MainTask" ColumnName="MainTask" />
+          <ScalarProperty Name="MainTaskId" ColumnName="MainTaskId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_TotalHoursOfProjects_New" FunctionName="Model.Store.sp_TotalHoursOfProjects_New">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_TotalHoursOfProjects_New_Result">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="EstimatedHours" ColumnName="EstimatedHours" />
+          <ScalarProperty Name="TotalActualDuration" ColumnName="TotalActualDuration" />
+          <ScalarProperty Name="BillableHours" ColumnName="BillableHours" />
+          <ScalarProperty Name="RemainingHours" ColumnName="RemainingHours" />
+          <ScalarProperty Name="ActualD" ColumnName="ActualD" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetFormattedTaskDataForReport" FunctionName="Model.Store.sp_GetFormattedTaskDataForReport" />
+    <FunctionImportMapping FunctionImportName="sp_GetAssignments_New" FunctionName="Model.Store.sp_GetAssignments_New">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_GetAssignments_New_Result">
+          <ScalarProperty Name="AssignmentDateTime" ColumnName="AssignmentDateTime" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="ActualDuration" ColumnName="ActualDuration" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="MainTaskID" ColumnName="MainTaskID" />
+          <ScalarProperty Name="MainTaskName" ColumnName="MainTaskName" />
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProjectDescription" ColumnName="ProjectDescription" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="UserProfileTableID" ColumnName="UserProfileTableID" />
+          <ScalarProperty Name="CommentTxt" ColumnName="CommentTxt" />
+          <ScalarProperty Name="BillableHours" ColumnName="BillableHours" />
+          <ScalarProperty Name="IsBillableApproved" ColumnName="IsBillableApproved" />
+          <ScalarProperty Name="UserProfileTableIDBillable" ColumnName="UserProfileTableIDBillable" />
+          <ScalarProperty Name="UserNameBillable" ColumnName="UserNameBillable" />
+          <ScalarProperty Name="BillableApprovedDateTime" ColumnName="BillableApprovedDateTime" />
+          <ScalarProperty Name="IsActualApproved" ColumnName="IsActualApproved" />
+          <ScalarProperty Name="UserProfileTableIDActual" ColumnName="UserProfileTableIDActual" />
+          <ScalarProperty Name="UserNameActual" ColumnName="UserNameActual" />
+          <ScalarProperty Name="ActualApprovedDateTime" ColumnName="ActualApprovedDateTime" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_DifferenceHours" FunctionName="Model.Store.sp_DifferenceHours">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.sp_DifferenceHours_Result">
+          <ScalarProperty Name="Actualhours" ColumnName="Actualhours" />
+          <ScalarProperty Name="billablehrs" ColumnName="billablehrs" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_GetFormattedTaskDataForReportGriddifference" FunctionName="Model.Store.sp_GetFormattedTaskDataForReportGriddifference" />
+  </EntityContainerMapping>
+</Mapping>

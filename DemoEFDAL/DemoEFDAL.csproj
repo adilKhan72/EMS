@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28DCC324-EF91-4CD7-99D6-3C1A9C79F2AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoEFDAL</RootNamespace>
+    <AssemblyName>DemoEFDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.1.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.4.1.1\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.1\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssignmentTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentTable_Copy.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword\ChangePasswordDAL.cs" />
+    <Compile Include="ClientTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentMapping.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DepartmentTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department\DepartmentDAL.cs" />
+    <Compile Include="Department_Mapping\DepartmentMappingDAL.cs" />
+    <Compile Include="Get_DefaultMaintask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_MapMainTaskinDepartmentMapping_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_CheckMainTaskSubTask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_DifferenceHours_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_Update_AllProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDepartmentLazyLoading_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDepartment_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMappedMainTaskByProjectID_DepartmentID_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMappedMainTaskinReportGrid_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjectDatabyID_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Client\ClientDAL.cs" />
+    <Compile Include="CommonProjectsList\IProjectsList.cs" />
+    <Compile Include="CommonProjectsList\ProjectsListDAL.cs" />
+    <Compile Include="CommonTasksList\ITasksList.cs" />
+    <Compile Include="CommonTasksList\TasksListDAL.cs" />
+    <Compile Include="Dashboard\DashboardStatsDAL.cs" />
+    <Compile Include="Dashboard\TimeSpentDAL.cs" />
+    <Compile Include="Designations\DesignationDAL.cs" />
+    <Compile Include="Designations\Designationlist.cs" />
+    <Compile Include="Designations\DesignationUserDAL.cs" />
+    <Compile Include="EmailSending\EmailDAL.cs" />
+    <Compile Include="EmailSending\IEmail.cs" />
+    <Compile Include="EMSModel.Context.cs">
+      <DependentUpon>EMSModel.Context.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="EMSModel.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="EMSModel.Designer.cs">
+      <DependentUpon>EMSModel.edmx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="ForgetPassword\ForgetPasswordDAL.cs" />
+    <Compile Include="FormattedScrappedData.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSetting_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSetting_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetUserlist_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_ProjectDescription_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage\HomePageActionDAL.cs" />
+    <Compile Include="HomePage\IHomePageAction.cs" />
+    <Compile Include="LinksTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Login\ILogin.cs" />
+    <Compile Include="Login\LoginDAL.cs" />
+    <Compile Include="MainTaskTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Notification\notificationCountDAL.cs" />
+    <Compile Include="Notification\notificationDAL.cs" />
+    <Compile Include="ProjectBudgetDetail.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSchedule\IProjectSchedule.cs" />
+    <Compile Include="ProjectSchedule\ProjectScheduleDAL.cs" />
+    <Compile Include="ProjectTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectDescriptionDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\IReport.cs" />
+    <Compile Include="Reports\ReportDAL.cs" />
+    <Compile Include="ResetPasswordActivity.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword\ResetPasswordDAL.cs" />
+    <Compile Include="ResourceMapping.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceMapping\ResourceMappingsDAL.cs" />
+    <Compile Include="ScheduleReport_Projects.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleReport_ResourceDetails.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleReport_Updates.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsList\ISettingsList.cs" />
+    <Compile Include="SettingsList\SettingsDAL.cs" />
+    <Compile Include="sp_ChangePassword_React_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ChangePassword_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ChangePassword_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_CheckAssignedProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ComparisonReport_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_EmailNotificationCheck1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_FetchProjectMappingMainTask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_FetchUserMappingProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_FilterUserProfileTable1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_FilterUserProfileTable_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ForgetPassword_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetActualHoursData_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetAssignments_copycopy_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetAssignments_New_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetAssignments_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetClientLazyLoading_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetClients_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_copyNew_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_Staff1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_Staff_Search_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_Staff_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDashboardStats_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDesignation_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetDeviceUserList_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetFilterProjectSchedule_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetFilterProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetFullName1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetGuestUsersInfo_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getLoginUserInfo1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getLoginUserInfo_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMainTaskList1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMainTaskList_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMainTaskList_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMainTasksLazyLoading_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMaintasks_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMappedMainTask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetMultipleSelect_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjectBudgetDetail_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getProjectByID_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjectsLazyLoading_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjects_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjects_Update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetProjectWithPercentage_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetRecurringTasks_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetResourceMapping_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetShortURLDashboard_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetSpentTaskTime_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetSpentTaskTime_update_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetSubTaskTimeOwner_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetSubTaskTime_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetSubTask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getTaskOwners1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTaskOwners2_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTaskOwners_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTasksDescription_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTasksForProjects_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTasksNotFound_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetTasks_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getTaskType_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getTimeSheetData_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_getUpdateTableCount_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetUserDomainList_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetUserProfileTable_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_GetUserProfile_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ResetPasswordValidation1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ResetPasswordValidation_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_ResetPassword_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_RetrieveScheduleReportProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_RetrieveScheduleReport_ResourceDetails_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_RetrieveScheduleReport_Updates_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_SearchMainTask_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_SearchProject_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_SettingListWithParam_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_SettingList_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_TotalHoursOfProjects_New_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_TotalHoursOfProjects_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_unReaduserNotification1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_unReaduserNotification_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UrlShortnerFetchUsers_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UrlShortnerSearchShortURL_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UrlShortnerSearchUserName_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UrlShortnerSignIn_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserLogin1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserLogin2_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserLogin_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_userNotification2_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_userNotificationCount1_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_userNotificationCount_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_userNotificationDelete_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserNotificationManagement_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_userNotification_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserProfileManagement_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_UserProfileTableLogin_Result.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubTaskTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskNotFoundTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskOwnerTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\MainTasksDAL.cs" />
+    <Compile Include="Tasks\SubTaskDAL.cs" />
+    <Compile Include="Tasks\TaskDescriptionDAL.cs" />
+    <Compile Include="TaskTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskTableCopy.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskTableWithEstimate.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskType.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Task_TaskWithEsimatesBridgeTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimeSheet.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimeSheetDetail.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UrlShortnerLoginUser.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="URLShortnerMappingAttributeDetail.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="URLShortnerMappingTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="URLShortnerUserDomain.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserNotification.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfileTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Users\IUsers.cs" />
+    <Compile Include="Users\UserProfileDAL.cs" />
+    <Compile Include="Users\UsersDAL.cs" />
+    <Compile Include="UtilityProcedureExecutionTable.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityRunningTime.cs">
+      <DependentUpon>EMSModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EMSModel.edmx.diagram">
+      <DependentUpon>EMSModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoEFBO\DemoEFBO.csproj">
+      <Project>{eb2c0a31-984e-4e63-8b6b-93279b5a872b}</Project>
+      <Name>DemoEFBO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="EMSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EMSModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EMSModel.Context.tt">
+      <DependentUpon>EMSModel.edmx</DependentUpon>
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EMSModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EMSModel.tt">
+      <DependentUpon>EMSModel.edmx</DependentUpon>
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EMSModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+</Project>

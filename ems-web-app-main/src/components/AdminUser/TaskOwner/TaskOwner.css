@@ -1,0 +1,51 @@
+.clear_btn {
+  font-size: 14px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+#ems_manage_users{
+  table-layout: inherit;
+}
+
+#ems_exp_pdf{
+  justify-content: center;
+}
+
+#ems_task_owner_calendar .react-datepicker-popper {
+  z-index: 99;
+}
+
+.buttons_footer_view_users button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+
+#ems_manage_users td{
+  text-align: center;
+}
+
+#ems_manage_users td:first-child{
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .clear_btn {
+    font-size: 12px;
+    top: 42px;
+  }
+  .modal-body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .modal-body button.btn-black.mr-1 {
+    min-width: 100px;
+  }
+}
+

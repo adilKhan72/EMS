@@ -1,0 +1,77 @@
+#ems_client_view table tbody td {
+  min-width: 160px;
+}
+#ems_client_view td.MuiTableCell-root.MuiTableCell-body{
+  min-width: 200px;
+  width: 140px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td.MuiTableCell-root.MuiTableCell-body:last-child {
+  min-width: inherit !important;
+}
+.setting_search_popup .clear_btn {
+  font-size: 14px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+.setting_search_popup .modal-body {
+  padding: 35px 35px 0px;
+}
+
+.settingMenu button {
+  font-size: 14px !important;
+}
+
+.settingMenu .dropdown-menu {
+  margin-top: 40px !important;
+  font-size: 13px !important;
+}
+
+.settingMenu .dropdown-menu {
+  min-width: 8.3rem !important;
+  background-color: #f5faff !important;
+}
+
+.settingMenu .dropdown-item {
+  padding: 0.2rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .setting_search_popup .modal-body {
+    padding: 4px 5px 0px 32px;
+  }
+  .setting_search_popup .clear_btn {
+    font-size: 12px;
+    top: 35px;
+  }
+  .setting_search_popup button.btn-black.btn.btn-primary {
+    min-width: 100px;
+  }
+  .setting_search_popup .modal-title.h4 {
+    font-size: 18px;
+  }
+  .setting_search_popup label.col-md-4 {
+    padding-left: 0 !important;
+  }
+  .rpt_mbl_header {
+    padding: 0 8px;
+  }
+  .settingMenu button {
+    font-size: 10px !important;
+  }
+  .settingMenu .dropdown-menu {
+    margin-top: 30px !important;
+    font-size: 10px !important;
+  }
+
+  .dropdown-menu {
+    min-width: 6rem !important;
+  }
+}

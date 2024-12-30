@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB2C0A31-984E-4E63-8B6B-93279B5A872B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoEFBO</RootNamespace>
+    <AssemblyName>DemoEFBO</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Owin, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.1.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.4.1.1\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePassword\ChangePassResponseBO.cs" />
+    <Compile Include="ChangePassword\ChangePasswordBO.cs" />
+    <Compile Include="Client\ClientViewModel.cs" />
+    <Compile Include="Dashboard\DashBoardStatsBO.cs" />
+    <Compile Include="Dashboard\TimeSpentBO.cs" />
+    <Compile Include="DepartmentMapping\DepartmentMappingBO.cs" />
+    <Compile Include="Department\DepartmentModel.cs" />
+    <Compile Include="Designation\DesignationBO.cs" />
+    <Compile Include="ForgetPassword\ForgetPasswordBO.cs" />
+    <Compile Include="ForgetPassword\UserEmail.cs" />
+    <Compile Include="HomePage\HomePageActionBO.cs" />
+    <Compile Include="Login\LoginBO.cs" />
+    <Compile Include="Notification\notificationBO.cs" />
+    <Compile Include="Notification\NotificationDeleteBO.cs" />
+    <Compile Include="Notification\NotificationDeleteResponceBO.cs" />
+    <Compile Include="Notification\NotificationFinalResponse.cs" />
+    <Compile Include="Notification\NotificationResponseBO.cs" />
+    <Compile Include="ProjectSchedule\ColumnIndexListBO.cs" />
+    <Compile Include="ProjectSchedule\ExcelMappingBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectEstimateIndexBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectGridBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectListExportBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectNameContainerBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectResourceExportBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectScheduleUpdateBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectsScheduleListBO.cs" />
+    <Compile Include="ProjectSchedule\ProjectUpdateLengthBO.cs" />
+    <Compile Include="ProjectSchedule\ResourceGridBO.cs" />
+    <Compile Include="ProjectSchedule\UpdateExportBO.cs" />
+    <Compile Include="ProjectSchedule\UpdateGridBO.cs" />
+    <Compile Include="Projects\ddProjectsBO.cs" />
+    <Compile Include="Projects\ProjectDescriptionBO.cs" />
+    <Compile Include="Projects\ProjectsBO.cs" />
+    <Compile Include="Projects\ProjectTotalHoursBO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\ActualVsEstimatedComparisonReportModelBO.cs" />
+    <Compile Include="Reports\AssignmentDTOBO.cs" />
+    <Compile Include="Reports\AssignmentsBO.cs" />
+    <Compile Include="Reports\AssignmentsModelForExcelBO.cs" />
+    <Compile Include="Reports\TotalHoursOfProjectParamBO.cs" />
+    <Compile Include="ResetPassword\ResetpasswordBO.cs" />
+    <Compile Include="ResetPassword\ResetPasswordID.cs" />
+    <Compile Include="ResetPassword\ResetPasswordValidationBO.cs" />
+    <Compile Include="ResourceMapping\ResourceMappingBO.cs" />
+    <Compile Include="Setting\SettingBO.cs" />
+    <Compile Include="Setting\SettingModelBO.cs" />
+    <Compile Include="Tasks\ddTaskBO.cs" />
+    <Compile Include="Tasks\ddTaskOwners.cs" />
+    <Compile Include="Tasks\ddTaskType.cs" />
+    <Compile Include="Tasks\MainTaskBO.cs" />
+    <Compile Include="Tasks\SubTasksBO.cs" />
+    <Compile Include="Tasks\TaskDescriptionBO.cs" />
+    <Compile Include="Tasks\TasksBO.cs" />
+    <Compile Include="User\UserProfileBO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

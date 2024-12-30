@@ -1,0 +1,56 @@
+2023-07-05 10:23:00.8142 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-07-05 10:23:00.8481 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-07-05 10:23:09.2145 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"wasi_haider","password":"R@zaidEMS"}
+2023-07-05 10:23:09.2514 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-07-05 10:23:09.3641 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-07-05 10:23:09.3641 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":null}
+2023-07-05 10:23:09.3641 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2023-07-05 10:23:09.3641 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":null}
+2023-07-05 10:23:09.3810 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-07-05 10:23:09.3810 INFO Exit the Notification Controller.  GetunReadNotification Method(Failed)   
+2023-07-05 10:23:09.5097 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-07-05 10:23:09.5985 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-07-05 10:23:09.5985 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-07-05 10:23:09.6184 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-07-05 10:23:11.1553 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"wasi_haider","password":"R@zaidEMS"}
+2023-07-05 10:23:11.1763 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-07-05 10:23:11.2630 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-07-05 10:23:11.2680 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2023-07-05 10:23:11.2680 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":null}
+2023-07-05 10:23:11.2680 INFO Exit the Notification Controller.  GetunReadNotification Method(Failed)   
+2023-07-05 10:23:11.2820 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":null}
+2023-07-05 10:23:11.2820 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-07-05 10:23:11.2820 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-07-05 10:23:11.3199 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-07-05 10:23:11.3199 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-07-05 10:23:11.3408 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-07-05 10:23:17.4714 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"wasi_haider","password":"R@zaidEMS"}
+2023-07-05 10:23:17.4914 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-07-05 10:23:17.6180 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-07-05 10:23:17.6180 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-07-05 10:23:17.6180 INFO Entering the DashBoard Controller.  GetDashBoardStatsForStaff Method   Arguments:: {"Year":"2023","Month":"07","iStaffID":"68"}
+2023-07-05 10:23:17.6180 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"68"}
+2023-07-05 10:23:17.6180 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":68}
+2023-07-05 10:23:17.6250 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"68"}
+2023-07-05 10:23:17.6450 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-07-05 10:23:17.6749 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-07-05 10:23:17.6749 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-07-05 10:23:17.6938 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-07-05 10:23:17.7088 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-07-05 10:23:17.8325 INFO Exit the DashBoard Controller.  GetDashBoardStatsForStaff Method(Success)  
+2023-07-05 10:23:26.2580 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2023-07-05 10:23:26.2700 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2023-07-05 10:23:26.4519 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2023-07-05 10:23:26.4549 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2023-07-05 10:23:26.4549 INFO Entering the Projects Controller.  GetProjectsLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2023-07-05 10:23:26.4549 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2023-07-05 10:23:26.4549 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2023-07-05 10:23:26.4868 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0}
+2023-07-05 10:23:26.4868 INFO Exit the Projects Controller.  GetProjectsLazyLoading Method(Success) 
+2023-07-05 10:23:26.5148 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2023-07-05 10:23:26.5237 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2023-07-05 10:23:26.5237 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2023-07-05 10:23:26.5427 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2023-07-05 10:23:26.5537 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2023-07-05 10:23:26.5656 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2023-07-05 10:23:26.7465 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   

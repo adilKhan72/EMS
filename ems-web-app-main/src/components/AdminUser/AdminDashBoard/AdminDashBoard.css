@@ -1,0 +1,372 @@
+.HoursDays {
+  cursor: pointer;
+  padding: 0 10px;
+}
+.ems_dashboard_title{
+  position: absolute;
+}
+.ems_dashboard_view_inner{
+  justify-content: right;
+}
+#ems_dashboard_btn .btn-group button:first-child{
+  background-color: #fff;
+  border: 1px solid #ffff;
+}
+.ems_dashboard_view_inner .btn-group{
+  justify-content: right;
+}
+#ems_with_management{
+  background-color: rgb(27, 27, 27);
+  border-radius: 7px;
+  color: #fff;
+  width: 100%;
+}
+.project-date-picker .ems_selected_date{
+  display: flex;
+  float: right;
+  /* line-height: 2; */
+  width: 55%;
+}
+.ems_mb_grid  #ems_with_management{
+  color: #fff;
+  margin: 0 -70px 0 -14px;
+}
+#ems_dashboard_btn .btn-group button:last-child{
+  background-color: #fff;
+  border: 1px solid #ffff;
+  height: 40px !important;
+}
+.ems_selected_date{
+  color: #1b1b1b;
+}
+.ems_cal_mb_adjust #createdDate{
+  float: right;
+  margin-right: 7px;
+}
+#ems_select_pro_data select{
+  background-color: #1b1b1b;
+  border-radius: 7px;
+  color: #fff;
+}
+.table thead th{
+  text-align: center;
+}
+.table thead th:first-child{
+  text-align: left;
+}
+/* #ems_dashboard_btn .btn-group button{
+  background-color: #1b1b1b;
+} */
+.table td:last-child{
+  text-align: right;
+}
+.chartWrapper {
+  position: relative;
+  overflow-x: scroll;
+  width: 100%;
+}
+.ems_complete_d, .ems_budgeted{
+  width: 200px;
+  text-align: center;
+}
+.custom_select_latest {
+  position: absolute;
+  max-height: 300px;
+  overflow-y: scroll;
+  z-index: 77;
+  right: 0;
+  background-color: #fff;
+  width: 300px;
+  float: right;
+  /* box-shadow: 0px 3px 10px 0px rgb(119 119 119 / 30%); */
+  border-radius: 4px;
+  border: 0;
+}
+.ems_drop_pro{
+  max-width: 200px;
+    float: right;
+}
+input, select, .form-control {
+  height: calc(2.25rem + 2px) !important;
+}
+.align_top.dashboard_dropdown.dropdown-menu {
+  z-index: 77;
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0px 3px 10px 0px rgb(119 119 119 / 30%);
+  border-radius: 4px;
+  padding: 0px 0px;
+  right: 0;
+  left: -160px !important;
+  top: 40px !important;
+  border: 0;
+}
+#createdDate::after{
+  right: 9px;
+  top: 17px;
+}
+.align_top.dashboard_dropdown.dropdown-menu a.dropdown-item {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  min-height: 300px;
+  min-width: 300px;
+}
+.custom_select_latest .dropdown-toggle:after {
+  display: none;
+}
+.project_list_dropdwon::after {
+  display: none;
+}
+.custom_select_latest_outer {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.custom_select_latest_outer button.btn-black.mr-1 {
+  margin-left: 10px;
+  height: 34px;
+  text-align: left;
+  line-height: 16px;
+  font-size: 13px;
+  padding: 3px 30px 3px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+#ems_client_view .custom_select_latest_outer button.btn-black.mr-1:before {
+  display: none;
+}
+.custom_select_latest_outer button.btn-black.mr-1:before {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  font-size: 9px;
+}
+.ti-angle-down:before {
+  content: "\e64b";
+  font-size: 9px;
+}
+.infinite-scroll-component {
+  background-color: #fff;
+  text-align: left;
+  padding: 10px 14px;
+}
+.infinite-scroll-component__outerdiv {
+  float: right;
+  width: 295px;
+}
+
+.custom_select_latest_outer:hover .custom_select_latest:before {
+  color: #1b1b1b;
+}
+.custom_select_latest_outer:hover .btn-black.mr-1 {
+  background-color: #1b1b1b;
+}
+.infinite-scroll-component__outerdiv option {
+  border-bottom: 1px solid #ececec;
+  padding: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.infinite-scroll-component__outerdiv option:hover {
+  background-color: #f7f7f7;
+}
+.infinite-scroll-component__outerdiv h4 {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 575px) {
+  .infinite-scroll-component__outerdiv {
+    max-width: 265px;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item,
+  .custom_select_latest {
+    width: 270px;
+    min-width: auto;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu {
+    left: -13px !important;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item,
+  .custom_select_latest {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #ems_mobile_dimens{
+    padding-left: 0;
+  }
+  .ems_dashboard_view_inner .btn-group {
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .project-date-picker .ems_selected_date{
+    display: block;
+    float: left;
+    width: inherit;
+  }
+  #ems_with_management {
+    width: 137px;
+    position: relative;
+    left: -27px;
+    margin: 0 32px 0 2px;
+  }
+  
+  .ems_dashboard_view_inner {
+    justify-content: center; 
+  }
+  .ems_cal_mb_adjust #createdDate{
+    float: inherit;
+  }
+  .ems_cal_mb_adjust{
+    z-index: -1;
+  }
+  .ems_dashboard_top_b_header{
+    display: block;
+  }
+  .ems_dashboard_admin .ems_drop_pro button{
+    width: 130px;
+  }
+  .ems_dashboard_admin{
+    float: left;
+    margin: 8px 0;
+  }
+  #ems_dashboard_btn .btn-group{
+    display: contents;
+  }
+  .ems_drop_pro{
+      float: left;
+  }
+  #ems_all_prj {
+    left: 0;
+  }
+  .custom_select_latest_outer .ems_drop_pro button.btn-black.mr-1{
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  #ems_mobile_dimens{
+    padding-left: 0;
+  }
+  .ems_dashboard_view_inner .btn-group {
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .project-date-picker .ems_selected_date{
+    display: block;
+    float: left;
+    width: inherit;
+  }
+  #ems_with_management {
+    width: 137px;
+    position: relative;
+    left: -27px;
+    margin: 0 32px 0 2px;
+    font-size: 11px !important;
+  }
+  .ems_dashboard_view_inner {
+    justify-content: center; 
+  }
+  .ems_cal_mb_adjust #createdDate{
+    float: inherit;
+  }
+  .ems_cal_mb_adjust{
+    z-index: -1;
+  }
+  .ems_dashboard_top_b_header{
+    display: block;
+  }
+  .ems_dashboard_admin .ems_drop_pro button{
+    width: 130px;
+  }
+  .ems_dashboard_admin{
+    float: left;
+    margin: 8px 0;
+  }
+  #ems_dashboard_btn .btn-group{
+    display: contents;
+  }
+  .ems_drop_pro{
+    float: left;
+}
+  #ems_all_prj {
+    left: 0;
+  }
+  .custom_select_latest_outer .ems_drop_pro button.btn-black.mr-1{
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 731px) {
+  #ems_mobile_dimens{
+    padding-left: 0;
+  }
+  .ems_dashboard_view_inner .btn-group {
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .project-date-picker .ems_selected_date{
+    display: block;
+    float: left;
+    width: inherit;
+  }
+  #ems_with_management {
+    width: 172px;
+    position: relative;
+    left: -41px;
+    margin: 0 32px 0 0;
+  }
+  
+  .ems_dashboard_view_inner {
+    justify-content: center; 
+  }
+  .ems_cal_mb_adjust #createdDate{
+    float: inherit;
+  }
+  .ems_cal_mb_adjust{
+    z-index: -1;
+  }
+  .ems_dashboard_top_b_header{
+    display: block;
+  }
+  .ems_dashboard_admin .ems_drop_pro button{
+    width: 130px;
+  }
+  .ems_dashboard_admin{
+    float: left;
+    margin: 8px 0;
+  }
+  #ems_dashboard_btn .btn-group{
+    display: contents;
+  }
+  .ems_drop_pro{
+    float: left;
+}
+  #ems_all_prj {
+    left: 0;
+  }
+  .custom_select_latest_outer .ems_drop_pro button.btn-black.mr-1{
+    margin-left: 0;
+  }
+}

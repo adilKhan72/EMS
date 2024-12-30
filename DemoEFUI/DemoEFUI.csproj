@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoEFBL\DemoEFBL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\DemoEFDAL\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

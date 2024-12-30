@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  background: orangered;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.react-datepicker__day:hover {
+  background: lightgray !important;
+  color: #fff !important;
+}
+
+.react-datepicker__day--in-range,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--selected,
+.react-datepicker__month-text--in-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__year-text--in-range,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--selected {
+  border-radius: 0.3rem;
+  background-color: #216ba5 !important;
+}

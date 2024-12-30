@@ -1,0 +1,20 @@
+.DashboardDatePicker {
+  display: none;
+}
+.CustomAdjustment {
+  position: relative;
+  left: 45px;
+  top: 0px;
+  z-index: 2;
+}
+.react-datepicker-popper {
+  min-width: 220px;
+}
+.date_btn:after {
+  display: none;
+}
+@media (max-width: 767px) {
+  .HoursDays {
+    font-size: 12px;
+  }
+}

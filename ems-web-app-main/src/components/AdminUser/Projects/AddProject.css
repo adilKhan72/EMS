@@ -1,0 +1,603 @@
+.HideTablePage .MuiTablePagination-caption {
+  display: none;
+}
+.HideTablePage .MuiTableCell-body {
+  padding: 5px 10px 5px 10px !important;
+}
+.MuiTablePagination-actions .MuiIconButton-label {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 0 4px;
+}
+.textarea_mbl label {
+  width: inherit;
+}
+#ems_calendar_sched .custom_select_latest{
+  background-color: #000;
+  color: #fff;
+  padding: 20px 20px;
+  overflow-y: hidden;
+  max-height: inherit;
+  width: 42.1%;
+}
+
+#ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu {
+  background-color: inherit;
+  box-shadow: inherit;
+}
+#ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item {
+  min-height: 340px;
+  min-width: 302px;
+  left: -4.7px;
+}
+#ems_calendar_sched .custom_select_latest option{
+  font-size: 15px;
+  margin-left: -9px;
+  color: #fff;
+  -webkit-text-fill-color: white;
+-webkit-text-fill-color: #fff;
+-webkit-text-fill-color: rgb(255 255 255);
+}
+#ems_calendar_sched button{
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  top: 9px;
+  width: 100%;
+}
+
+.project_list_dropdwon:hover{
+  background-color: #000 !important;
+}
+.project_list_dropdwon{
+  background-color: #000 !important;
+}
+
+#ems_calendar_sched .dropdown-item:focus, .dropdown-item:hover{
+  background-color: inherit;
+}
+.project-date-picker .dashboard-input-group select{
+  background-color: #000 !important;
+  height: 40px !important;
+  width: 100%;
+}
+.project-date-picker .dashboard-input-group {
+    justify-content: flex-end;
+}
+
+.project-date-picker .ems_selected_date .ems_state{
+  width: 320px;
+  font-size: 13px;
+}
+#ems_task_mapping{
+  float: inherit;
+}
+#ems_project_details_table thead tr th{
+  text-align: left;
+}
+#ems_project_details_table tbody tr td:last-child{
+  text-align: left;
+}
+.easing_row .ems_cmp_day{
+  padding-right: 0px;
+  width: 200px;
+}
+.ems_mng_prj_budg{
+  padding-right: 0px;
+  width: 200px;
+}
+.easing_row .table td{
+  text-align: center;
+}
+.easing_row .table td:first-child{
+  text-align: left;
+}
+/* .ems_arr select {
+  -webkit-appearance: auto;
+} */
+
+.custom_select_latest_outer button.btn-black.mr-1{
+  border-radius: 7px;
+}
+.project-date-picker .input-group-addon{
+  border-radius: 7px;
+}
+
+.chart_outer {
+  background-image: radial-gradient(#ffffff, #ffffff, #f3f3f35c, #9c9c9cbf);
+  padding: 33px;
+  border: 1px solid #e0e0e0;
+  height: 350px;
+  border-radius: 50%;
+  width: 350px;
+  margin: auto;
+}
+#inner_deta {
+  position: absolute;
+  width: 14vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  height: 130px;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  font-weight: 500;
+}
+input, select, .form-control {
+  height: calc(2.25rem + 2px) !important;
+}
+.detail_toggales {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.detail_toggales span.HoursDays {
+  color: #000;
+}
+.detail_toggales .btn_underline {
+  color: #2273c9 !important;
+}
+.detail_edit:hover {
+  background-color: #2273c9 !important;
+  color: #000;
+}
+.detail_edit {
+  background-color: #000;
+  color: #fff;
+  float: right;
+  border-radius: 50px;
+  font-size: 14px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+}
+.dashboard_select .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.table.border-0 td,
+.table.border-0 th {
+  padding: 5px;
+}
+figure.project-avator.project-avator-detail {
+  margin: auto;
+}
+.custom_select_latest_outer button.btn-black.mr-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+@media (min-width: 1024px) {
+  .card_half_width {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+}
+@media (min-width: 575px) {
+  .grid_view .MuiTablePagination-root {
+    display: block;
+    width: 100%;
+  }
+  .grid_view .MuiTablePagination-root:nth-child(even) {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+  .grid_view
+    .MuiTablePagination-root:nth-child(even)
+    .MuiToolbar-root.MuiToolbar-regular.MuiTablePagination-toolbar.MuiToolbar-gutters {
+    max-width: 300px;
+  }
+}
+.mbl_padding_project {
+  padding: 25px 0 30px 0;
+}
+@media (max-width: 767px) {
+  .detail_toggales {
+    display: block;
+    position: static;
+    margin-bottom: 20px;
+  }
+  .detail_edit {
+    position: absolute;
+    right: 7px;
+    top: -50px;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .mbl_padding_project {
+    padding: 10px 0 5px 0 !important;
+  }
+}
+@media (max-width: 575px) {
+  .chart_outer {
+    height: 240px;
+    width: 240px;
+    padding: 20px;
+  }
+  #inner_deta {
+    position: absolute;
+    width: 110px;
+    top: 15px;
+    height: 110px;
+    font-size: 14px;
+    padding: 15px 5px 5px;
+  }
+}
+.custom_select_latest {
+  position: absolute;
+  max-height: 300px;
+  overflow-y: scroll;
+  z-index: 77;
+  right: 0;
+  background-color: #fff;
+  width: 300px;
+  float: right;
+  /* box-shadow: 0px 3px 10px 0px rgb(119 119 119 / 30%); */
+  border-radius: 4px;
+  border: 0;
+}
+.align_top.dashboard_dropdown.dropdown-menu {
+  z-index: 77;
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0px 3px 10px 0px rgb(119 119 119 / 30%);
+  border-radius: 4px;
+  padding: 0px 0px;
+  right: 0;
+  left: -160px !important;
+  top: 40px !important;
+  border: 0;
+}
+.align_top.dashboard_dropdown.dropdown-menu a.dropdown-item {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  min-height: 300px;
+  min-width: 300px;
+}
+.custom_select_latest .dropdown-toggle:after {
+  display: none;
+}
+.project_list_dropdwon::after {
+  display: none;
+}
+.custom_select_latest_outer {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.custom_select_latest_outer button.btn-black.mr-1 {
+  margin-left: 10px;
+  height: 34px;
+  text-align: left;
+  line-height: 16px;
+  font-size: 13px;
+  padding: 3px 30px 3px 10px;
+}
+/* .custom_select_latest_outer button.btn-black.mr-1:before {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  font-size: 9px;
+}
+.ems_arr::after {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  font-size: 9px;
+  z-index: 9;
+  color: #fff;
+} */
+
+#ems_client_view .MuiTable-root{
+  table-layout: fixed;
+}
+
+.easing_row .MuiTable-root thead tr th:nth-child(5){
+  text-align: center;
+}
+.easing_row .MuiTable-root thead tr th:nth-child(4){
+  text-align: center;
+}
+.easing_row .MuiTable-root tbody tr td:nth-child(5){
+  text-align: center;
+  width: 260px;
+}
+
+#inner_deta span{
+  font-size: 14px;
+}
+
+.MuiTableCell-alignCenter{
+  text-align: right !important;
+}
+
+#ems_calendar_sched button.btn-black.mr-1:before {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 14px;
+  top: 13px;
+  font-size: 10px;
+}
+
+.infinite-scroll-component {
+  background-color: #fff;
+  text-align: left;
+  padding: 10px 14px;
+}
+.infinite-scroll-component__outerdiv {
+  float: right;
+  width: 295px;
+}
+/*.custom_select_latest:before {
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  position: absolute;
+  right: 18px;
+  top: -14px;
+  font-size: 26px;
+}*/
+.custom_select_latest_outer:hover .custom_select_latest:before {
+  color: #1b1b1b;
+}
+.custom_select_latest_outer:hover .btn-black.mr-1 {
+  background-color: #1b1b1b;
+}
+.infinite-scroll-component__outerdiv option {
+  border-bottom: 1px solid #ececec;
+  padding: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.infinite-scroll-component__outerdiv option:hover {
+  background-color: #f7f7f7;
+}
+.infinite-scroll-component__outerdiv h4 {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 575px) {
+  .infinite-scroll-component__outerdiv {
+    max-width: 265px;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item,
+  .custom_select_latest {
+    width: 270px;
+    min-width: auto;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu {
+    left: -13px !important;
+  }
+  .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item,
+  .custom_select_latest {
+    min-height: 200px;
+  }
+}
+
+#ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu{
+  top: 37px !important;
+}
+#ems_table_vl tbody tr td:nth-child(3){
+  text-align: center !important;
+}
+
+
+/* Media screens */
+/* By default mobile Dimension */
+  @media screen and (max-width: 360px) {
+    #ems_dashboard_btn .btn-group button:last-child{
+      font-size: 11px;
+    }
+    .project-date-picker .dashboard-input-group select {
+      font-size: 11px !important; 
+    }
+    #ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu{
+      left: -155px !important;
+    }
+    #ems_client_view .MuiTable-root{
+      table-layout: inherit;
+    }
+    #ems_task_mapping{
+      float: left;
+    }
+    #ems_table_vl tbody tr td:nth-child(3){
+      text-align: center !important;
+    }
+    .header-actions .dropdown .dropdown-toggle {
+      padding: 3px 5px 0;
+    }
+    #ems_calendar_sched .dropdown{
+      position: relative;
+      top: 7px;
+    }
+    .ems_progress_bar{
+      margin: 30px 0;
+    }
+    /* .MuiTable-root tbody tr td:nth-child(2) {
+      position: relative;
+      right: 3px !important;
+    } */
+    /* .MuiTable-root tbody tr td:nth-child(3) {
+      position: relative;
+      right: 6px !important;
+    } */
+    .project-date-picker span:first-child{
+      font-size: 12px;
+    }
+    .customDatePickerWidth .react-datepicker-popper{
+      z-index: 9;
+    }
+    td.MuiTableCell-root.MuiTableCell-body {
+      min-width: 118px;
+    }
+    .table td {
+      min-width: 121px;
+    }
+    #ems_calendar_sched button.btn-black.mr-1:before{
+      position: absolute;
+      right: 13px;
+    }
+    #ems_calendar_sched button{
+      width: 200px;
+    }
+    #ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item {
+      min-height: 340px;
+      min-width: 349px;
+      left: -34px;
+    }
+    .buttons_footer_view_users button {
+      width: 68% !important;
+      font-size: 10px;
+    }
+  }
+
+  /* IPhone SE */
+  @media screen and (min-width: 375px) and (max-width: 667px) {
+    #ems_dashboard_btn .btn-group button:last-child{
+      font-size: 11px;
+    }
+    .project-date-picker .dashboard-input-group select {
+      font-size: 11px !important; 
+    }
+    #ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu{
+      left: -155px !important;
+    }
+    #ems_client_view .MuiTable-root{
+      table-layout: inherit;
+    }
+    #ems_task_mapping{
+      float: left;
+    }
+    #ems_table_vl tbody tr td:nth-child(3){
+      text-align: center !important;
+    }
+    .header-actions .dropdown .dropdown-toggle {
+      padding: 3px 5px 0;
+    }
+    #ems_calendar_sched .dropdown{
+      position: relative;
+      top: 7px;
+    }
+    .ems_progress_bar{
+      margin: 30px 0;
+    }
+    /* .MuiTable-root tbody tr td:nth-child(2) {
+      position: relative;
+      right: 3px !important;
+    } */
+    /* .MuiTable-root tbody tr td:nth-child(3) {
+      position: relative;
+      right: 6px !important;
+    } */
+    #ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu a.dropdown-item {
+      min-height: 340px;
+      min-width: 349px;
+      left: -34px;
+    }
+    #ems_calendar_sched button.btn-black.mr-1:before{
+      position: absolute;
+      right: 13px;
+    }
+    #ems_calendar_sched button{
+      width: 200px;
+    }
+    .project-date-picker span:first-child{
+      font-size: 14px;
+    }
+    .customDatePickerWidth .react-datepicker-popper{
+      z-index: 9;
+    }
+    td.MuiTableCell-root.MuiTableCell-body {
+      min-width: 118px;
+    }
+    .table td {
+      min-width: 121px;
+    }
+    .buttons_footer_view_users button {
+      width: 68% !important;
+      font-size: 10px;
+    }
+  }
+
+  /* Laptop view */
+   @media screen and (min-width: 411px) and (max-width: 731px) {
+    .buttons_footer_view_users button {
+      width: 68% !important;
+      font-size: 10px;
+    }
+    #ems_dashboard_btn .btn-group button:last-child{
+      font-size: 11px;
+    }
+    .project-date-picker span:first-child{
+      font-size: 16px;
+    }
+    .project-date-picker .dashboard-input-group select {
+      font-size: 11px !important; 
+    }
+    #ems_calendar_sched .align_top.dashboard_dropdown.dropdown-menu{
+      left: -155px !important;
+    }
+    #ems_client_view .MuiTable-root{
+      table-layout: inherit;
+    }
+    #ems_task_mapping{
+      float: left;
+    }
+    #ems_table_vl tbody tr td:nth-child(3){
+      text-align: center !important;
+    }
+  }
+/* end */

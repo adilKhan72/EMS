@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b83714561f2b47f5ba770619d2311a45" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="Model.AssignmentTable" Width="1.5" PointX="10.875" PointY="2.125" />
+        <EntityTypeShape EntityType="Model.AssignmentTable_Copy" Width="1.5" PointX="5.75" PointY="1.875" />
+        <EntityTypeShape EntityType="Model.FormattedScrappedData" Width="1.5" PointX="8.75" PointY="6.875" />
+        <EntityTypeShape EntityType="Model.LoginTable" Width="1.5" PointX="5.75" PointY="9.875" />
+        <EntityTypeShape EntityType="Model.NotificationTable" Width="1.5" PointX="7.75" PointY="10.875" />
+        <EntityTypeShape EntityType="Model.ProjectBudgetDetail" Width="1.5" PointX="3" PointY="10.125" />
+        <EntityTypeShape EntityType="Model.ResetPasswordActivity" Width="1.5" PointX="9.75" PointY="10.875" />
+        <EntityTypeShape EntityType="Model.ResourceMapping" Width="1.5" PointX="10.75" PointY="6.875" />
+        <EntityTypeShape EntityType="Model.ScheduleReport_Projects" Width="1.5" PointX="11.75" PointY="9.875" />
+        <EntityTypeShape EntityType="Model.ScheduleReport_ResourceDetails" Width="1.5" PointX="11.75" PointY="12.875" />
+        <EntityTypeShape EntityType="Model.ScheduleReport_Updates" Width="1.5" PointX="12.75" PointY="6.875" />
+        <EntityTypeShape EntityType="Model.SubTaskTable" Width="1.5" PointX="8.75" PointY="3.25" />
+        <EntityTypeShape EntityType="Model.Task_TaskWithEsimatesBridgeTable" Width="1.5" PointX="7.75" PointY="13.875" />
+        <EntityTypeShape EntityType="Model.TaskNotFoundTable" Width="1.5" PointX="13.75" PointY="1.875" />
+        <EntityTypeShape EntityType="Model.TaskOwnerTable" Width="1.5" PointX="13.75" PointY="9.875" />
+        <EntityTypeShape EntityType="Model.TaskTableWithEstimate" Width="1.5" PointX="6" PointY="6.5" />
+        <EntityTypeShape EntityType="Model.TaskType" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.TimeSheet" Width="1.5" PointX="13.75" PointY="12.875" />
+        <EntityTypeShape EntityType="Model.TimeSheetDetail" Width="1.5" PointX="0.75" PointY="15.875" />
+        <EntityTypeShape EntityType="Model.UrlShortnerLoginUser" Width="1.5" PointX="2.75" PointY="15.875" />
+        <EntityTypeShape EntityType="Model.URLShortnerMappingAttributeDetail" Width="1.5" PointX="14.75" PointY="5.875" />
+        <EntityTypeShape EntityType="Model.URLShortnerMappingTable" Width="1.5" PointX="13.75" PointY="15.875" />
+        <EntityTypeShape EntityType="Model.URLShortnerUserDomain" Width="1.5" PointX="15.75" PointY="1.875" />
+        <EntityTypeShape EntityType="Model.UserNotification" Width="1.5" PointX="15.75" PointY="8.875" />
+        <EntityTypeShape EntityType="Model.UserProfile" Width="1.5" PointX="7.75" PointY="16.875" />
+        <EntityTypeShape EntityType="Model.UtilityProcedureExecutionTable" Width="1.5" PointX="9.75" PointY="16.875" />
+        <EntityTypeShape EntityType="Model.UtilityRunningTime" Width="1.5" PointX="15.75" PointY="12.875" />
+        <EntityTypeShape EntityType="Model.LinksTable" Width="1.5" PointX="2.75" PointY="7.875" />
+        <EntityTypeShape EntityType="Model.MainTaskTable" Width="1.5" PointX="15.75" PointY="15.875" />
+        <EntityTypeShape EntityType="Model.TaskTableCopy" Width="1.5" PointX="16.75" PointY="4.875" />
+        <AssociationConnector Association="Model.FK_AssignmentTable_SubTaskTable" />
+        <AssociationConnector Association="Model.FK_TaskTableWithEstimates_TaskType" />
+        <EntityTypeShape EntityType="Model.Setting" Width="1.5" PointX="18.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.ProjectTable" Width="1.5" PointX="0.75" PointY="3.375" />
+        <AssociationConnector Association="Model.FK_TaskTableWithEstimates_ProjectTable" />
+        <EntityTypeShape EntityType="Model.ClientTable" Width="1.5" PointX="18.375" PointY="13.75" />
+        <EntityTypeShape EntityType="Model.DepartmentTable" Width="1.5" PointX="18.375" PointY="17.75" />
+        <EntityTypeShape EntityType="Model.UserProfileTable" Width="1.5" PointX="18.375" PointY="8.75" />
+        <EntityTypeShape EntityType="Model.DepartmentMapping" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.TaskTable" Width="1.5" PointX="3" PointY="4" />
+        <AssociationConnector Association="Model.FK_TaskTable_TaskType" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="/logo192.png" /> -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rezaid - EMS</title>
+    <meta name="description" content="Reports - EMS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link rel="apple-touch-icon" href="apple-icon.png" />
+    <link rel="shortcut icon" href="EMS-icon-48x48-removebg.png" />
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/flag-icon.min.css" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <link rel="stylesheet" href="assets/css/fixing_style.css" />
+
+    <!--  Chart js -->
+    <script src="assets/js/lib/chart-js/Chart.bundle.js"></script>
+    <script src="assets/js/lib/chart-js/chartjs-init.js"></script>
+    <!--  <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <!-- Date Picker -->
+    <!--  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+
+    <link rel="manifest" href="/manifest.json" />
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>EMS-Rezaid</title>
+  </head>
+  <body style="font-family: Montserrat">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <script>
+      var body = document.body;
+      function myFunction(x) {
+        if (x.matches) {
+          // If media query matches
+          body.classList.add("open");
+        } else {
+          body.classList.remove("open");
+        }
+      }
+      var x = window.matchMedia("(max-width: 991px)");
+      myFunction(x); // Call listener function at run time
+      x.addListener(myFunction); // Attach listener function on state changes
+    </script>
+
+    <!--  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#savebtn").click(function () {
+          $(".form-group").addClass("input_error");
+        });
+      });
+    </script> -->
+  <script src="/static/js/bundle.js"></script><script src="/static/js/0.chunk.js"></script><script src="/static/js/main.chunk.js"></script><script src="/main.e206cfa9ad1e8369c424.hot-update.js"></script></body>
+</html>

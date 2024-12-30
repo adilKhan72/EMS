@@ -1,0 +1,26 @@
+.notification_popup .modal-content {
+  max-width: 700px;
+  margin: auto;
+}
+.notification_tbl thead th {
+  font-weight: 600;
+  min-width: 130px;
+}
+.notification_popup .makeStyles-root-1 {
+  margin-bottom: 10px;
+}
+.notification_popup hr {
+  margin-top: 0;
+}
+.notification_popup .modal-body {
+  padding: 0 14px 15px;
+}
+@media (max-width: 991px) {
+  .modal-dialog.notification_popup {
+    max-width: calc(100% - 30px);
+  }
+  .notification_popup .modal-content {
+    width: 700px;
+    margin: auto;
+  }
+}

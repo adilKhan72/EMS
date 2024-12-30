@@ -1,0 +1,32 @@
+2022-10-17 14:11:59.0528 INFO Entering the Login Controller.  LoginAPI Method   Arguments:: {"username":"faisal_hameed","password":"F@nkar!1234"}
+2022-10-17 14:12:00.4016 INFO Exit the Login Controller.  LoginAPI Method(Success)
+2022-10-17 14:12:00.7510 INFO Entering the Projects Controller.  GetProjectsList Method   Arguments:: null
+2022-10-17 14:12:00.8120 INFO Entering the Notification Controller.  NotificationCount Method   Arguments:: {"UserId":"14"}
+2022-10-17 14:12:00.8256 INFO Entering the ResourceMapping Controller.  GetResourceMappingList Method   Arguments::null
+2022-10-17 14:12:00.8749 INFO Exit the Projects Controller.  GetProjectsList Method(Success)  
+2022-10-17 14:12:00.9317 INFO Entering the User Controller.  GetUserProfile Method   Arguments:: {"UserID":0,"DepartID":0}
+2022-10-17 14:12:00.9317 INFO Exit the Notification Controller.  NotificationCount Method(Success) 
+2022-10-17 14:12:00.9589 INFO Entering the DashBoard Controller.  GetDashBoardStats Method   Arguments:: {"RequestStartDate":null,"RequestEndDate":null,"ProjectID":-1,"ManagementCheck":false}
+2022-10-17 14:12:00.9589 INFO Entering the Notification Controller.  GetunReadNotification Method   Arguments:: {"UserId":"14"}
+2022-10-17 14:12:01.0105 INFO Exit the ResourceMapping Controller.  GetResourceMappingList Method(Success)  
+2022-10-17 14:12:01.0254 INFO Entering the Reports Controller.  GetAssignments Method   Arguments:: {"LoggedInUserId":-1,"ProjectId":-1,"SubTaskID":-1,"MainTaskID":-1,"FromDate":"2022-10-07T09:12:00.605Z","ToDate":null,"IsApproved":null,"ClientID":0,"DepartmentID":0}
+2022-10-17 14:12:01.2013 INFO Exit the Notification Controller.  GetunReadNotification Method(Success)   
+2022-10-17 14:12:01.2013 INFO Exit the User Controller.  GetUserProfile Method(Success)  
+2022-10-17 14:12:01.2811 INFO Exit the Reports Controller.  GetAssignments Method(Success)  
+2022-10-17 14:12:01.3350 INFO Exit the DashBoard Controller.  GetDashBoardStats Method(Success)   
+2022-10-17 14:12:04.1569 INFO Entering the ResourceMapping Controller.  SaveUserMapping Method   Arguments:: null
+2022-10-17 14:12:04.1641 INFO Entering the DepartmentMapping Controller.  GetDepartmentLazyLoading Method   Arguments:: {"page":1,"recsPerPage":20}
+2022-10-17 14:12:04.1641 INFO Entering the Department Controller.  GetDepartments Method
+2022-10-17 14:12:04.3668 INFO Exit the Department Controller.  GetDepartments Method(Success)  
+2022-10-17 14:12:04.3668 INFO Exit the DepartmentMapping Controller.  GetDepartmentLazyLoading Method(Success) 
+2022-10-17 14:12:04.3877 INFO Exit the ResourceMapping Controller.  SaveUserMapping Method(Success)  
+2022-10-17 14:12:04.3977 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2022-10-17 14:12:04.4580 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2022-10-17 14:12:08.0006 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2022-10-17 14:12:08.0171 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2022-10-17 14:12:08.0589 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2022-10-17 14:12:08.1189 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2022-10-17 14:12:09.9580 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2022-10-17 14:12:10.0093 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  
+2022-10-17 14:12:10.0277 INFO Entering the DepartmentMapping Controller.  DepartmentMappingList Method   Arguments::null
+2022-10-17 14:12:10.0746 INFO Exit the DepartmentMapping Controller.  DepartmentMappingList Method(Success)  

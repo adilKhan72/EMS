@@ -1,0 +1,2765 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+.open div#right-panel {
+  width: calc(100% - 115px);
+}
+.App,
+body {
+  font-size: 14px;
+}
+input,
+optgroup,
+select,
+textarea {
+  font-size: 14px !important;
+}
+.ems_reported_options > div .dropdown-item{
+  padding: 0;
+}
+
+.ems_reported_options .align_top {
+  width: 17em;
+}
+.ems_data_exported .align_top button {
+  background: transparent !important;
+  border: none;
+  color: #000;
+}
+.ems_data_exported .align_top button:hover {
+  background-color: transparent !important;
+    border-color: transparent !important;
+  border: none;
+  color: #000 !important;
+}
+.ems_data_exported .align_top button:focus {
+  background-color: transparent !important;
+    border-color: transparent !important;
+  border: none;
+  color: #000 !important;
+}
+.ems_data_exported .align_top button:active {
+  background-color: transparent !important;
+    border-color: transparent !important;
+  border: none;
+  color: #000 !important;
+}
+
+
+.ems_task_owner_parent > div:first-child > div:nth-child(2) > div:first-child input{
+  /* float: left;
+  position: relative;
+  top: -8px; */
+  position: relative;
+  top: 14px;
+}
+.ems_task_owner_parent > div:first-child{
+  position: absolute;
+  z-index: 1;
+}
+
+.ems_task_owner_selections button{
+  width: 100%;
+}
+.ems_task_owner_selections button{
+  box-shadow: none;
+  border-bottom: 1px solid lightgray;
+}
+.form-group .ems_task_owner{
+  bottom: 55px !important;
+  border-radius: 2px;
+  left: 0px;
+}
+.modal-body .btn-primary{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+.ems_update_client button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+.ems_update_maintask button, .ems_add_subtask button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+.ems_update_task button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+.ems_update_designation button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 23%;
+  cursor: pointer;
+}
+
+#ems_task_mapping button.btn-black.mr-1:before{
+  top: 14px;
+}
+#ems_user_manage_projects button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 11rem;
+  cursor: pointer;
+}
+#ems_user_designations button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  width: 13rem;
+  cursor: pointer;
+}
+
+.ems_all_subj::after {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 34px;
+  top: 15px;
+  font-size: 9px;
+  z-index: 9;
+  color: #fff;
+}
+/* .progress {
+  height: inherit; 
+} */
+.card_half_width table tbody tr td > div button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#ems_client_mapping .mapped_submit {
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 10rem;
+}
+#ems_user_manage_clients button{
+  background-color: #1b1b1b;
+  border: none;
+  height: 40px;
+  color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#ems_user_manage_clients .custom_select_latest_outer button{
+  max-width: inherit;
+}
+#ems_project_calendar_desk_view .table td:last-child{
+  text-align: left;
+}
+.modal.show .modal-dialog{
+  justify-content: center;
+  margin-top: 5rem;
+}
+.modal-content{
+  width: 48rem;
+}
+.report_btn_export {
+  font-size: 14px;
+}
+.ems_right_position .ems_cl_filters{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  padding: 0 16px;
+    font-size: 14px;
+}
+.ems_select_columns .input_box{
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  width: 147px;
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 4px rgb(0 0 0 / 1%), 0px 0px 8px rgb(0 0 0 / 20%);
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.MuiGrid-spacing-xs-2{
+  width: calc(100% + 6%) !important;
+}
+.MuiListItemIcon-root{
+  min-width: 35px !important;
+}
+.dashboard_select > select,
+.dashboard_select > .form-control {
+  background: #1b1b1b !important;
+}
+input,
+select,
+.form-control {
+  height: calc(2.25rem + 2px) !important;
+  background: linear-gradient(
+    0deg,
+    rgb(187 187 187 / 20%) 0%,
+    rgba(251, 251, 251, 1) 52%,
+    rgb(187 187 187 / 20%) 99%
+  );
+}
+input:focus,
+select:focus,
+.form-control:focus {
+  background: #fff;
+}
+.ems_manage_client_mng{
+  float: right;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.ems_manage_client_mng:hover{
+  background-color: #1b1b1b;
+}
+.modal-footer button{
+  background-color: #1b1b1b;
+  border: none;
+}
+.modal-footer button:focus{
+  background-color: #1b1b1b;
+  border: none;
+}
+.modal-footer button:active{
+  background-color: #1b1b1b !important;
+  border: none;
+}
+.ems_manage_client_mng:focus{
+  background-color: #1b1b1b;
+}
+.ems_manage_client_mng:active{
+  background-color: #1b1b1b;
+}
+
+#ems_project_calendar_desk_view .MuiTablePagination-root{
+  justify-content: flex-end;
+}
+
+.ems_client_data_filter{
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 36px;
+  font-size: 13px;
+}
+textarea.form-control {
+  height: inherit !important;
+  resize: none;
+}
+.dropdown.for-message {
+  margin-right: 15px;
+  margin-top: 6px;
+}
+.pdf_v_mv, .breakdown_mb_v{
+  font-size: 12px;
+}
+
+.header-actions .dropdown .dropdown-toggle .fa {
+  margin-top: 4px;
+}
+.open .header span.fullscreenclose,
+.open aside span.fullscreenclose {
+  display: none;
+}
+.header span.fullscreenclose,
+aside span.fullscreenclose {
+  display: block;
+  line-height: 10px;
+}
+.open .header span.fullscreen,
+.open aside span.fullscreen {
+  display: block;
+  line-height: 10px;
+}
+.open .header span.fullscreen svg.MuiSvgIcon-root,
+.open aside span.fullscreen svg.MuiSvgIcon-root {
+  font-size: 17px;
+}
+.header span.fullscreen,
+aside span.fullscreen {
+  display: none;
+}
+.header {
+  transition: all ease 1s;
+}
+#ems_manage_all_pro button.btn-black.mr-1:before{
+  right: 12px;
+  top: 16px;
+}
+.rpt_filter_popup select {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  /* max-width: 100px; */
+  padding-right: 26px;
+  font-size: 12px !important;
+}
+.rpt_filter_popup input {
+  font-size: 12px !important;
+}
+.rpt_filter_popup label.modal_label {
+  line-height: 35px;
+}
+div#right-panel {
+  width: calc(100% - 280px);
+  float: right;
+  z-index: 9;
+}
+aside#left-panel {
+  float: left;
+  display: block;
+  z-index: 99;
+  height: 100vh;
+  position: fixed;
+  padding-right: 0;
+}
+.menutoggle {
+  position: fixed;
+  top: 60px;
+  left: 255px;
+}
+.ems_setting_actions button{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  padding: 0 12px;
+  height: 40px;
+}
+.ems_change_pass_update{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  width: 11rem;
+  padding: 6px 0;
+}
+.ems_setting_table_data tbody tr td:first-child{
+  text-align: left;
+}
+.ems_setting_table_data tbody tr td:last-child{
+  text-align: center;
+}
+.ems_setting_table_data tbody tr td{
+  text-align: center;
+}
+.open .menutoggle {
+  left: 90px;
+}
+.dashboard_select {
+  display: flex;
+  color: #fff;
+  border: 0;
+  border-radius: 30px;
+  width: 80%;
+  text-align: center;
+  padding: 0;
+  height: 34px;
+  float: right;
+  font-size: 13px;
+}
+.ems_export_toggle .text-white{
+  margin: 0 8px 0 -19px;
+  position: relative;
+  top: -1px;
+}
+.MuiIconButton-colorSecondary:hover{
+  background-color: inherit;
+}
+#ems_hours_count .btn-group .MuiButtonBase-root:hover{
+  background-color: rgba(245, 0, 87, 0.04);
+  border-radius: 50%;
+}
+.ems_show_counter .btn-group label .MuiButtonBase-root:hover{
+  background-color: rgba(245, 0, 87, 0.04);
+  border-radius: 50%;
+  /* width: 19%; */
+}
+#ems_hours_count .btn-group .MuiButtonBase-root .MuiIconButton-label svg{
+  position: relative;
+  left: -9px;
+}
+.ems_export_toggle span:first-child{
+  color: rgb(110, 108, 108);
+  margin: -2px 8px 0 -7px;
+}
+.ems_clear_filter{
+  border-radius: 7px;
+  height: 44px;
+}
+.ems_show_counter .MuiIconButton-label input{
+  position: relative;
+  top: 0;
+  left: 6px;
+}
+.ems_filter_added{
+  border-radius: 7px;
+  padding: 0 0 0 5px;
+  height: 44px;
+}
+.ems_counter span:first-child{
+  margin: 0 -0 -5px 0;
+}
+.ems_export_toggle {
+  border-radius: 7px !important;
+  height: 43px;
+  padding: 0 16px;
+}
+.dashboard_select .form-control {
+  background-color: #1b1b1b;
+  color: #fff;
+  border: none;
+  padding: 5px ​15px;
+  border-radius: 5px;
+  height: 34px !important;
+  font-size: 13px;
+}
+#project_content_id #diff_btn_data .btn_grid_change{
+  margin-right: 7px;
+}
+.bg-theme-black {
+  background-color: #1b1b1b;
+  position: fixed;
+  width: 100%;
+}
+.project_all_set .input-group-addon{
+  padding: inherit;
+}
+.project-date-picker .input-group-addon {
+  font-size: 13px;
+  height: 37px;
+}
+#ems_select_pro_data .input-group-addon{
+  width: 100%;
+}
+/* .dashboard-input-group {
+  margin-left: 10px;
+} */
+#diff_btn_data{
+  width: 35rem;
+}
+.text_boxshadow {
+  box-shadow: inset 1px 2px 4px rgb(0 0 0 / 1%), 0px 0px 8px rgb(0 0 0 / 20%);
+}
+.ems_btngroup_projects button.btn-black.mr-1:before{
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  font-size: 9px;
+}
+.modal .MuiTablePagination-root {
+  display: inline;
+}
+td.MuiTableCell-root.MuiTableCell-body input {
+  padding: 0;
+  min-width: 48px;
+}
+td.MuiTableCell-root.MuiTableCell-body .MuiSwitch-root input {
+  height: 20px !important;
+  top: 5px;
+}
+.upload_img_modal {
+  width: 100% !important;
+}
+.upload_img_modal .modal-content {
+  width: 650px;
+  min-width: 650px;
+  max-width: 650px;
+  margin: auto;
+}
+.file-drop > .file-drop-target {
+  height: 110px !important;
+  width: 110px;
+  border: 1px solid #ccc;
+  border-radius: 150px;
+  position: relative;
+  margin: auto;
+}
+.file-drop > .file-drop-target img {
+  width: 100%;
+  height: 100% !important;
+  display: inline-block;
+  border-radius: 50%;
+}
+.imgsize {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.add_record_modal .form-group {
+  display: flex;
+}
+textarea {
+  box-shadow: inset 1px 2px 4px rgb(0 0 0 / 1%), 0px 0px 8px rgb(0 0 0 / 20%);
+}
+
+.ems_counter {
+  margin: -15px 0;
+}
+select {
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none; */
+}
+
+#ems_table_vl td{
+  text-align: center;
+}
+#ems_table_vl td:first-child{
+  text-align: left;
+}
+.styled-select {
+  position: relative;
+}
+
+.open .copyrights p {
+  display: none;
+}
+
+/* .styled-select:after {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  font-size: 10px;
+} */
+/* #ems_exp_pdf .styled-select:after {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 10px;
+  top: 43px;
+  font-size: 10px;
+} */
+
+.dashboard_select:after {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 10px;
+}
+label.modal_label {
+  width: 130px;
+  margin-bottom: 0;
+}
+.modal_inputs {
+  width: calc(100% - 130px);
+}
+.user_pw_label {
+  position: relative;
+  left: calc(50% - 45px);
+  top: 65px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+}
+.label_img_text {
+  position: relative;
+  top: -100px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn_grid_change {
+  background-color: #1b1b1b;
+  padding: 8px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: -1px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+}
+span.HoursDays:first-child {
+  border-right: 1px solid #ccc;
+}
+span.HoursDays:hover {
+  border-color: transparent !important;
+  border-right-color: #ccc !important;
+  color: #2273c9;
+  padding-bottom: 0 !important;
+}
+.MuiTableCell-root {
+  font-size: 13px;
+}
+.header-actions .dropdown .module {
+  width: inherit;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 60px;
+  -webkit-line-clamp: 3;
+}
+.m_font_heading {
+  font-size: 28px;
+}
+.header-actions .dropdown .dropdown-menu p {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 10px;
+  line-height: 18px;
+}
+#ems_exp_pdf tbody tr td input{
+  text-align: center;
+}
+nav.navbar.navbar-expand-sm.navbar-default {
+  background-color: transparent;
+  overflow-y: auto;
+  height: 94vh;
+}
+.notification_listing span.MuiButtonBase-root {
+  background-color: transparent !important;
+}
+.copyrights {
+  position: absolute;
+  bottom: 0px;
+  background-color: #000000;
+}
+.copyrights p {
+  font-size: 13px;
+}
+/*listing tabel pagination style*/
+.MuiTablePagination-selectRoot {
+  margin-left: 8px;
+  margin-right: 10px !important;
+}
+.ems_data_exported .dropdown-toggle::after{
+  vertical-align: 0.1em;
+}
+.MuiIconButton-root {
+  padding: 5px !important;
+}
+.easing_row tbody tr.tr_effect:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: scale3d(1, 1.2, 0.1);
+  color: #000;
+}
+.easing_row tbody tr.tr_effect:hover a {
+  text-decoration: none !important;
+}
+.easing_row tbody tr td a {
+  color: #000;
+  display: block;
+}
+.easing_row tbody tr .td_effect:hover a,
+.easing_row tbody tr.tr_effect:hover a {
+  color: #212529;
+  text-decoration: underline;
+}
+.user_header_box {
+  display: inline-block;
+  width: 100px;
+  padding-top: 5px;
+}
+.user_header_box span {
+  float: left !important;
+  padding: 0;
+  font-size: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  clear: both;
+  display: inline-block;
+  font-size: 10px;
+  padding-left: 5px;
+  margin: 0px !important;
+}
+.input_list {
+  width: 375px;
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+}
+.input_list input.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.input_box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  width: calc(100% - 20px);
+  z-index: 99;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 4px rgb(0 0 0 / 1%), 0px 0px 8px rgb(0 0 0 / 20%);
+  max-height: 40vh;
+  overflow-y: auto;
+}
+.form-control:disabled, .form-control[readonly] {
+  background-color: inherit !important;
+}
+.input_box li {
+  list-style: none;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #f5f5f5;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  color: #565656;
+  padding: 3px;
+  cursor: pointer;
+}
+.accessalarms_icon {
+  line-height: 47px !important;
+}
+.btn_underline {
+  position: relative;
+  color: #2273c9;
+  padding-bottom: 0 !important;
+}
+.btn_underline:after {
+  content: "";
+  background-color: #2273c9;
+  height: 2px;
+  display: inline-block;
+  width: calc(100% - 16px);
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  margin: auto;
+  right: 0;
+}
+.profile-placeholder.project_pic {
+  margin-bottom: 15px;
+}
+.profile-placeholder.project_pic .circle {
+  width: 70px;
+  height: 70px;
+}
+#ems_data_sort_users .align_top {
+  min-width: 7.8rem;
+  width: 6.5rem;
+}
+/* #export_ems_shield {
+  height: 37px;
+  position: relative;
+  left: -3px;
+  padding: 0 15px 0 24px;
+} */
+.align_top {
+  top: 39px !important;
+}
+
+
+#export_ems_shield .align_top {
+  left: -23px !important;
+  min-width: 7.8rem;
+}
+.project_listing_dropdown .dropdown-toggle::after {
+  display: none;
+}
+/* #ems_project_calendar_desk_view{
+  display: flex;
+  margin: auto;
+} */
+.project_listing_dropdown .align_top {
+  top: 25px !important;
+  left: -123px !important;
+}
+.project_listing_dropdown a {
+  font-size: 13px; 
+}
+.dropdown.for-message.project_listing_dropdown {
+  position: absolute;
+  right: -72px;
+  top: 0;
+}
+.main_tbl_head th {
+  font-weight: 600;
+  width: 34%;
+}
+@media (max-width: 1440px) {
+  .dropdown.for-message.project_listing_dropdown {
+    right: -45px;
+  }
+}
+@media (max-width: 1200px) {
+  .profile-placeholder.project_pic .circle {
+    width: 50px;
+    height: 50px;
+  }
+  .dropdown.for-message.project_listing_dropdown {
+    right: -46px;
+  }
+}
+@media (max-width: 991px) {
+  .dropdown.for-message.project_listing_dropdown {
+    right: -15px;
+  }
+  /* form style */
+  textarea.form-control {
+    width: 100% !important;
+  }
+  /* label.control-label.modal_label,
+  .modal_label,
+  input,
+  select,
+  .form-control,
+  .modal_inputs {
+    width: 100% !important;
+  } */
+  .form-group.col-md-6,
+  .customDatePickerWidth,
+  .textare_mbl {
+    display: inline-block !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .col-md-12.textarea_mbl {
+    margin: 0 15px;
+  }
+  .textarea_mbl .col-md-10 {
+    width: 100% !important;
+    padding: 0;
+  }
+  .custom_select_latest_outer button.btn-black.mr-1 {
+    margin-bottom: 10px;
+  }
+  .profile-placeholder,
+  .profile-placeholder .circle {
+    height: 70px;
+    width: 70px;
+  }
+}
+#export_ems_shield span svg {
+  fill: rgb(144 144 144 / 54%);
+}
+.ems_cl_filters:hover{
+  background-color: #1b1b1b;
+}
+.ems_cl_filters:focus{
+  background-color: #1b1b1b;
+}
+#ems_hours_count .row{
+  display: inline-grid;
+    position: absolute;
+    top: -11px;
+    right: 247px;
+    justify-content: right;
+}
+#ems_hours_count .row label:first-child{
+
+  width: 100%;
+  position: relative;
+  left: -214px;
+  top: -12px;
+}
+#ems_hours_count .row label:nth-child(2){
+  width: 100%;
+  position: absolute;
+  left: -229px;
+  top: 30px;
+}
+.btn_black_checkbox {
+  border: 1px solid #ccc;
+  max-width: 145px;
+  float: left;
+  border: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 1px 5px;
+  position: relative;
+  padding-left: 30px;
+}
+#ems_client_mapping{
+  width: 46rem;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+.ems_departure #ems_client_mapping{
+  width: 75rem;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+/* .btn_black_checkbox span.MuiButtonBase-root.MuiIconButton-root {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+} */
+.secondary_data_sort .MuiIconButton-root {
+  position: absolute;
+  left: -4px !important;
+  top: 39px !important;
+}
+.btn-group .ex_combine .MuiButtonBase-root:hover {
+  background-color: inherit !important;
+}
+
+.btn-group .check_boox_h .MuiButtonBase-root:hover {
+  background-color: inherit !important;
+}
+
+.sorting_data .MuiIconButton-root {
+  position: absolute;
+  left: 0 !important;
+  top: 6px !important;
+}
+.btn_black_checkbox:last-child {
+  padding: 0;
+  margin: 0 15px;
+}
+#ems_data_sort_users .dropdown button option {
+  margin: 1px 7px;
+  font-size: 15px;
+}
+#ems_data_sort_users .dropdown-item {
+  padding: inherit;
+}
+#ems_client_view .MuiTableCell-root {
+  padding: 30px 5px;
+  line-height: 0;
+  height: 55px;
+}
+#ems_data_sort_users a:nth-child(1) {
+  margin: -6px 4px;
+  color: #fff;
+}
+.sorting_data .MuiIconButton-label .MuiSvgIcon-root {
+  margin: -2px 1px;
+}
+
+#ems_data_sort_users {
+  width: 12%;
+  height: 37px;
+  text-align: center;
+}
+#ems_hours_count label {
+  /* margin: -4px 0; */
+  width: 45%;
+}
+.MuiSvgIcon-root {
+  width: 15.5px !important;
+  margin: -0.5px 0;
+}
+
+#export_ems_shield .dropdown-toggle::after {
+  position: absolute;
+  right: 0;
+}
+#export_ems_shield .btn {
+  padding: 0.34rem 0.75rem 4px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+#ems_data_sort_users .btn {
+  padding: 0.34rem 0.75rem 4px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+.secondary_data_sort .MuiIconButton-label .MuiSvgIcon-root {
+  width: 17.5px;
+  margin: -12px 5px;
+}
+
+.sorting_data .dropdown-item {
+  margin: 0 29px;
+}
+.secondary_data_sort .dropdown-item {
+  margin: 0 29px;
+}
+/* .btn_black_checkbox .align_top.dropdown-menu.show {
+  left: -50px !important;
+} */
+.btn_black_checkbox button {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  position: relative;
+}
+.btn_black_checkbox .dropdown-toggle::after {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+/* ======screen 767px======== */
+@media (max-width: 767px) {
+  .card_half_width{
+    overflow-x: scroll;
+  }
+  .btn_black_checkbox .MuiSvgIcon-root {
+    width: 0.71em;
+  }
+  .btn_black_checkbox .dropdown-toggle::after {
+    top: 8px;
+  }
+  .btn_black_checkbox {
+    padding-left: 20px;
+  }
+  .dropdown.for-message.project_listing_dropdown {
+    right: -45px;
+  }
+  .btn_black_checkbox button {
+    font-size: 12px;
+  }
+  .input_list {
+    width: calc(100% - 103px);
+    padding-right: 0;
+  }
+  .input_list .form-control {
+    height: 27px !important;
+  }
+ 
+  .add_record_modal .form-group {
+    display: block;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  .add_record_modal label.control-label {
+    float: left;
+    display: block;
+    padding-left: 0;
+  }
+  .add_record_modal input.form-control,
+  .add_record_modal select,
+  .add_record_modal textarea {
+    margin-bottom: 10px !important;
+  }
+  .add_record_modal .col-md-4.col-sm-9.p-0 {
+    float: left;
+  }
+  .upload_img_modal .modal-content {
+    min-width: 95%;
+    max-width: 95%;
+    margin: auto;
+    left: -5px;
+    width: 95%;
+  }
+  .file-drop > .file-drop-target {
+    height: 70px !important;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 150px;
+    position: relative;
+    margin: auto;
+  }
+  .file-drop > .file-drop-target .add-avator {
+    top: 50px;
+    width: 22px;
+    height: 22px;
+    line-height: 24px;
+    left: 53px !important;
+    font-size: 9px;
+  }
+  .file-drop > .file-drop-target .add-avator label {
+    width: 24px !important;
+  }
+  
+  .label_img_text {
+    position: relative;
+    top: -64px;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /*mobile menu style*/
+  aside#left-panel {
+    float: left !important;
+    z-index: 99 !important;
+    height: 38px !important;
+    min-width: inherit !important;
+    max-width: inherit !important;
+    position: relative;
+    left: -64px;
+    padding: 0px;
+  }
+  .main-menu.navbar-collapse.collapse.show {
+    display: block !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 240px;
+    background-color: #000;
+    padding: 20px;
+    padding-left: 7px;
+    top: 40px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .open aside.left-panel .navbar .navbar-nav li > a {
+    max-width: 60px;
+    padding-left: 0;
+    font-size: 13px;
+    width: 100%;
+    display: inline;
+  }
+  .navbar .navbar-nav li > a .menu-icon {
+    color: #1b1b1b;
+    float: left;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    margin: -3px 15px 0 0;
+  }
+  .open div#right-panel {
+    width: 100%;
+    padding: 0 5px;
+    overflow-x: hidden;
+  }
+  .right-panel header.header {
+    padding: 0px 10px 8px 5px;
+    background-color: #000;
+    position: fixed;
+    z-index: 77;
+    display: block;
+  }
+  /* .right-panel .content {
+    margin-top: 70px !important;
+  } */
+  .user-area .user-name {
+    font-size: 0;
+  }
+  .header-actions .dropdown .dropdown-toggle .fa {
+    color: #fff;
+    font-size: 12px !important;
+    position: relative;
+    top: 2px;
+  }
+  aside.left-panel .navbar .navbar-header {
+    height: 44px;
+    background-color: #000;
+  }
+  aside.left-panel .navbar button.navbar-toggler.collapsed .fa-bars:before {
+    content: "\f0c9";
+  }
+  aside.left-panel .navbar button.navbar-toggler .fa-bars:before {
+    content: "\f00d";
+  }
+  aside.left-panel .navbar .navbar-header {
+    height: 44px;
+    background-color: transparent;
+    position: fixed;
+    width: inherit;
+    left: 40px;
+  }
+  .dropdown.for-message .btn.btn-secondary.dropdown-toggle {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  aside.left-panel .navbar .navbar-toggler {
+    float: left;
+    margin-top: 8px;
+    margin-left: -40px;
+  }
+  .open .left-panel .navbar-link {
+    display: inline-block;
+  }
+  .open .left-panel .navbar-link a {
+    font-size: 20px;
+    line-height: 46px;
+    position: relative;
+    top: -3px;
+  }
+  .all_project_proj{
+    font-size: 14px;
+  }
+  .header-actions .dropdown .dropdown-menu {
+    left: -150px !important;
+    right: 0 !important;
+    max-width: 254px;
+    width: 277px;
+    min-width: inherit !important;
+    top: 37px !important;
+  }
+  .header-actions .dropdown .dropdown-menu h4 {
+    font-size: 14px;
+  }
+  .header-actions .dropdown .dropdown-menu a span {
+    font-size: 10px !important;
+    margin-top: 5px;
+  }
+  .user-area .user-avatar {
+    margin-top: 10px;
+    width: 22px;
+  }
+  .navbar-expand-sm .navbar-collapse,
+  .open aside.left-panel .navbar .navbar-brand.hidden,
+  button#menuToggle {
+    display: none !important;
+  }
+  .navbar-expand-sm .navbar-toggler {
+    display: block !important;
+  }
+  .dashboard_select {
+    margin-bottom: 10px;
+  }
+  .header-actions .dropdown.for-message .dropdown-menu {
+    left: -140px !important;
+    max-width: 200px;
+  }
+  .header-actions .dropdown.for-message .dropdown-menu:before {
+    right: 47px;
+  }
+  .header-actions .dropdown .dropdown-menu:before {
+    /* content: ''; */
+    content: "";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    position: absolute;
+    right: 76px;
+    top: -11px;
+    font-size: 26px;
+  }
+  /* .header-actions .dropdown .dropdown-menu a {
+    padding: 0 5px 0;
+  } */
+  .header-actions .dropdown .module {
+    max-height: 38px;
+    -webkit-line-clamp: 2;
+  }
+  .header-actions .dropdown .dropdown-menu p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  
+  .copyrights {
+    display: none;
+  }
+  /*listing tabel pagination style for mobile*/
+  .MuiTablePagination-selectRoot {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .MuiToolbar-root.MuiToolbar-regular.MuiTablePagination-toolbar.MuiToolbar-gutters
+    p:nth-child(2) {
+    display: none;
+  }
+  .chartjs-render-monitor {
+    font-size: 10px !important;
+  }
+  .react-datepicker-popper {
+    min-width: 100px !important;
+  }
+  .m_font_heading {
+    font-size: 20px;
+  }
+  .user_header_box {
+    display: none;
+  }
+  .dropdown.for-message {
+    margin-top: 0;
+  }
+  .accessalarms_icon {
+    line-height: 43px !important;
+  }
+  .project-avator-detail {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .project-avator-detail img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .mobile_margin {
+    margin-top: 5px !important;
+  }
+  .profile-placeholder.project_pic {
+    margin-top: 10px;
+  }
+  .profile-placeholder.project_pic .circle {
+    margin: auto;
+  }
+  .modal-dialog {
+    margin: 1.5rem auto;
+    max-width: calc(100% - 30px);
+  }
+  .modal-content .modal-header .close {
+    top: 12px !important;
+    right: 14px !important;
+  }
+  .rpt_mbl_header {
+    padding: 0 15px;
+  }
+  .report_btn_export {
+    padding: 0 10px;
+  }
+  .rpt_filter_popup button.btn-black.btn.btn-primary {
+    min-width: 100px;
+  }
+  .btn_black_checkbox span.MuiButtonBase-root.MuiIconButton-root {
+    position: absolute;
+    left: 2px;
+    top: -6px;
+  }
+}
+/* .header-actions .dropdown .dropdown-menu:before {
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  position: absolute;
+  right: 102px;
+  top: -16px;
+  font-size: 26px;
+  transform: rotate(180deg);
+} */
+
+.fade.show {
+  opacity: 1;
+  z-index: 9;
+}
+.auto_select:after {
+  position: relative;
+  right: 23px;
+  top: 10px;
+  height: 0;
+}
+.modal-content {
+  border: 0;
+  /* box-shadow: rgb(172 171 177) 1px 5px 17px 5px; */
+  box-shadow: inherit !important;
+}
+.header-actions .dropdown .dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 2px 10px !important;
+}
+@media (min-width: 768px) {
+  .header-actions .dropdown .dropdown-menu {
+    min-width: 223px !important;
+  }
+  .content.mt-3 {
+    margin-top: 100px !important;
+  }
+  .header {
+    position: fixed;
+    z-index: 77;
+    right: 0;
+    -webkit-box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+    -moz-box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+    box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+  }
+  .sticky_header {
+    position: fixed;
+    z-index: 77;
+    right: 0;
+    -webkit-box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+    -moz-box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+    box-shadow: 0px 0px 13px 0px rgb(119 119 119 / 26%);
+    padding: 3px 20px 4px 20px !important;
+  }
+  .sticky_content {
+    margin-top: 50px !important;
+  }
+  .sticky_header + .content {
+    margin-top: 100px !important;
+  }
+}
+.project_listing_dropdown a,
+.user-area .user-name {
+  color: #000 !important;
+}
+.project-avator {
+  overflow: hidden;
+}
+
+/*
+::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 2px solid var(--scrollbarBG);
+}
+
+html {
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+  background: lightgrey;
+  overflow: hidden;
+}*/
+/* .MuiTableContainer-root {
+  z-index: 2;
+} */
+/* @media (max-width: 767px) {
+  .page-heading {
+    margin: 30px 0 0 0;
+  }
+} */
+
+/* Material Ui style for inputs */
+.ems_sub_task_budget{
+  margin-bottom: 0;
+}
+
+.material_style .ems_comment_sec label{
+  bottom: 0 !important;
+} 
+
+.material_style .form-group > label {
+  bottom: 30px;
+  left: 0px;
+  position: relative;
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events: none;
+}
+.material_style .form-control.focus-visible {
+  background: #fff;
+}
+.material_style .form-control:focus ~ label {
+  bottom: 55px;
+  left: 0px;
+}
+
+.material_style .form-control:valid ~ label {
+  bottom: 55px;
+  border-radius: 2px;
+  left: 0px;
+}
+.material_style .customDatePickerWidth label {
+  top: 8px;
+  left: 20px;
+  position: absolute;
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events: none;
+  z-index: 9;
+}
+#ems_reports_filter_ui .customDatePickerWidth label{
+  top: 8px;
+  left: 20px;
+  position: absolute;
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#ems_reports_filter_ui .customDatePickerWidth .datepicker_label {
+  top: -20px;
+  left: 15px;
+}
+.material_style .customDatePickerWidth .datepicker_label {
+  top: -20px;
+  left: 15px;
+}
+textarea {
+  min-height: 75px;
+}
+.date_value_added .customDatePickerWidth .datepicker_label {
+  top: 6px;
+  left: 15px;
+}
+.textarea_mbl label.modal_label {
+  position: absolute;
+  bottom: initial;
+  top: 10px;
+  left: 15px;
+}
+.textarea_mbl.txtArea_value_added label.modal_label {
+  bottom: initial;
+  left: 15px;
+  top: -12px;
+}
+.material_style .textarea_mbl .form-control:valid ~ label,
+.material_style .textarea_mbl .form-control:focus ~ label {
+  bottom: initial;
+  left: 15px;
+  top: -12px;
+}
+.Select_label label {
+  position: absolute !important;
+  bottom: initial !important;
+  top: 6px !important;
+  left: 0px !important;
+}
+.material_style .Select_label .form-control:valid ~ label,
+.material_style .Select_label .form-control:focus ~ label {
+  bottom: initial !important;
+  left: 0px !important;
+  top: -13px !important;
+  background: #fff;
+}
+.addrecordinput_label label {
+  position: absolute !important;
+  bottom: initial !important;
+  top: 6px !important;
+  left: 15px !important;
+}
+.material_style .addrecordinput_label .form-control:valid ~ label,
+.material_style .addrecordinput_label .form-control:focus ~ label {
+  bottom: initial !important;
+  left: 15px !important;
+  top: -13px !important;
+}
+input,
+select,
+.form-control {
+  height: calc(2.25rem + 2px) !important;
+  background: #fff;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  box-shadow: none !important;
+  padding-left: 5px;
+}
+input:focus,
+.form-control:focus {
+  background: rgb(255, 255, 255) !important;
+}
+
+.login-form .form-control {
+  background-color: #000000 !important;
+}
+.add_record_modal .material_style .form-group {
+  display: block;
+}
+
+/* input:-webkit-autofill:focus
+{
+  background-colo                                                                                                                                                                                                       r: #FFFFFF !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+    -webkit-box-shadow: 0 0 0 1000px #5555 outset !important;
+} */
+.dashboard_select select.form-control,
+.dashboard_select select.form-control:focus {
+  background-color: #1b1b1b !important;
+}
+@media (max-width: 991px) {
+  .form-group.datepicker_mbl {
+    margin-bottom: 30px !important;
+  }
+  .modal-body.material_style {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .setting_search_popup .modal-body.material_style {
+    padding: 30px 30px 0px 32px;
+  }
+  .right-panel .content {
+    min-height: 400px;
+  }
+}
+.form-group.mb-1.styled-select.input_focus > label {
+  bottom: 55px;
+  /*  left: 8px; */
+}
+span.MuiSwitch-track {
+  position: relative;
+  top: -4px;
+}
+/*========= error handling classes========== */
+.input_error .form-control {
+  border-color: #f86c6b;
+}
+.input_error label {
+  color: #f86c6b;
+}
+.input_success .form-control {
+  border-color: #4dbd74;
+}
+.input_success label {
+  color: #4dbd74;
+}
+input.form-control.input_error + label,
+select.form-control.input_error + label {
+  color: #f86c6b;
+}
+input.form-control.input_error,
+select.form-control.input_error {
+  border-color: #f86c6b;
+}
+
+/* .input_error .form-control:not([value=""]):not(:focus):invalid {
+  background-color: green;
+}
+.input_error .form-control:focus {
+  border-color: green;
+} */
+.material_style .customDatePickerWidth.custom_top label {
+  top: 5px;
+}
+.menu_dropdown button > a {
+  padding: 0;
+}
+.menu_dropdown button a .menu-icon {
+  color: #1b1b1b;
+  float: left;
+  font-size: 22px;
+  width: 40px;
+  z-index: 9;
+  background-color: #fff;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  margin: -5px 17px 0 10px;
+}
+.menu_dropdown button#dropdown-basic {
+  padding: 0;
+  width: calc(100%);
+  text-align: left;
+}
+.menu_dropdown button a {
+  background: none;
+  color: #c8c9ce;
+  display: inline-block;
+  /* font-family: "Open Sans"; */
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+}
+.menu_dropdown button a:hover,
+.menu_dropdown .dropdown-item:hover {
+  color: #fff;
+}
+.menu_dropdown .align_top.dropdown-menu.show {
+  position: static !important;
+  background-color: transparent;
+}
+.menu_dropdown .dropdown-item {
+  background: none;
+  color: #c8c9ce;
+  display: inline-block;
+  /* font-family: "Open Sans"; */
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 0 10px 50px;
+  position: relative;
+  width: 100%;
+}
+.menu_dropdown.dropdown:before {
+  content: "\e64b";
+  font-family: "themify";
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  right: 13px;
+  top: 10px;
+  font-size: 13px;
+  color: #c8c9ce;
+}
+.open .menu_dropdown.dropdown:before {
+  display: none;
+}
+.open .menu_dropdown .align_top.dropdown-menu.show {
+  display: none;
+}
+li.show_only_open {
+  display: none;
+}
+.open li.show_only_open {
+  display: block;
+  margin: 0;
+}
+.open .hide_only_open {
+  display: none;
+}
+.menu_dropdown button > a {
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .menu_dropdown button a .menu-icon {
+    color: #1b1b1b;
+    float: left;
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    margin: -3px 15px 0 0;
+  }
+  .menu_dropdown a {
+    font-size: 13px !important;
+  }
+  .menu_dropdown.dropdown:before {
+    right: -5px;
+    top: 15px;
+    font-size: 10px;
+  }
+  .open .menu_dropdown.dropdown:before {
+    display: block;
+  }
+  .open .menu_dropdown .align_top.dropdown-menu.show {
+    display: block;
+  }
+  .open .hide_only_open {
+    display: block;
+  }
+  .open li.show_only_open {
+    display: none;
+  }
+  .notification_listing .MuiFormControlLabel-root {
+    margin: 0;
+    float: left;
+  }
+  .notification_listing td.MuiTableCell-root.MuiTableCell-body {
+    min-width: auto;
+    text-align: center;
+  }
+  .CustomWidthNotification {
+    width: 94% !important;
+  }
+  .CustomWidthNotification .btn-black {
+    min-width: 100px;
+    margin-top: 15px;
+  }
+}
+.dropdown-menu td input.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.react-datepicker__day--keyboard-selected{
+  background-color: #2a87d0 !important;
+  color: #000;
+}
+/* .PrivateSwitchBase-input-4 {
+  position: relative !important; 
+  left: 14px !important;
+} */
+.popup_billable input {
+  height: 47px !important;
+  width: 100%;
+  left: 2px;
+  top: 7px;
+}
+.CustomWidthNotification .modal-title.h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+}
+.CustomWidthNotification .modal-title.h4:after {
+  content: "";
+  height: 0.5px;
+  display: inline-block;
+  width: 100px;
+  background-color: #303437;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#mb_view_reports{
+  display: none;
+}
+#ems_table_vl{
+  table-layout: inherit;
+}
+
+.thumb_list{
+  margin: -10px 0;
+}
+#ems_manage_all_pro button:nth-child(2) button:first-child{
+  background-color: #000;
+  border-color: #fff;
+}
+#ems_manage_all_pro button:nth-child(3) button:first-child{
+  background-color: #000;
+  border-color: #fff;
+}
+
+#ems_manage_all_pro button:nth-child(4) button:first-child{
+  background-color: #000;
+  border-color: #fff;
+}
+#ems_manage_all_pro .btn-black{
+  background-color: #000;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 7px;
+  margin: 0 2px;
+  border: none;
+  height: 40px;
+  width: 100%;
+}
+#ems_manage_all_pro button{
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 10px;
+  margin: 0 2px;
+}
+/* .easing_row .progress{
+  height: inherit;
+} */
+.ems_show_counter button{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 40px;
+  width: 9rem;
+  z-index: 9;
+}
+.ems_filter_added, .ems_clear_filter  {
+  width: 70%;
+}
+.report_btn_export {
+  width: 95%;
+}
+.ems_data_exported #dropdown-basic{
+  width: 8rem;
+}
+/* #ems_hours_count .btn-group-sm{
+  width: 85%;
+} */
+.sr_task_manages{
+  margin-top: 8px;
+}
+.ems_users_tab_mb{
+  margin-top: 7px;
+}
+
+/* Media screens */
+@media screen and (max-width: 360px) {
+  .sr_task_manages{
+    margin-top: 0;
+  }
+  .ems_users_tab_mb{
+    margin-top: 18px;
+  }
+  #ems_hours_count .row {
+    right: 411px;
+  }
+  #ems_hours_count .row label:first-child {
+    width: 208px;
+    position: relative;
+    left: 392px;
+    top: 42px;
+  }
+  #project_content_id #diff_btn_data .btn_grid_change{
+    margin-right: 5px;
+  }
+  .ems_ending_point h6{
+    font-size: 14px;
+    margin: 0 -9px;
+  }
+  .align_top {
+    top: 40px !important;
+    left: 9px !important; 
+  }
+  .houres_box{
+    position: relative;
+    top: 7px;
+  }
+  .ems_selected_date .react-datepicker-popper{
+    transform: translate3d(-41px, 34px, 0) !important;
+  }
+  .ems_selected_date .ti-angle-down:before{
+    position: relative;
+    right: -23px;
+  }
+  .ems_selected_date .input-group-addon{
+    padding-right: 36px !important;
+    height: 38px;
+    margin: 5px -10px 0 12px;
+  }
+  .ems_selected_date .ems_state {
+    position: absolute;
+    bottom: -22px;
+    left: 14px;
+    width: 333px;
+  }
+  #ems_select_pro_data .input-group-addon {
+    width: 102px; 
+  }
+  select {
+  font-size: 10px !important;
+} 
+  .search_res p{
+    font-size: 14px;
+  }
+  .search_res:first-child{
+    margin: 0 -9px;
+  }
+  #rep_grids{
+    margin: 0;
+  }
+  .search_res{
+    font-size: 14px;
+  }
+  .ems_right_position .ems_cl_filters {
+    font-size: 11px; 
+  }
+  .ems_contributors .d-flex{
+    width: 40rem;
+  }
+  .modal-body button {
+    font-size: 12px; 
+  }
+  #ems_user_manage_projects button {
+    width: 31%;
+    font-size: 10px; 
+  }
+  #diff_btn_data .thumb_list{
+    margin-right: 0 !important;
+  }
+  .btn_grid_change {
+    left: 0; 
+  }
+  #project_modules button{
+    font-size: 9px;
+  }
+  .custom_select_latest_outer button{
+    font-size: 9px; 
+  }
+  #diff_btn_data {
+    width: 100%; 
+  }
+  #ems_hours_count .btn-group-sm {
+    margin: 0 65px 0 56px;
+  }
+  .ems_data_exported #dropdown-basic {
+    width: 7rem;
+  }
+  .ems_show_counter button{
+    width: 6.5rem;
+  }
+  .ems_filter_added button, .ems_clear_filter button{
+    height: 38px;
+  }
+  .ems_mb_grid .project-date-picker .ems_arr::after{
+    right: 8px;
+  }
+  .ems_mb_grid{
+    display: grid;
+  }
+  .ems_mb_grid .project-date-picker .input-group-addon{
+    border-radius: 7px;
+  }
+  .custom_select_latest_outer button.btn-black.mr-1:before {
+    right: 14px !important;
+    top: 16px !important;
+  }
+ 
+  .scroll_view::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .scroll_view::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .scroll_view::-webkit-scrollbar-thumb {
+    background: #593EC5; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scroll_view::-webkit-scrollbar-thumb:hover {
+    background: #593EC5; 
+  }
+  .project_listing_dropdown .align_top {
+    left: -55px !important; 
+  }
+  .ems_show_counter button{
+    font-size: 11px;
+  }
+  .easing_row .progress span{
+    font-size: 10px;
+    top: 1px !important;
+  }
+  .ems_data_exported .dropdown-toggle::after{
+    vertical-align: 0.1em;
+  }
+  #ems_hours_count label{
+    position: absolute;
+    right: 0;
+    top: 37px;
+  }
+  #ems_hours_count .row label:nth-child(2) {
+    width: 200px;
+    position: relative;
+    left: 383px;
+    top: 5px;
+  }
+  #ems_hours_count{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 20px 0;
+  }
+  
+  nav.navbar.navbar-expand-sm.navbar-default {
+    height: inherit;
+  }
+  .custom_select_latest_outer button:nth-child(4){
+  }
+  .modal-content {
+    width: 100%; 
+    display: block;
+  }
+  .modal.show .modal-dialog {
+    justify-content: flex-start; 
+  }
+  #ems_manage_all_pro .custom_select_latest_outer{
+    display: contents;
+  }
+  #ems_manage_all_pro button:nth-child(2) button:first-child{
+    height: 38px;
+  }
+  #ems_manage_all_pro button:nth-child(3) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_manage_all_pro button:nth-child(4) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  #ems_manage_all_pro button:nth-child(5) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_projects_head_mb_view .btn-black, input[type="submit"]{
+    min-width: 90%;
+  }
+  /* #ems_projects_head_desk_view{
+    display: none;
+  } */
+  #ems_projects_head_mb_view{
+    display: none;
+    text-align: center;
+  }
+/* end */
+
+ 
+  #export_ems_shield span svg{
+    margin: 0 8px;
+  }
+  .ems_select_columns .input_box{
+    width: 35%;
+    margin: -19px -10px;
+  }
+  .columns_v_ems{
+    width: 100% !important;
+  }
+  #export_ems_shield {
+    position: relative;
+    left: -11px;
+  }
+  .ems_counter {
+    position: absolute;
+    right: 15px;
+    top: -38px;
+  }
+  .ems_sr_str .MuiIconButton-colorSecondary{
+    z-index: 99;
+  }
+  #ems_data_sort_users{
+    margin: -4px -58px 35px 0;
+    width: 44%;
+    z-index: 99;
+  }
+  .ems_sr_str {
+    position: relative;
+    left: -65px;
+    top: 25px;
+  }
+  #export_ems_shield {
+    width: 200px;
+    position: absolute;
+    top: 33px;
+  }
+  .ems_right_position button{
+    position: relative;
+    top: -1px;
+    height: 40px;
+  }
+  .btn_black_checkbox span.MuiButtonBase-root.MuiIconButton-root{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+  }
+  #export_ems_shield .btn {
+    padding: 0.34rem 1.75rem 4px 0;
+    margin: 2px 0;
+  }
+  .btn_black_checkbox .dropdown-toggle::after {
+    top: 16px;
+  }
+  #export_ems_shield .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  #export_ems_shield div > .dropdown-menu {
+    min-width: 9rem !important; 
+  }
+  #ems_data_sort_users .dropdown button option {
+    font-size: 13px;
+  }
+  #ems_table_vl{
+    table-layout: inherit;
+  }
+  
+  #mb_view_reports{
+    display: block;
+  }
+  #ems_data_sort_users .align_top {
+    width: 9rem;
+  }
+  .MuiTablePagination-root:last-child{
+    position: relative;
+    right: 0;
+    margin: 9px 0;
+  }
+}
+
+@media screen and (min-width: 375px) and  (max-width: 667px) {
+  .sr_task_manages{
+    margin-top: 0;
+  }
+  .ems_users_tab_mb{
+    margin-top: 18px;
+  }
+  #ems_hours_count .row {
+    right: 411px;
+  }
+  #ems_hours_count .row label:nth-child(2) {
+    width: 200px;
+    position: relative;
+    left: 383px;
+    top: 5px;
+  }
+  #project_content_id #diff_btn_data .btn_grid_change{
+    margin-right: 5px;
+  }
+  .ems_ending_point h6{
+    font-size: 14px;
+    margin: 0 -9px;
+  }
+  .align_top {
+    top: 40px !important;
+    left: 9px !important; 
+  }
+  .houres_box{
+    position: relative;
+    top: 7px;
+  }
+  .ems_selected_date .react-datepicker-popper{
+    transform: translate3d(-41px, 34px, 0) !important;
+  }
+  .ems_selected_date .ti-angle-down:before{
+    position: relative;
+    right: -23px;
+  }
+  .ems_selected_date .input-group-addon{
+    padding-right: 36px !important;
+    height: 38px;
+    margin: 5px -10px 0 12px;
+  }
+  .ems_selected_date .ems_state {
+    position: absolute;
+    bottom: -22px;
+    left: 12px;
+    width: 333px;
+  }
+  #ems_select_pro_data .input-group-addon {
+    width: 102px; 
+    font-size: 11px !important;
+  }
+  /* select {
+    font-size: 10px !important;
+  }  */
+  .search_res p{
+    font-size: 14px;
+  }
+  .search_res:first-child{
+    margin: 0 -9px;
+  }
+  #rep_grids{
+    margin: 0;
+  }
+  .search_res{
+    font-size: 14px;
+  }
+  .ems_right_position .ems_cl_filters {
+    font-size: 11px; 
+  }
+  .ems_contributors .d-flex{
+    width: 40rem;
+  }
+  .modal-body button {
+    font-size: 12px; 
+  }
+  #ems_user_manage_projects button {
+    width: 31%;
+    font-size: 11px; 
+  }
+  #diff_btn_data .thumb_list{
+    margin-right: 0 !important;
+  }
+  .btn_grid_change {
+    left: 0; 
+  }
+  #project_modules button{
+    font-size: 9px;
+  }
+  .custom_select_latest_outer button{
+    font-size: 9px; 
+  }
+  #diff_btn_data {
+    width: 100%; 
+  }
+  #ems_hours_count .btn-group-sm {
+    margin: 0 65px 0 56px;
+  }
+  .ems_data_exported #dropdown-basic {
+    width: 7rem;
+  }
+  .ems_show_counter button{
+    width: 6.5rem;
+  }
+
+
+  .ems_filter_added button, .ems_clear_filter button{
+    height: 38px;
+  }
+  .ems_mb_grid .project-date-picker .ems_arr::after{
+    right: 8px;
+  }
+  .ems_mb_grid{
+    display: grid;
+  }
+  .ems_mb_grid .project-date-picker .input-group-addon{
+    border-radius: 7px;
+  }
+  .custom_select_latest_outer button.btn-black.mr-1:before {
+    right: 14px !important;
+    top: 16px !important;
+  }
+
+  .project_listing_dropdown .align_top {
+    left: -55px !important; 
+  }
+  .easing_row .progress span{
+    font-size: 10px;
+    top: 1px !important;
+  }
+  .ems_data_exported .dropdown-toggle::after{
+    vertical-align: 0.1em;
+  }
+  #ems_hours_count .row label:first-child{
+    width: 208px;
+    position: relative;
+    left: 392px;
+    top: 42px;
+  }
+  #ems_hours_count{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 20px 0;
+  }
+  
+  nav.navbar.navbar-expand-sm.navbar-default {
+    height: inherit;
+  }
+  .custom_select_latest_outer button:nth-child(4){
+  }
+  .modal-content {
+    width: 100%; 
+  }
+  .modal.show .modal-dialog {
+    justify-content: flex-start; 
+  }
+  #ems_manage_all_pro .custom_select_latest_outer{
+    display: contents;
+  }
+  #ems_manage_all_pro button:nth-child(2) button:first-child{
+    height: 38px;
+  }
+  #ems_manage_all_pro button:nth-child(3) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_manage_all_pro button:nth-child(4) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  #ems_manage_all_pro button:nth-child(5) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_projects_head_mb_view .btn-black, input[type="submit"]{
+    min-width: 90%;
+  }
+  /* #ems_projects_head_desk_view{
+    display: none;
+  } */
+  #ems_projects_head_mb_view{
+    display: none;
+    text-align: center;
+  }
+/* end */
+  #export_ems_shield span svg{
+    margin: 0 8px;
+  }
+  .ems_select_columns .input_box{
+    width: 34%;
+    margin: -19px -10px;
+  }
+  .columns_v_ems{
+    width: 100% !important;
+  }
+  #export_ems_shield {
+    position: relative;
+    left: -11px;
+  }
+ 
+  .MuiTablePagination-root:last-child{
+    position: relative;
+    right: 0;
+    margin: 9px 0;
+  }
+  .ems_counter {
+    position: absolute;
+    right: 15px;
+    top: -38px;
+  }
+  .ems_sr_str .MuiIconButton-colorSecondary{
+    z-index: 99;
+  }
+  #ems_data_sort_users{
+    margin: -4px -58px 35px 0;
+    width: 44%;
+    z-index: 99;
+  }
+  .ems_sr_str {
+    position: relative;
+    left: -65px;
+    top: 25px;
+  }
+  #export_ems_shield {
+    width: 200px;
+    position: absolute;
+    top: 33px;
+  }
+  .ems_right_position button{
+    position: relative;
+    top: -1px;
+    height: 40px;
+  }
+  .btn_black_checkbox span.MuiButtonBase-root.MuiIconButton-root{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+  }
+  #export_ems_shield .btn {
+    padding: 0.34rem 1.75rem 4px 0;
+    margin: 2px 0;
+  }
+  .btn_black_checkbox .dropdown-toggle::after {
+    top: 16px;
+  }
+  #export_ems_shield .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  #export_ems_shield div > .dropdown-menu {
+    min-width: 9rem !important; 
+  }
+  #ems_data_sort_users .dropdown button option {
+    font-size: 13px;
+  }
+  #ems_table_vl{
+    table-layout: inherit;
+  }
+ 
+  #ems_data_sort_users .align_top {
+    width: 9rem;
+  }
+}
+
+@media screen and (min-width: 411px) and  (max-width: 731px) {
+  .sr_task_manages{
+    margin-top: 0;
+  }
+
+  #ems_hours_count .row {
+    right: 411px;
+  }
+  #ems_hours_count .row label:first-child {
+    width: 208px;
+    position: relative;
+    left: 393px;
+    top: 42px;
+  }
+  #ems_hours_count .row label:nth-child(2) {
+    width: 200px;
+    position: relative;
+    left: 384px;
+    top: 5px;
+  }
+  #project_content_id #diff_btn_data .btn_grid_change{
+    margin-right: -3px;
+  }
+  .ems_ending_point h6{
+    font-size: 14px;
+    margin: 0 -9px;
+  }
+  .align_top {
+    top: 40px !important;
+    left: 9px !important; 
+  }
+  .houres_box{
+    position: relative;
+    top: 7px;
+  }
+  .ems_selected_date .react-datepicker-popper{
+    transform: translate3d(-43px, 34px, 0px) !important;
+  }
+  .ems_selected_date .ti-angle-down:before{
+    position: relative;
+    right: -23px;
+  }
+  .ems_selected_date .input-group-addon{
+    padding-right: 36px !important;
+    height: 38px;
+    margin: 5px -10px 0 12px;
+  }
+  .ems_selected_date .ems_state {
+    position: absolute;
+    bottom: -22px;
+    left: 12px;
+    width: 333px;
+  }
+  #ems_select_pro_data .input-group-addon {
+    width: 95px;
+    margin: 0 9px;
+    font-size: 11px !important;
+  }
+  /* select {
+    font-size: 10px !important;
+  }  */
+  .search_res p{
+    font-size: 14px;
+  }
+  /* .search_res:first-child{
+    margin: 0 -3px;
+  } */
+  .search_res{
+    font-size: 14px;
+  }
+  .ems_right_position .ems_cl_filters {
+    font-size: 11px; 
+  }
+  .ems_contributors .d-flex{
+    width: 40rem;
+  }
+  .modal-body button {
+    font-size: 12px; 
+  }
+  #ems_user_manage_projects button {
+    width: 31%;
+    font-size: 11px; 
+  }
+ #diff_btn_data .thumb_list{
+    margin-right: 0 !important;
+  }
+  .btn_grid_change {
+    left: 0; 
+  }
+  #project_modules button{
+    font-size: 9px;
+  }
+  .custom_select_latest_outer button{
+    font-size: 9px; 
+  }
+  #diff_btn_data {
+    width: 100%; 
+  }
+  #ems_hours_count .btn-group-sm {
+    margin: 0 65px 0 56px;
+    }
+    .ems_data_exported #dropdown-basic {
+      width: 7rem;
+    }
+    .ems_show_counter button{
+      width: 8.5rem;
+    }
+  .ems_filter_added button, .ems_clear_filter button{
+    height: 38px;
+  }
+  .ems_mb_grid .project-date-picker .ems_arr::after{
+    right: 8px;
+  }
+  .ems_mb_grid{
+    display: grid;
+  }
+  .ems_mb_grid .project-date-picker .input-group-addon{
+    border-radius: 7px;
+  }
+  .custom_select_latest_outer button.btn-black.mr-1:before {
+    right: 14px !important;
+    top: 16px !important;
+  }
+
+  .project_listing_dropdown .align_top {
+    left: -55px !important; 
+  }
+  .easing_row .progress span{
+    font-size: 10px;
+    top: 1px !important;
+  }
+  .ems_data_exported .dropdown-toggle::after{
+    vertical-align: 0.1em;
+  }
+  #ems_hours_count label{
+    position: absolute;
+    right: 0;
+    top: 37px;
+  }
+  #ems_hours_count{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 20px 0;
+  }
+ 
+  nav.navbar.navbar-expand-sm.navbar-default {
+    height: inherit;
+  }
+  .custom_select_latest_outer button:nth-child(4){
+  }
+  .modal-content {
+    width: 100%; 
+  }
+  .modal.show .modal-dialog {
+    justify-content: flex-start; 
+  }
+  #ems_manage_all_pro .custom_select_latest_outer{
+    display: contents;
+  }
+  #ems_manage_all_pro button:nth-child(2) button:first-child{
+    height: 38px;
+  }
+  #ems_manage_all_pro button:nth-child(3) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_manage_all_pro button:nth-child(4) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  #ems_manage_all_pro button:nth-child(5) button:first-child{
+    height: 38px;
+    font-size: 12px;
+  }
+  
+  #ems_projects_head_mb_view .btn-black, input[type="submit"]{
+    min-width: 90%;
+  }
+  /* #ems_projects_head_desk_view{
+    display: none;
+  } */
+  #ems_projects_head_mb_view{
+    display: none;
+    text-align: center;
+  }
+/* end */
+  
+  #export_ems_shield span svg{
+    margin: 0 8px;
+  }
+  .ems_select_columns .input_box{
+    width: 31%;
+    margin: -26px -10px;
+  }
+  .columns_v_ems{
+    width: 100% !important;
+  }
+  #export_ems_shield {
+    position: relative;
+    left: -11px;
+  }
+ 
+  .MuiTablePagination-root:last-child{
+    position: relative;
+    right: 0;
+    margin: 9px 0;
+  }
+  .ems_counter {
+    position: absolute;
+    right: 15px;
+    top: -38px;
+  }
+  .ems_sr_str .MuiIconButton-colorSecondary{
+    z-index: 99;
+  }
+  #ems_data_sort_users{
+    margin: -4px -58px 35px 0;
+    width: 44%;
+    z-index: 99;
+  }
+  .ems_sr_str {
+    position: relative;
+    left: -65px;
+    top: 25px;
+  }
+  #export_ems_shield {
+    width: 200px;
+    position: absolute;
+    top: 33px;
+  }
+  .ems_right_position button{
+    position: relative;
+    top: -1px;
+    height: 40px;
+  }
+  .btn_black_checkbox span.MuiButtonBase-root.MuiIconButton-root{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+  }
+  #export_ems_shield .btn {
+    padding: 0.34rem 1.75rem 4px 0;
+    margin: 2px 0;
+  }
+  .btn_black_checkbox .dropdown-toggle::after {
+    top: 16px;
+  }
+  #export_ems_shield .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  #export_ems_shield div > .dropdown-menu {
+    min-width: 9rem !important; 
+  }
+  #ems_data_sort_users .dropdown button option {
+    font-size: 13px;
+  }
+  #ems_table_vl{
+    table-layout: inherit;
+  }
+ 
+  #ems_data_sort_users .align_top {
+    width: 9rem;
+  }
+}
+
+
+/* CSS specific to iOS devices */ 
+@supports (-webkit-touch-callout: none) {
+  
+}

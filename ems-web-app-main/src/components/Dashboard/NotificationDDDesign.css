@@ -1,0 +1,70 @@
+.overflow {
+  --max-lines: 3;
+  position: relative;
+  max-height: 80px;
+  overflow: hidden;
+}
+
+.module {
+  width: 350px;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+.module p {
+  margin: 0;
+  color: black;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-profile-setting .dropdown-menu.show {
+  left: -90px !important;
+}
+.notification_dropdwon .dropdown-menu.show {
+  min-width: 400px !important;
+  left: -200px !important;
+  overflow-y: auto;
+  max-height: 75vh;
+}
+.header-actions .dropdown .dropdown-toggle {
+  padding: 0 5px 0;
+}
+.header-actions .dropdown .dropdown-toggle .fa-bell {
+  font-size: 18px;
+}
+.notification_dropdwon a.dropdown-item {
+  border: 0 !important;
+  font-size: 10px;
+  float: right;
+  width: 52px;
+  line-height: 30px;
+  clear: inherit;
+}
+.dropdown-profile-setting a.dropdown-item {
+  border: 0 !important;
+}
+@media (max-width: 767px) {
+  .header-actions
+    .dropdown.for-message.dropdown-profile-setting
+    .dropdown-menu:before {
+    right: 42px;
+  }
+  .notification_dropdwon .dropdown-menu.show {
+    min-width: 286px !important;
+    left: -186px !important;
+    overflow-y: auto;
+    max-height: 75vh;
+    top: 33px !important;
+  }
+  .notification_dropdwon a.dropdown-item {
+    line-height: 14px;
+  }
+}
